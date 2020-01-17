@@ -52,35 +52,6 @@ class Project():
         for code in self.codes:
             print(code.path)
 
-    def getStaticImportedClass(self, method, Imports):
-        #メソッド名とインポート文セットだけから、そのメソッドがstaticにインポートされた元のクラス名を返す
-        #見つからなければFalseを返す
-        specific_imports = [i for i in Imports if self.domain in i.path]
-        static_wilds = [i.path for i in specific_imports if i.static and i.wildcard]
-        static_notwilds = [i.path for i in specific_imports if i.static and not i.wildcard]
-
-        for notwild in static_notwilds:
-            method_name = notwild.split(".")[-1]
-            class_name = notwild.split(".")[-2]
-            if method_name == method:
-                return class_name
-
-        for wild in static_wilds:
-            class_name = wild.split(".")[-1]
-            while(1):
-                _class = self.getTheClass(class_name)
-                if _class is None:
-                    break
-                if method in [i.name for i in _class.methods]:
-                    return _class.name
-                elif _class.is_extends:
-                    class_name = _class.get_extends_from()
-                elif _class.is_implements:
-                    class_name = _class.get_implements_from()
-                else:
-                    break
-        return "(Not_Specific)"
-
     def getTheClass(self, class_name):
         for code in self.codes:
             for cls in code.classes:
@@ -101,13 +72,13 @@ class Project():
                     return "Product"
         return None
 
-    def getImportedClassNames(self, Code):
+    def getImportedClasses(self, Code):
         #コードのパッケージ名およびインポート文から、同じプロジェクト内から使用可能なクラス群を返す
         ImportedClasses = []
         #同じパッケージ名のクラスを取得
         PackageDic = self.getPackageDic()
         same_packages = PackageDic[Code.package]
-        ImportedClasses.extend([i.name for i in same_packages])
+        ImportedClasses.extend([[Code.package, i.name, ""] for i in same_packages])
 
         #インポートした自作クラスを取得
         #(例)
@@ -115,28 +86,63 @@ class Project():
         #import packagehoge.ClassHoge.SubClassHoge
         #import packagehoge.*
         #import packagehoge.ClassHoge.*
-        #import packagehoge.ClassHoge.SubClassHoge*
+        #import packagehoge.ClassHoge.SubClassHoge.*
 
         for imp in Code.imports:
-            print(imp.path)
             splited = splitImport(imp)
-            print(splited)
             if splited[0] in PackageDic:
                 if imp.static == False:
                     if imp.wildcard == True:
                         if splited[1] == "":
                             if splited[0] in PackageDic:
-                                same_packages = PackageDic[imp.path]
-                                ImportedClasses.extend([i.name for i in same_packages])
+                                same_package = PackageDic[imp.path]
+                                for _class in same_package:
+                                    splited[1] = _class.name
+                                    ImportedClasses.append(splited)
                         else:
-                            same_packages = PackageDic[splited[0]]
-                            the_class = [i for i in same_packages if i.name == splited[1]][0]
-                            ImportedClasses.extend([i.name for i in the_class.subclass])
+                            ImportedClasses.append(splited)
 
                     else:
-                        ImportedClasses.append(splited[1])
+                        ImportedClasses.append(splited)
 
         return ImportedClasses
+
+    def getStaticImportedMethods(self, Code):
+        Imported = []
+        PackageDic = self.getPackageDic()
+        #staticインポートした自作クラスのメソッドを取得
+        #(例)
+        #import packagehoge.ClassHoge.hogehoge
+        #import packagehoge.ClassHoge.SubClassHoge.hogehoge
+        #import packagehoge.ClassHoge.*
+        #import packagehoge.ClassHoge.SubClassHoge.*
+
+        for imp in Code.imports:
+            if imp.static == True:
+                if imp.path.split(".")[-1].isupper():
+                    continue
+                splited = splitImport(imp)
+                if splited[0] in PackageDic:
+                    if imp.wildcard == False:
+                        Imported.append(splited)
+                    else:
+                        print("自作クラスをstatic wildcardでインポートするな")
+                        sys.exit()
+                        for code in PackageDic[splited[0]]:
+                            for _class in code.classes:
+                                subclasses = getAllSubClassNames(_class)
+                                if _class.name == splited[1]:
+                                    print(_class.name, "の全てのメソッド")
+                                if splited[1] in subclasses:
+                                    print(splited[1],"の全てのメソッド")
+
+        return Imported
+
+
+
+
+
+
 
     def setDomain(self):
         PackageDic = self.getPackageDic()
@@ -243,13 +249,13 @@ class Class():
         else:
             return [i.name for i in self.obj.implements]
 
-    def get_all_subclasses_name(self):
+    def getAllSubClassNames(self):
         AllSubClasses = []
         for sub in self.subclass:
             if sub is not None:
                 sub_name = sub.name
                 AllSubClasses.append(sub_name)
-                sub_sub_names = sub.get_all_subclasses_name()
+                sub_sub_names = sub.getAllSubClassNames()
                 sub_sub_names = [sub_name+"."+i for i in sub_sub_names]
                 AllSubClasses.extend(sub_sub_names)
         return AllSubClasses
@@ -280,6 +286,18 @@ class Declaration():
 #======================================================================== tiny functions
 
 #for Step2
+def splitImport(import_sentence):
+    splited = import_sentence.path.split(".")
+    _package = ""
+    _class = ""
+    _method = ""
+    if splited[-1][0].islower() and splited[-2][0].isupper():
+        _method = splited[-1]
+        splited = splited[:-1]
+    _package = ".".join([i for i in splited if i[0].islower()])
+    _class = ".".join([i for i in splited if i[0].isupper()])
+    return [_package, _class, _method]
+
 def getStream(method_object):
     Stream = []
     for methodelm in method_object:
@@ -309,24 +327,50 @@ def getDeclarations(method_object):
             Declarations.append(ThisDeclaration)
     return Declarations
 
+def getStaticType(_method, TestCode, Project):
+    StaticImports = Project.getStaticImportedMethods(TestCode)
+    for call in StaticImports:
+        if call[2] == _method:
+            return call[1]
+    return "(Non_specific)"
+
 #for Step3
 def isSpecific(_type, _method, TestCode, Project):
-    AllClasses = Project.getAllClasses()
-    SpecificImportedClasses = Project.getImportedClassNames(TestCode)
+    SpecificImportedClasses = Project.getImportedClasses(TestCode)
+    SpecificStaticImportedMethods = Project.getStaticImportedMethods(TestCode)
     if _type == "(Private)":
         return True
-    if _type == "(Not_Specific)":
+    if _type == "(Non_specific)":
         return False
     if _type == "(Object)":
         return False
-    if _type not in AllClasses:
-        return False
-    if _type in SpecificImportedClasses:
+    if _type in [i[1] for i in SpecificImportedClasses]:
         return True
+    for s in SpecificStaticImportedMethods:
+        if _type == s[1] and _method == s[2]:
+            return True
     return False
 
 def getReturnType(_type, _method, TestCode, Project):
-    return "Unknown"
+    NonTestMethods = TestCode.getNonTestMethods()
+    SpecificImportedClasses = Project.getImportedClasses(TestCode)
+    SpecificStaticImportedMethods = Project.getStaticImportedMethods(TestCode)
+    Specifics = SpecificImportedClasses + SpecificStaticImportedMethods
+    PackageDic = Project.getPackageDic()
+
+    if _type == "(Private)":
+        for nt in NonTestMethods:
+            if _method == nt.name:
+                return returnTypeName(nt.return_type)
+    else:
+        for s in Specifics:
+            if s[1] == _type:
+                for i in PackageDic[s[0]]:
+                    if i.name == s[1]:
+                        for m in i.main_class.methods:
+                            if m.name == _method:
+                                return returnTypeName(m.return_type)
+    return "(Unknown)"
 
 
 
@@ -339,12 +383,6 @@ def searchType_from_DeclarationList(variable, DeclarationList):
     for dec in DeclarationList:
         if dec.variable == variable:
             return dec.type
-    return False
-
-def getReternType_from_NotTestMethods(name, NonTestsName):
-    for method in NonTestsName:
-        if method.name == name:
-            return method.return_type.name if method.return_type is not None else "void"
     return False
 
 def getMethodSigneture(_type, _call, ThisProject):
@@ -375,8 +413,15 @@ def getMethodSigneture(_type, _call, ThisProject):
     return False
 
 def returnTypeName(_type):
+    if _type is None:
+        return "Void"
     if str(type(_type))=="<class 'javalang.tree.ReferenceType'>":
         base = _type.name
+        if _type.arguments is not None:
+            args = []
+            for a in _type.arguments:
+                args.append(returnTypeName(a.type))
+            base = base+"<"+",".join(args)+">"
         if _type.sub_type is not None:
             sub_type_name = returnTypeName(_type.sub_type)
             base = base+"."+sub_type_name
@@ -384,17 +429,7 @@ def returnTypeName(_type):
         base = _type.name
     return base
 
-def splitImport(import_sentence):
-    splited = import_sentence.path.split(".")
-    _package = ""
-    _class = ""
-    _method = ""
-    if splited[-1][0].islower() and splited[-2][0].isupper():
-        _method = splited[-1]
-        splited = splited[:-1]
-    _package = ".".join([i for i in splited if i[0].islower()])
-    _class = ".".join([i for i in splited if i[0].isupper()])
-    return [_package, _class, _method]
+
 
 #======================================================================== important functions
 
@@ -409,9 +444,10 @@ def getSpecificMembers_from_TestCode(TestCode, Project):
     NonTestMethods = TestCode.getNonTestMethods()
     TestMethods = TestCode.getTestMethods()
     print(len(GlobalVariables),len(TestMethods), len(NonTestMethods))
-    ImportedClassNames = Project.getImportedClassNames(TestCode)
-    print(ImportedClassNames)
-    ImportedStaticMethods = []
+    ImportedClassNames = Project.getImportedClasses(TestCode)
+    print("インポート",ImportedClassNames)
+    ImportedStaticMethods = Project.getStaticImportedMethods(TestCode)
+    print("staticインポート",ImportedStaticMethods)
 
     for TestMethod in TestMethods:
         print("------------------------------TestMethod:",TestMethod.name)
@@ -420,7 +456,7 @@ def getSpecificMembers_from_TestCode(TestCode, Project):
         Valiables = GlobalVariables + LocalValiables
         Stream = getStream(TestMethod)
         #Step4
-        CallListA = getCallListA(Valiables, Stream, TestCode)
+        CallListA = getCallListA(Valiables, Stream, TestCode, Project)
         #Step5
         CallListB = getCallListB(CallListA, TestCode, Project)
         #Step6
@@ -430,7 +466,7 @@ def getSpecificMembers_from_TestCode(TestCode, Project):
             print(c)
 
 
-def getCallListA(Valiables, Stream, TestCode):
+def getCallListA(Valiables, Stream, TestCode, Project):
     CallListA = []
     NonTestMethods = TestCode.getNonTestMethods()
     NonTestsName = [i.name for i in NonTestMethods]
@@ -446,7 +482,8 @@ def getCallListA(Valiables, Stream, TestCode):
                 if call.member in NonTestsName: #プライベートメソッド
                     _type = "(Private)"
                 else: #staticなメソッド
-                    _type = ThisProject.getStaticImportedClass(call.member, TestCode.imports)
+                    #_type = ThisProject.getStaticImportedClass(call.member, TestCode.imports)
+                    _type = getStaticType(call.member, TestCode, Project)
             elif not call.qualifier[0].isupper():
                 #変数オブジェクトの持つメソッド
                 _type = searchType_from_DeclarationList(call.qualifier, Valiables)
@@ -481,7 +518,7 @@ def getCallListB(CallListA, TestCode, Project):
             if _specific == True:
                 _return = getReturnType(_type, _method, TestCode, Project)
             else:
-                _return = "(Not_Specific)"
+                _return = "(Non_specific)"
 
         if _tag == "CC":
             _specific = isSpecific(_type, _method, TestCode, Project)
