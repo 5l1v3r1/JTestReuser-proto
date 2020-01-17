@@ -285,7 +285,28 @@ class Declaration():
 
 #======================================================================== tiny functions
 
-#for Step2
+#general
+def returnTypeName(_type):
+    if _type is None:
+        return "Void"
+    if str(type(_type))=="<class 'javalang.tree.ReferenceType'>":
+        base = _type.name
+        if _type.arguments is not None:
+            args = []
+            for a in _type.arguments:
+                args.append(returnTypeName(a.type))
+            base = base+"<"+",".join(args)+">"
+        if _type.sub_type is not None:
+            sub_type_name = returnTypeName(_type.sub_type)
+            base = base+"."+sub_type_name
+    else:
+        base = _type.name
+    return base
+
+def isTestCode(Code):
+    return ("/test/" in str(Code.path)) and ("@Test" in Code.strcode)
+
+#for Step3
 def splitImport(import_sentence):
     splited = import_sentence.path.split(".")
     _package = ""
@@ -327,6 +348,13 @@ def getDeclarations(method_object):
             Declarations.append(ThisDeclaration)
     return Declarations
 
+#for Step4
+def getDecralatedType(variable, Declarations):
+    for dec in Declarations:
+        if dec.variable == variable:
+            return dec.type
+    return "(Unknown)"
+
 def getStaticType(_method, TestCode, Project):
     StaticImports = Project.getStaticImportedMethods(TestCode)
     for call in StaticImports:
@@ -334,7 +362,7 @@ def getStaticType(_method, TestCode, Project):
             return call[1]
     return "(Non_specific)"
 
-#for Step3
+#for Step5
 def isSpecific(_type, _method, TestCode, Project):
     SpecificImportedClasses = Project.getImportedClasses(TestCode)
     SpecificStaticImportedMethods = Project.getStaticImportedMethods(TestCode)
@@ -344,6 +372,9 @@ def isSpecific(_type, _method, TestCode, Project):
         return False
     if _type == "(Object)":
         return False
+    if _type == "(Unknown)":
+        return True
+    _type = _type.split(".")[0]
     if _type in [i[1] for i in SpecificImportedClasses]:
         return True
     for s in SpecificStaticImportedMethods:
@@ -357,6 +388,9 @@ def getReturnType(_type, _method, TestCode, Project):
     SpecificStaticImportedMethods = Project.getStaticImportedMethods(TestCode)
     Specifics = SpecificImportedClasses + SpecificStaticImportedMethods
     PackageDic = Project.getPackageDic()
+
+    if _type == "(Unknown)":
+        return "(Unknwon)"
 
     if _type == "(Private)":
         for nt in NonTestMethods:
@@ -372,62 +406,49 @@ def getReturnType(_type, _method, TestCode, Project):
                                 return returnTypeName(m.return_type)
     return "(Unknown)"
 
+#for Step6
+def getParameters(_type, _method, TestCode, Project):
+    NonTestMethods = TestCode.getNonTestMethods()
+    SpecificImportedClasses = Project.getImportedClasses(TestCode)
+    SpecificStaticImportedMethods = Project.getStaticImportedMethods(TestCode)
+    Specifics = SpecificImportedClasses + SpecificStaticImportedMethods
+    PackageDic = Project.getPackageDic()
 
+    def m2p(method):
+        return [returnTypeName(i.type) for i in method.parameters]
 
+    if _method == "(constructor)":
+        _method = _type
+        for s in Specifics:
+            if s[1] == _type:
+                for i in PackageDic[s[0]]:
+                    if i.name == s[1]:
+                        for m in i.main_class.methods:
+                            if m.name == _method:
+                                return m2p(m)
+                        if i.main_class.is_extends == False and i.main_class.is_implements == False:
+                            return []
+                        else:
+                            print(_type, "は", i.main_class.extend_from,"の継承")
+        return "(Unknown)"
 
+    if _type == "(Unknown)":
+        return "(Unknwon)"
 
-def isTestCode(Code):
-    return ("/test/" in str(Code.path)) and ("@Test" in Code.strcode)
-
-def searchType_from_DeclarationList(variable, DeclarationList):
-    for dec in DeclarationList:
-        if dec.variable == variable:
-            return dec.type
-    return False
-
-def getMethodSigneture(_type, _call, ThisProject):
-    #print(_type,"のメソッド",_call,"についてシグネチャを取得します")
-    _class = ThisProject.getTheClass(_type)
-
-    if _class is None:
-        #print(_type,"は見つかりません")
-        return False
-
-    for method in _class.methods:
-        if method.name == _call:
-            #print(_type,"のメソッド",_call,"が見つかりました")
-            return method
-
-    #print(_type,"のメソッド",_call,"は見つかりません")
-
-    if _class.is_extends:
-        #print(_type,"の継承元である",_class.get_extends_from(),"を調査します")
-        return getMethodSigneture(_class.get_extends_from(), _call, ThisProject)
-    elif _class.is_implements:
-        for itf in _class.get_implements_from():
-            #print(_type,"のインターフェースである",itf,"を調査します")
-            if getMethodSigneture(itf, _call, ThisProject):
-                return getMethodSigneture(itf, _call, ThisProject)
-        else:
-            return False
-    return False
-
-def returnTypeName(_type):
-    if _type is None:
-        return "Void"
-    if str(type(_type))=="<class 'javalang.tree.ReferenceType'>":
-        base = _type.name
-        if _type.arguments is not None:
-            args = []
-            for a in _type.arguments:
-                args.append(returnTypeName(a.type))
-            base = base+"<"+",".join(args)+">"
-        if _type.sub_type is not None:
-            sub_type_name = returnTypeName(_type.sub_type)
-            base = base+"."+sub_type_name
+    if _type == "(Private)":
+        for nt in NonTestMethods:
+            if _method == nt.name:
+                return m2p(nt)
     else:
-        base = _type.name
-    return base
+        for s in Specifics:
+            if s[1] == _type:
+                for i in PackageDic[s[0]]:
+                    if i.name == s[1]:
+                        for m in i.main_class.methods:
+                            if m.name == _method:
+                                return m2p(m)
+    return "(Unknown)"
+
 
 
 
@@ -460,7 +481,7 @@ def getSpecificMembers_from_TestCode(TestCode, Project):
         #Step5
         CallListB = getCallListB(CallListA, TestCode, Project)
         #Step6
-        CallListC = getCallListC(CallListB)
+        CallListC = getCallListC(CallListB, TestCode, Project)
 
         for c in CallListC:
             print(c)
@@ -486,7 +507,7 @@ def getCallListA(Valiables, Stream, TestCode, Project):
                     _type = getStaticType(call.member, TestCode, Project)
             elif not call.qualifier[0].isupper():
                 #変数オブジェクトの持つメソッド
-                _type = searchType_from_DeclarationList(call.qualifier, Valiables)
+                _type = getDecralatedType(call.qualifier, Valiables)
                 if _type == False:
                     _type = "(Unknown)"
             else:
@@ -524,14 +545,24 @@ def getCallListB(CallListA, TestCode, Project):
             _specific = isSpecific(_type, _method, TestCode, Project)
             _return = _type
 
-
         beforeType = _return
         CallListB.append([_tag, _type, _method, _specific, _return])
 
     return CallListB
 
-def getCallListC(CallListB):
-    return CallListB
+def getCallListC(CallListB, TestCode, Project):
+    done = []
+    CallListC = []
+    for call in CallListB:
+        if call not in done:
+            done.append(call)
+            if call[3] == True:
+                paras = getParameters(call[1], call[2], TestCode, Project)
+                CallListC.append(call+[paras])
+
+
+
+    return CallListC
 
 
 
