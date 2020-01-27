@@ -315,6 +315,12 @@ def returnTypeName(_type):
 def isTestCode(Code):
     return ("/test/" in str(Code.path)) and ("@Test" in Code.strcode)
 
+def organizeList(_list):
+    organized = []
+    for l in _list:
+        if l not in organized:
+            organized.append(l)
+    return [x[1] for x in sorted([[i[1],i] for i in organized])]
 #for Step3
 def splitImport(import_sentence):
     splited = import_sentence.split(".")
@@ -489,12 +495,12 @@ def getParameters(_type, _method, TestCode, Project):
 def getSingleSpecifics(_class, Method, Code, Project):
     if Method == "(constructor)":
         Method = _class
-    print(999, Code.name, "のメソッド", Method, "についてspecificな呼び出しを探索します")
+    #print(999, Code.name, "のメソッド", Method, "についてspecificな呼び出しを探索します")
     if Code.main_class is None:
-        print(999, "このコードはメインクラスを所持していません")
+        #print(999, "このコードはメインクラスを所持していません")
         return []
     if Code.main_class.is_extends:
-        print(999, "このクラスは継承で作られているので追求を見送ります")
+        #print(999, "このクラスは継承で作られているので追求を見送ります")
         return []
 
     methods = Code.main_class.methods
@@ -508,7 +514,7 @@ def getSingleSpecifics(_class, Method, Code, Project):
         if method.name == Method:
             break
     else:
-        print(999, Method, "は見つかりませんでした")
+        #print(999, Method, "は見つかりませんでした")
         return []
 
 
@@ -542,6 +548,8 @@ def outputRD(Project, TestCode, TestMethod, Requirement, Dependent):
         outputlist.append(info+["Requirement"]+r)
     for d in Dependent:
         outputlist.append(info+["Dependent"]+d)
+
+    print(999, info, len(Requirement), len(Dependent))
 
 
 
@@ -801,7 +809,7 @@ def getCallListF(CallListE, TestCode, Project):
 
     #while (len([i for i in Calllist if i[-1]=="Test" or i[-1] == "TestHelper"])):
 
-    return [CallListF, done]
+    return [organizeList(CallListF), organizeList(done)]
 
 
 
@@ -812,7 +820,7 @@ if __name__ == '__main__':
     #path = "sample/SimianArmy"
     #path = "sample/jolokia"
     #path = "sample/less4j"
-    path = "sample/fork"
+    path = "sample/springside4"
     ThisProject = Project(path)
     #PackageDic = ThisProject.getPackageDic()
     #ThisProject.showAllMethods()
