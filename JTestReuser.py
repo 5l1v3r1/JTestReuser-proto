@@ -1,7 +1,8 @@
-import javalang, sys
+import javalang, sys, os, csv
 from pathlib import Path
 from tqdm import tqdm
 from tabulate import tabulate
+from operator import itemgetter
 
 Object_methods = {
 "clone":"Object",
@@ -150,7 +151,7 @@ class Project():
         all_package = [i for i in PackageDic]
         domain = ""
         for n in range(1,10):
-            top_n = [".".join(i.split(".")[:n]) for i in all_package]
+            top_n = [".".join(i.split(".")[:n]) for i in all_package if i is not None]
             if len(list(set(top_n))) == 1:
                 domain = list(set(top_n))[0]
             else:
@@ -188,7 +189,7 @@ class Code():
         except:
             print("内部エラーのあるコードファイルです:", self.path)
         else:
-            self.package = self.tree.package.name
+            self.package = self.tree.package.name if self.tree.package is not None else "nopackage"
             self.imports = self.tree.imports
             for cls in self.tree.types:
                 if str(type(cls))=="<class 'javalang.tree.ClassDeclaration'>":
@@ -320,7 +321,8 @@ def organizeList(_list):
     for l in _list:
         if l not in organized:
             organized.append(l)
-    return [x[1] for x in sorted([[i[1],i] for i in organized])]
+    organized.sort(key=itemgetter(1))
+    return organized
 #for Step3
 def splitImport(import_sentence):
     splited = import_sentence.split(".")
@@ -423,6 +425,21 @@ def getReturnType(_type, _method, TestCode, Project):
         if method:
             return returnTypeName(method.return_type)
     return "(Unknown)"
+
+def getCode(_class, TestCode, Project):
+    if _class == "(Private)":
+        return TestCode
+    SpecificImportedClasses = Project.getImportedClasses(TestCode)
+    SpecificStaticImportedMethods = Project.getStaticImportedMethods(TestCode)
+    Specifics = SpecificImportedClasses + SpecificStaticImportedMethods
+    PackageDic = Project.getPackageDic()
+    _class = _class.split(".")[0]
+    for sp in Specifics:
+        if sp[1] == _class:
+            for code in PackageDic[sp[0]]:
+                if code.name == _class:
+                    return code
+    return None
 
 def getMethod(_type, _method, Code, Project):
     SpecificImportedClasses = Project.getImportedClasses(Code)
@@ -535,21 +552,48 @@ def getSingleSpecifics(_class, Method, Code, Project):
     return CallListD_ex
 
 #for Step10
+def createIntialSeats(Projectname):
+    Path(os.getcwd()+"/output/"+Projectname).mkdir(exist_ok=True, parents=True)
+    title1 = ["Test-Project","Test-FUllname","Test-Package","Test-Class", "Test-Method", "Requirement", "Dependent", "Test-Filepath"]
+    title2 = ["Test-Fullname","Req/Dep","MI/CC", "Package", "Class", "Method","Parameters","ReturnType", "Group", "Filepath"]
+    with open("output/"+Projectname+"/ReqDepSummary.csv", "w") as f:
+        writer = csv.writer(f)
+        writer.writerow(title1)
+    with open("output/"+Projectname+"/ReqDep.csv", "w") as f:
+        writer = csv.writer(f)
+        writer.writerow(title2)
+
+
 def outputRD(Project, TestCode, TestMethod, Requirement, Dependent):
     outputlist = []
-    title = ["Test-Project","Test-Package","Test-File","Test-Class", "Test-Method",
-    "Group",
-    "Package","File","Class", "Method","Parameters","ReturnType"]
-    outputlist.append(title)
 
+    Fullname = TestCode.package+"."+TestCode.name+"."+TestMethod.name
 
-    info = [Project.name, TestCode.package, TestCode.path.name, TestCode.name, TestMethod.name]
+    def getmethodinfo(x):
+        CCMI = x[0]
+        package = x[-2].package if x[-2] is not None else None
+        _class = x[1]
+        _method = x[2]
+        _parameter = " ".join(x[-3]) if type(x[-3]) == type([]) else x[-3]
+        _return = x[-4]
+        _group = x[-1]
+        _path = x[-2].path if x[-2] is not None else None
+        return [CCMI, package, _class, _method, _parameter, _return, _group, _path]
+
     for r in Requirement:
-        outputlist.append(info+["Requirement"]+r)
+        outputlist.append([Fullname, "Requirement"]+getmethodinfo(r))
     for d in Dependent:
-        outputlist.append(info+["Dependent"]+d)
+        outputlist.append([Fullname, "Dependent"] + getmethodinfo(d))
 
-    print(999, info, len(Requirement), len(Dependent))
+    #print(999, info, len(Requirement), len(Dependent))
+
+    Path(os.getcwd()+"/output/"+Project.name).mkdir(exist_ok=True, parents=True)
+    with open("output/"+Project.name+"/ReqDepSummary.csv", "a") as f:
+        writer = csv.writer(f)
+        writer.writerow([Project.name, Fullname, TestCode.package, TestCode.name, TestMethod.name,len(Requirement), len(Dependent), str(TestCode.path)])
+    with open("output/"+Project.name+"/ReqDep.csv", "a") as f:
+        writer = csv.writer(f)
+        writer.writerows(outputlist)
 
 
 
@@ -606,17 +650,17 @@ def getSpecificMembers_from_TestCode(TestCode, Project):
         #Step6
         CallListC = getCallListC(CallListB, TestCode, Project)
         print("CallListC////////////////////////////////////////////////")
-        print(tabulate(CallListC, ["Tag","Class","Method","isSpecific","ReturnType","ParameterTypes"]))
+        print(tabulate(CallListC, ["Tag","Class","Method","isSpecific","ReturnType","ParameterTypes","Code"]))
         #Step7
         CallListD = getCallListD(CallListC, TestCode, Project)
         print("CallListD////////////////////////////////////////////////")
-        print(tabulate(CallListD, ["Tag","Class","Method","isSpecific","ReturnType","ParameterTypes","Group"]))
+        print(tabulate(CallListD, ["Tag","Class","Method","isSpecific","ReturnType","ParameterTypes","Code","Group"]))
         #Step8
         CallListE = getCallListE(CallListD, NonTestMethodDic)
         donePrivates = CallListE[1]
         CallListE = CallListE[0]
         print("CallListE////////////////////////////////////////////////")
-        print(tabulate(CallListE, ["Tag","Class","Method","isSpecific","ReturnType","ParameterTypes","Group"]))
+        print(tabulate(CallListE, ["Tag","Class","Method","isSpecific","ReturnType","ParameterTypes","Code","Group"]))
         #Step9
         CallListF = getCallListF(CallListE, TestCode, Project)
         Requirement = CallListF[0]
@@ -628,6 +672,8 @@ def getSpecificMembers_from_TestCode(TestCode, Project):
 
         #Step10
         outputRD(Project, TestCode, TestMethod, Requirement, Dependent)
+
+
 
 
 def getCallListA(Variables, Stream, TestCode, Project):
@@ -698,8 +744,9 @@ def getCallListC(CallListB, TestCode, Project):
         if call not in done:
             done.append(call)
             if call[3] == True:
+                code = getCode(call[1], TestCode, Project)
                 paras = getParameters(call[1], call[2], TestCode, Project)
-                CallListC.append(call+[paras])
+                CallListC.append(call+[paras, code])
     return CallListC
 
 def getCallListD(CallListC, TestCode, Project):
@@ -760,7 +807,7 @@ def getCallListE(CallListD, NonTestMethodDic):
                 else:
                     if z not in notPrivates:
                         notPrivates.append(z)
-    return [notPrivates, donePrivates]
+    return [notPrivates, organizeList(donePrivates)]
 
 def getCallListF(CallListE, TestCode, Project):
     CallListF = []
@@ -819,11 +866,13 @@ if __name__ == '__main__':
     #path = "downloads/github.com/rhuss/jolokia"
     #path = "sample/SimianArmy"
     #path = "sample/jolokia"
-    #path = "sample/less4j"
-    path = "sample/springside4"
+    path = "sample/less4j"
+    path = "apache/struts"
+    #path = "sample/springside4"
     ThisProject = Project(path)
     #PackageDic = ThisProject.getPackageDic()
     #ThisProject.showAllMethods()
-    ThisProject.showAllPath()
+    #ThisProject.showAllPath()
+    createIntialSeats(ThisProject.name)
     for TestCode in [i for i in ThisProject.codes if isTestCode(i)]:
         SpecificMembers = getSpecificMembers_from_TestCode(TestCode, ThisProject)

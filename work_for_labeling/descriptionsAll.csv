@@ -1,0 +1,1864 @@
+repo,description
+Netflix/SimianArmy,Tools for keeping your cloud operating in top form. Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.
+netty/netty,Netty project - an event-driven asynchronous network application framework
+MovingBlocks/Terasology,Terasology - open source voxel world
+xetorthio/jedis,A blazingly small and sane redis java client
+grails/grails-core,The Grails Web Application Framework
+openzipkin/zipkin,Zipkin is a distributed tracing system
+liquibase/liquibase,Main Liquibase Source
+Graylog2/graylog2-server,Free and open source log management
+linkedin/indextank-engine,Indexing engine for IndexTank
+gradle/gradle,Adaptable - fast automation for all
+SpoutDev/Spout,Open source - multithreaded - voxel game engine and platform - written in Java.
+dynjs/dynjs,ECMAScript runtime for the JVM
+wicketstuff/core,Wicketstuff-core projects are bundled user contributions for use with Apache Wicket (https://wicket.apache.org/).   They are released in step with Wicket releases to make them easy to use.
+forcedotcom/SalesforceMobileSDK-Android,Android SDK for Salesforce
+nutzam/nutz,Nutz -- Web Framework(Mvc/Ioc/Aop/Dao/Json) for ALL Java developer
+floodlight/floodlight,Floodlight SDN OpenFlow Controller
+springside/springside4,A Spring Framework based - pragmatic style JavaEE application reference architecture.
+pentaho/big-data-plugin,Kettle plugin that provides support for interacting within many "big data" projects including Hadoop - Hive - HBase - Cassandra - MongoDB - and others.
+Netflix/servo,Netflix Application Monitoring Library
+bndtools/bndtools,ARCHIVED: The contents of this repo have been merged into the `bnd` repo.
+hibernate/hibernate-ogm,Hibernate OGM - Domain model persistence for NoSQL datastores
+spullara/mustache.java,Implementation of mustache.js for Java
+plutext/docx4j,JAXB-based Java library for Word docx - Powerpoint pptx - and Excel xlsx files
+voldemort/voldemort,An open source clone of Amazon's Dynamo.
+resthub/resthub-spring-stack,RESThub Spring stack
+Catrobat/Catroid,Writing programs on an Android device without prior knowledge.
+unclebob/fitnesse,FitNesse -- The Acceptance Test Wiki
+ervandew/eclim,Expose eclipse features inside of vim.
+square/okhttp,An HTTP client for Android - Kotlin - and Java.
+intermine/intermine,A powerful open source data warehouse system
+encog/encog-java-core,
+Bukkit/Bukkit,The Minecraft Mod API
+geoserver/geoserver,Official GeoServer repository
+restlet/restlet-framework-java,Leading REST API framework for Java
+sleuthkit/autopsy,Autopsy® is a digital forensics platform and graphical interface to The Sleuth Kit® and other digital forensics tools. It can be used by law enforcement - military - and corporate examiners to investigate what happened on a computer. You can even use it to recover photos from your camera's memory card. 
+thinkaurelius/titan,Distributed Graph Database
+ModeShape/modeshape,ModeShape is a distributed - hierarchical - transactional - and consistent data store with support for queries - full-text search - events - versioning - references - and flexible and dynamic schemas. It is very fast - highly available - extremely scalable - and it is 100% open source and written in Java. Clients use the JSR-283 standard Java API for content repositories (aka - JCR) or ModeShape's REST API - and can query content through JDBC and SQL.
+Atmosphere/atmosphere,Realtime Client Server Framework for the JVM - supporting WebSockets with Cross-Browser Fallbacks
+jhy/jsoup,jsoup: Java HTML Parser - with best of DOM - CSS - and jquery
+brianfrankcooper/YCSB,Yahoo! Cloud Serving Benchmark
+searls/jasmine-maven-plugin,Maven plugin to execute Jasmine Specs. Creates your HTML runners for you - runs headlessly - outputs JUnit XML
+cbeust/jcommander,Command line parsing framework for Java
+facebook/facebook-android-sdk,Used to integrate Android apps with Facebook Platform.
+jclouds/jclouds,Read-only mirror of ASF Git Repo for jclouds
+ippontech/tatami,An Open Source enterprise social network
+vvakame/JsonPullParser,compiler time JSON-POJO Mapper for Java
+forge/core,Forge Core Framework APIs and Implementation
+mongodb/mongo-java-driver,The Java driver for MongoDB 
+eucalyptus/eucalyptus,Eucalyptus Cloud-computing Platform
+cloudsmith/geppetto,Geppetto is an integrated toolset for developing Puppet modules and manifests.
+PEXPlugins/PermissionsEx,PermissionsEx Plugin for bukkit
+arquillian/continuous-enterprise-development,Testable Solutions for Modern Applications
+AlibabaTech/fastjson,This project has been transfered to  https://github.com/alibaba/fastjson !
+taskadapter/redmine-java-api,Redmine Java API
+jawi/ols,OpenBench LogicSniffer repository
+k9mail/k-9,K-9 Mail – An Email app for Android
+apache/hive,Apache Hive
+rhuss/jolokia,JMX on Capsaicin
+bndtools/bnd,Bnd/Bndtools.  Tooling to build OSGi bundles including Eclipse - Maven - and Gradle plugins.
+notnoop/java-apns,Java Apple Push Notification Service Provider
+caelum/vraptor,Simple Java Web MVC Framework
+apache/hbase,Mirror of Apache HBase
+apache/avro,Apache Avro
+eclipse/jgit,JGit project repository (jgit)
+mendhak/gpslogger,:satellite: Lightweight GPS Logging Application For Android. Available on the Android Market as "GPSLogger for Android"
+FluentLenium/FluentLenium,FluentLenium is a website & mobile automation framework which extends Selenium to write reliable and resilient UI functional tests. This framework is React ready. Written and maintained by people who are automating browser-based tests on a daily basis.
+cbeust/testng,TestNG testing framework
+weld/core,Weld - including integrations for Servlet containers and Java SE - examples and documentation
+zxing/zxing,ZXing ("Zebra Crossing") barcode scanning library for Java - Android
+bguerout/jongo,Query in Java as in Mongo shell
+scobal/seyren,An alerting dashboard for Graphite
+BaseXdb/basex,BaseX Main Repository.
+JPMoresmau/eclipsefp,EclipseFP - the Haskell plug-in for Eclipse
+BroadleafCommerce/BroadleafCommerce,Broadleaf Commerce - Enterprise eCommerce framework based on Spring
+liferay/liferay-ide,
+thucydides-webtests/thucydides,Thucydides is a tool that lets you use WebDriver-based unit or BDD tests to write more flexible and more reusable WebDriver-based tests - and also to generate documentation about your acceptance tests - including a narrative description of test - along with the corresponding screen shots - and also high-level summaries and aggregations of the test results
+jknack/handlebars.java,Logic-less and semantic Mustache templates with Java
+jberkel/sms-backup-plus,Backup Android SMS - MMS and call log to Gmail / Gcal / IMAP
+geogebra/geogebra,GeoGebra apps (mirror)
+cloudfoundry/uaa,CloudFoundry User Account and Authentication (UAA) Server
+mitreid-connect/OpenID-Connect-Java-Spring-Server,An OpenID Connect reference implementation in Java on the Spring platform.
+nasa/mct,Open MCT has moved to https://github.com/nasa/openmct and is now a web application. The desktop version is retained here for posterity.
+tcurdt/jdeb,This library provides an Ant task and a Maven plugin to create Debian packages from Java builds in a truly cross platform manner.
+hazelcast/hazelcast,Open Source In-Memory Data Grid
+jbosstm/narayana,The codebase for the narayana project
+broadgsa/gatk,Official code repository for GATK versions 1.0 through 3.7 (core engine). For GATK 4 code - see the https://github.com/broadinstitute/gatk repository
+ops4j/org.ops4j.pax.web,OSGi R4 Http Service and Web Applications (OSGi Enterprise Release chapter 128) implementation using Jetty 9 or Tomcat 8.
+stapler/stapler,Stapler web framework
+OneBusAway/onebusaway-application-modules,The core OneBusAway application suite.
+jersey/jersey,This is no longer the active Jersey repository. Please see the README.md
+square/retrofit,Type-safe HTTP client for Android and Java by Square - Inc.
+Netflix/Priam,Co-Process for backup/recovery - Token Management - and Centralized Configuration management for Cassandra.
+eclipse/jetty.project,Eclipse Jetty® - Web Container & Clients - supports HTTP/2 - HTTP/1.1 - HTTP/1.0 - websocket - servlets - and more
+alexruiz/fest-assert-2.x,FEST Fluent Assertions 2.x
+Netflix/astyanax,Cassandra Java Client
+cloudera/crunch,Crunch is an Apache TLP now - and lives at http://crunch.apache.org/
+goldmansachs/gs-collections,GS Collections has been migrated to the Eclipse Foundation - re-branded as Eclipse Collections.  https://www.eclipse.org/collections/
+Netflix/archaius,Library for configuration management API
+basho/riak-java-client,The Riak client for Java.
+jitlogic/zorka,Sophisticated monitoring agent for Java
+nutzam/nutzmore,让Nutz更好用
+CloudifySource/cloudify,Cloud-enablement platform that on-boards applications to public and private clouds without architectural or code changes
+Mach5/supersonic,Open-source web-based media streamer and jukebox fork of Subsonic. Supports MP3 - OGG - AAC and other streamable audio and video formats. Runs on Windows - GNU/Linux and Mac using Java.
+errai/errai,Errai
+commonsguy/cw-omnibus,Source code to omnibus edition of _The Busy Coder's Guide to Android Development_
+hibernate/hibernate-orm,Hibernate's core Object/Relational Mapping functionality
+mongodb/mongo-hadoop,MongoDB Connector for Hadoop
+jingwei/krati,A hash-based high-performance data store
+zeroturnaround/zt-zip,ZeroTurnaround ZIP Library
+twilio/twilio-java,A Java library for communicating with the Twilio REST API and generating TwiML.
+apavlo/h-store,H-Store Distributed Main Memory OLTP Database System
+detro/ghostdriver,Ghost Driver is an implementation of the Remote WebDriver Wire protocol - using PhantomJS as back-end
+tinkerpop/rexster,A Graph Server (no longer active - see Apache TinkerPop)
+ralscha/extdirectspring,Implementation of the Ext Direct protocol with Java and Spring
+JetBrains/MPS,JetBrains Meta programming System
+gitblit/gitblit,pure java git solution
+resteasy/Resteasy,REST and JAXRS
+webx/citrus,Java-based Web Framework for Alibaba Group
+nodebox/nodebox,Node-based data application for visualization and generative design
+Unidata/thredds,Thredds and netCDF-Java (CDM)
+winder/Universal-G-Code-Sender,A Java based GRBL compatible cross-platform G-Code sender.
+graphstream/gs-core,Graphstream core
+openmrs/openmrs-core,OpenMRS API and web application code
+msgpack/msgpack-java,MessagePack serializer implementation for Java / msgpack.org[Java]
+AxonFramework/AxonFramework,Framework for Evolutionary Event-Driven Microservices on the JVM
+searchbox-io/Jest,Elasticsearch Java Rest Client.
+tinkerpop/blueprints,A Property Graph Model Interface (no longer active - see Apache TinkerPop)
+jankotek/JDBM3,Embedded Key Value Java Database
+cloudera/flume,WE HAVE MOVED to Apache Incubator. https://cwiki.apache.org/FLUME/ .   Flume is a distributed - reliable - and available service for efficiently collecting - aggregating - and moving large amounts of log data. It has a simple and flexible architecture based on streaming data flows. It is robust and fault tolerant with tunable reliability mechanisms and many failover and recovery mechanisms. The system is centrally managed and allows for intelligent dynamic management. It uses a simple extensible data model that allows for online analytic applications.
+johncarl81/transfuse,:syringe: Transfuse - A Dependency Injection and Integration framework for Google Android
+helloworld1/AnyMemo,Advanced Spaced Repetition flashcard learning software for Android.
+apache/activemq,Mirror of Apache ActiveMQ
+apache/nutch,Apache Nutch
+ocpsoft/rewrite,OCPsoft URL-Rewriting Framework
+puniverse/galaxy,A cache-coherent in-memory data grid
+adyliu/jafka,a fast and simple distributed publish-subscribe messaging system (mq)
+peter-lawrey/Java-Chronicle,Java Indexed Record Chronicle
+DSpace/DSpace,(Official) The DSpace digital asset management system that powers your Institutional Repository
+nroduit/Weasis,Weasis is a DICOM viewer available as a desktop application  or as a web-based application.
+FasterXML/jackson-core,Core part of Jackson that defines Streaming API as well as basic shared abstractions
+FasterXML/jackson-databind,General data-binding package for Jackson (2.x): works on streaming API (core) implementation(s)
+wala/WALA,T.J. Watson Libraries for Analysis
+tordanik/OSM2World,converter that creates three-dimensional models of the world from OpenStreetMap data
+hunterhacker/jdom,Java manipulation of XML made easy
+jOOQ/jOOQ,jOOQ is the best way to write SQL in Java
+carrot2/carrot2,Carrot2: Text Clustering Algorithms and Applications
+qcadoo/mes,qcadoo MES - friendly web manufacturing software
+jtalks-org/jcommune,JTalks JCommune - a forum engine
+cdk/cdk,The Chemistry Development Kit
+ryantenney/metrics-spring,Spring integration for Metrics
+richardwilly98/elasticsearch-river-mongodb,MongoDB River Plugin for ElasticSearch
+xebialabs/overthere,Runs something "Over there"
+eclipse/paho.mqtt.java,Eclipse Paho Java MQTT client library.  Paho is an Eclipse IoT project.
+apache/mahout,Mirror of Apache Mahout
+xwiki/xwiki-platform,The XWiki platform
+docdoku/docdoku-plm,The project purpose is to develop a comprehensive - robust open source PLM (Product LifeCycle Management) solution.
+bartdag/py4j,Py4J enables Python programs to dynamically access arbitrary Java objects
+nuxeo/nuxeo,Content management platform to build modern business applications
+sirthias/parboiled,Elegant parsing in Java and Scala - lightweight - easy-to-use - powerful.
+javalite/activejdbc,JavaLite is a cohesive collection of frameworks designed from ground up to add pleasure back to your daily life
+jenkinsci/ec2-plugin,Jenkins ec2 plugin
+ocpsoft/prettytime,Social Style Date and Time Formatting for Java
+apache/wicket,Apache Wicket - Component-based Java web framework
+OpenGamma/OG-Platform,Strata is the new open source analytics and market risk library from OpenGamma
+4thline/cling,UPnP/DLNA library for Java and Android
+urbanairship/datacube,Multidimensional data storage with rollups for numerical data
+lintool/Cloud9,Cloud9 is a Hadoop toolkit for working with big data
+AxonFramework/Axon-trader,A sample to use the axon framework for a trading application
+SomMeri/less4j,Less language is an extension of css and less4j compiles it into regular css. Less adds several dynamic features into css: variables - expressions - nested rules - and so on. Less was designed to be compatible with css and any correct css file is also correct less file.
+marubinotto/Piggydb,Piggydb is a Web notebook application that provides you with a platform to build your knowledge personally or collaboratively. 
+jpos/jPOS,jPOS Project
+metawidget/metawidget,Metawidget is a smart User Interface widget that populates itself - either statically or at runtime - with UI components to match the properties of your business objects. 
+foursquare/heapaudit,
+sachin-handiekar/jInstagram,A Java library for the Instagram API.
+vmi/selenese-runner-java,Selenium IDE native format (selenese and side) interpreter.
+maxcom/lorsource,Linux.org.ru website engine
+tinkerpop/pipes,A Lazy Data Flow Framework (no longer active - see Apache TinkerPop)
+tamingtext/book,Taming Text Book Source Code
+martint/jmxutils,Exporting JMX mbeans made easy
+apache/commons-math,Apache Commons Math
+qiniu/java-sdk,Qiniu Resource (Cloud) Storage SDK for Java
+apache/oozie,Mirror of Apache Oozie
+dcm4che/dcm4che,DICOM Implementation in JAVA
+okleine/nCoAP,Java implementation of the CoAP protocol using netty
+arquillian/arquillian-core,Arquillian provides a component model for integration tests - which includes dependency injection and container life cycle management. Instead of managing a runtime in your test - Arquillian brings your test to the runtime.
+jenkinsci/jacoco-plugin,Jenkins JaCoCo Plugin
+wwadge/bonecp,BoneCP is a Java JDBC connection pool implementation that is tuned for high performance by minimizing lock contention to give greater throughput for your applications. It beats older connection pools such as C3P0 and DBCP but SHOULD NOW BE CONSIDERED DEPRECATED in favour of HikariCP.
+appfuse/appfuse,AppFuse is a full-stack framework for building web applications on the JVM. Open source since 2003.
+hector-client/hector,a high level client for cassandra
+antlr/antlr3,antlr v3 repository (pulled from p4 with history from //depot/code/antlr/antlr3-main
+marytts/marytts,MARY TTS -- an open-source - multilingual text-to-speech synthesis system written in pure java
+qos-ch/logback,The reliable - generic - fast and flexible logging framework for Java.
+lordofthejars/nosql-unit,NoSQL Unit is a JUnit extension that helps you write NoSQL unit tests.
+liferay/liferay-faces,
+Jasig/uPortal,Enterprise open source portal built by and for the higher education community.
+wg/lettuce,Scalable Java Redis client
+skyscreamer/yoga,Yoga is RESTful but flexible.
+Sable/soot,Soot - A Java optimization framework
+stoicflame/enunciate,Build-time enhancement tool for Java-based Web services projects
+apache/shiro,Mirror of Apache Shiro
+st-js/st-js,Main repository of Strongly-Typed Javascript - Java to Javascript transpiler
+stripe/stripe-java,Java library for the Stripe API.    
+groovy/groovy-core,former home of the groovy programming language - moved to https://github.com/apache/groovy
+jnr/jnr-ffi,Java Abstracted Foreign Function Layer
+dustin/java-memcached-client,A simple - asynchronous - single-threaded memcached client written in java.
+xetorthio/johm,JOhm is a Object-hash mapping library for Java for storing objects in Redis
+makersoft/mybatis-shards,基于MyBatis的数据库切分框架，可实现数据的水平切分和垂直切分。
+rdelbru/SIREn,SIREn - Semi-Structured Information Retrieval Engine
+killme2008/xmemcached,High performance - easy to use multithreaded memcached client in java. 
+fozziethebeat/S-Space,The S-Space repsitory - from the AIrhead-Research group
+structr/structr,The World's Most Advanced Graph Application Platform
+hamcrest/JavaHamcrest,Java (and original) version of Hamcrest
+demoiselle/framework,Repositório principal contendo o Core e Extensions: JPA - Security - WS
+apache/zookeeper,Mirror of Apache Hadoop ZooKeeper
+takawitter/trie4j,PATRICIA - Double Array - LOUDS Trie implementations for Java
+SmartBear/soapui,SoapUI is a free and open source cross-platform functional testing solution for APIs and web services.
+tomakehurst/wiremock,A tool for mocking HTTP services
+lessthanoptimal/BoofCV,Fast computer vision library for SFM - calibration - fiducials - tracking -  image processing - and more.
+mjiderhamn/classloader-leak-prevention,ClassLoader leak prevention / protection
+hibernate/hibernate-tools,Code generation - reverse engineering - ant task and more tools for Hibernate Core
+spullara/redis-protocol,Java client and server implementation of Redis
+jnr/jnr-posix,Java Posix layer
+jsevellec/cassandra-unit,Utility tool to load Data into Cassandra to help you writing good isolated JUnit Test into your application
+jenkinsci/jira-plugin,Jenkins jira plugin
+biojava/biojava,:book::microscope::coffee: BioJava is an open-source project dedicated to providing a Java library for processing biological data.
+azkaban/azkaban,Azkaban workflow manager.
+i2p/i2p.i2p,I2P is an anonymizing network - offering a simple layer that identity-sensitive applications can use to securely communicate. All data is wrapped with several layers of encryption - and the network is both distributed and dynamic - with no trusted parties. This is a mirror of the official Monotone repository.
+mpatric/mp3agic,A java library for reading mp3 files and reading / manipulating the ID3 tags (ID3v1 and ID3v2.2 through ID3v2.4).
+linkedin/sensei,distributed realtime searchable database
+Aconex/scrutineer,Compares a source of truth sorted stream with another to find mismatches.  Designed for verifying indexes such as ElasticSearch & Solr are synchronized with their source of data (usually a DB) 
+tinkerpop/frames,An Object to Graph Framework  (no longer active - see Apache TinkerPop)
+kelemen/netbeans-gradle-project,This project is a NetBeans plugin able to open Gradle based Java projects. The implementation is based on Geertjan Wielenga's plugin.
+FasterXML/jackson-dataformat-xml,Extension for Jackson JSON processor that adds support for serializing POJOs as XML (and deserializing from XML) as an alternative to JSON
+arquillian/arquillian-examples,This repository hosts the example projects that are covered in the Arquillian Guides as well as several additional examples.
+pgjdbc/pgjdbc,Postgresql JDBC Driver
+GeoWebCache/geowebcache,GeoWebCache is a tile caching server implemented in Java that provides various tile caching services like WMS-C - TMS - WMTS - Google Maps - MS Bing and more
+fabiomaffioletti/jsondoc,Easily generate docs and playground for your RESTful API
+chewiebug/GCViewer,Fork of tagtraum industries' GCViewer. Tagtraum stopped development in 2008 - I aim to improve support for Sun's / Oracle's java 1.6+ garbage collector logs (including G1 collector)
+julianhyde/optiq,Obsolete - superseded by Apache Calcite
+smooks/smooks,Smooks Framework
+neophob/PixelController,(LED) Matrix Control Software - supports various Hardware - Keywords: LED Matrix - OSC - Realtime - VJ - Arduino - Teensy - RPI
+serso/android-calculatorpp,Android Calculator
+jline/jline2,Jline 2.x
+fakereplace/fakereplace,Hot replaces classes in the JVM 
+zkoss/zk,ZK is a highly productive Java framework for building amazing enterprise web and mobile applications
+rythmengine/rythmengine,A "Razor" like - rich featured - high performance and easy to use Java template engine
+jenkinsci/promoted-builds-plugin,Jenkins Promoted Builds Plugin
+neuland/jade4j,a pug implementation written in Java (formerly known as jade)
+Talend/tesb-rt-se,ESB
+mvel/mvel,MVEL (MVFLEX Expression Language)
+tony19/logback-android,📄The reliable - generic - fast and flexible logging framework for Android
+matyb/java-koans,A framework and lessons to learn java syntax and idioms in a logical sequence.
+jenkinsci/github-plugin,Jenkins GitHub plugin
+FasterXML/java-classmate,Library for introspecting generic type information of types - member/static methods - fields. Especially useful for POJO/Bean introspection.
+undertow-io/undertow,High performance non-blocking webserver
+apache/hama,Mirror of Apache Hama
+asakusafw/asakusafw,Asakusa Framework
+SeleniumHQ/fluent-selenium,Fluent Selenium
+DozerMapper/dozer,Dozer is a Java Bean to Java Bean mapper that recursively copies data from one object to another. 
+geosolutions-it/geoserver-manager,Java client library for GeoServer
+alphazero/jredis,Java Client and Connectors for Redis
+frgomes/jquantlib,JQuantLib is a library for Quantitative Finance written in 100% Java
+opensagres/xdocreport,XDocReport means XML Document reporting. It's Java API to merge XML document created with MS Office (docx) or OpenOffice (odt) - LibreOffice (odt) with a Java model to generate report and convert it if you need to another format (PDF - XHTML...). 
+couchbase/couchbase-java-client,The official Java client for Couchbase Server
+kevinsawicki/gitective,Find the Git commits you're looking for
+magro/kryo-serializers,More kryo serializers
+magro/memcached-session-manager,A tomcat session manager that backups sessions in memcached and pulls them from there if asked for unknown sessions
+apache/bookkeeper,Apache Bookkeeper
+qos-ch/slf4j,Simple Logging Facade for Java
+apache/tomcat,Apache Tomcat
+sevntu-checkstyle/sevntu.checkstyle,Additional Checkstyle checks - that could be added as extension to EclipseCS plugin and maven-checkstyle-plugin - Sonar checkstyle plugin - extension for CheckStyle IDEA plugin.
+apache/commons-codec,Apache Commons Codec
+apache/commons-cli,Mirror of Apache Commons CLI
+tomp2p/TomP2P,A P2P-based high performance key-value pair storage library
+bytemanproject/byteman,Byteman Project main repo
+hierynomus/sshj,ssh - scp and sftp for java
+BlackLabs/play-morphia,Provide mongodb access service to play.db.Model via Morphia
+webbit/webbit,A Java event based WebSocket and HTTP server
+antlr/antlr4,ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading - processing - executing - or translating structured text or binary files.
+jbehave/jbehave-core,
+kohsuke/github-api,Java API for GitHub
+perwendel/spark,A simple expressive web framework for java. News: Spark now has a kotlin DSL https://github.com/perwendel/spark-kotlin
+apache/jmeter,Apache JMeter
+jenkinsci/tfs-plugin,Jenkins tfs plugin
+helun/Ektorp,Java API for CouchDB
+rest-driver/rest-driver,Test Driver to test your RESTful services and clients
+apache/bigtop,Mirror of Apache Bigtop
+antlr/stringtemplate4,StringTemplate 4
+aled/jsi,Java Spatial Index
+AsyncHttpClient/async-http-client,Asynchronous Http and WebSocket Client library for Java 
+agoncal/agoncal-book-javaee7,Code of my Java EE 7 Book
+pveentjer/Multiverse,Software Transactional Memory Implementation for the JVM
+infinitest/infinitest,Infinitest: The Continuous Test Runner for the JVM
+apache/karaf,Mirror of Apache Karaf
+UniversalMediaServer/UniversalMediaServer,A DLNA - UPnP and HTTP(S) Media Server.
+mfornos/humanize,Java facility for adding a “human touch” to data.
+apache/commons-lang,Mirror of Apache Commons Lang
+jenkinsci/performance-plugin,Performance Test Running and Reporting for Jenkins CI
+caelum/caelum-stella,O Caelum Stella visa suprir as necessidades do dia a dia do desenvolvedor brasileiro
+openstreetmap/osmosis,Osmosis is a command line Java application for processing OSM data.
+gwt-test-utils/gwt-test-utils,gwt-test-utils is a Java framework that allows to test GWT client side code in a efficient - easy way
+jenkinsci/email-ext-plugin,Jenkins email-ext plugin
+SquidPony/SquidLib,Useful tools for roguelike - role-playing - strategy - and other grid-based games in Java. Feedback is welcome!
+hdiv/hdiv,Hdiv CE | Application Self-Protection
+poidasmith/winrun4j,WinRun4J Java Application Launcher
+rabbitmq/rabbitmq-java-client,RabbitMQ Java client
+airlift/airlift,Airlift framework for building REST services
+apache/accumulo,Apache Accumulo
+damnhandy/Handy-URI-Templates,A Java URI Template processor implementing RFC6570
+grundid/nfctools,nfctools library for Java
+digital-preservation/droid,DROID (Digital Record and Object Identification)
+apache/maven-surefire,Apache Maven Surefire
+apache/cxf,Apache CXF
+freemarker/freemarker-old,Repo moved to Apache Incubator! - FreeMarker template engine
+gresrun/jesque,An implementation of Resque in Java.
+DiUS/java-faker,Brings the popular ruby faker gem to Java
+springtestdbunit/spring-test-dbunit,Integration between the Spring testing framework and DBUnit
+JetBrains/intellij-plugins,Open-source plugins included in the distribution of IntelliJ IDEA Ultimate and other IDEs based on the IntelliJ Platform
+mkarneim/pojobuilder,A Java Code Generator for Pojo Builders
+apache/tika,Mirror of Apache Tika
+mtotschnig/MyExpenses,GPL licenced Android Expense Tracking App
+rafaelsteil/jforum3,JForum 3. No longer maintained - kept here for historical reasons
+aragozin/jvm-tools,Small set of tools for JVM troublshooting - monitoring and profiling.
+lukas-krecan/JsonUnit,Compare JSON in your Unit Tests
+psiegman/epublib,a java library for reading and writing epub files
+ha-jdbc/ha-jdbc,High-Availability Java Database Connectivity
+boncey/Flickr4Java,Java API For Flickr. Fork of FlickrJ
+killme2008/aviator,A high performance expression evaluator for java 
+gitblit/iciql,a model-based - database access wrapper for JDBC 
+AdamBien/lightfish,Payara / GlassFish Monitoring Utility
+robo-code/robocode,Build the best - destroy the rest!
+preon/preon,Bit syntax for Java
+huxi/lilith,Lilith is a Logging- and AccessEvent viewer for Logback - log4j - log4j2 and java.util.logging
+apache/commons-io,Mirror of Apache Commons IO
+jfree/jfreechart-fse,JFreeChart - Future State Edition
+roghughe/captaindebug,Samples from Captain Debug's Blog
+apache/commons-fileupload,Mirror of Apache Commons FileUpload
+JorenSix/TarsosDSP,A Real-Time Audio Processing Framework in Java
+hypercube1024/firefly,Firefly is an asynchronous web framework for rapid development of high-performance web application.
+MoriTanosuke/glacieruploader,A simple java command line application for Amazon Glacier
+apache/gora,Mirror of Apache Gora
+itstamen/rop,rapid open platform
+taksan/skype-java-api,Skype API for Java - based on Skype4Java library
+magefree/mage,Magic Another Game Engine
+yegor256/s3auth,Amazon S3 HTTP Basic Auth Gateway
+koush/AndroidAsync,Asynchronous socket - http(s) (client+server) and websocket library for android. Based on nio - not threads.
+CoreMedia/jangaroo-tools,AS3 w/o Flash Plugin
+apache/maven,Apache Maven core
+jacoco/jacoco,:microscope: JaCoCo - Java Code Coverage Library
+gary-rowe/multibit-merchant,A free and open source Bitcoin ecommerce platform - with several representative clients (online shop - admin etc). Uses Dropwizard - HAL - MongoDB etc
+laiweiwei/eweb4j-framework,easy web framework for java 
+chrisvest/stormpot,A fast object pool for the JVM
+julienchastang/charts4j,Let the computer in the cloud build your charts
+apache/mina-sshd,Mirror of Apache MINA SSHD
+mheath/adbcj,Asynchronous Database Connectivity in Java
+apache/commons-collections,Mirror of Apache Commons Collections
+roundrop/facebook4j,A most easily usable Facebook API wrapper in Java.
+dooApp/FXForm2,Dynamic JavaFX form generation
+linqs/psl,The PSL software from the University of Maryland and the University of California Santa Cruz
+58code/Gaea,58.com跨平台高性能高可用中间层服务框架
+apache/archiva,Apache Archiva
+ArcBees/GWTP,A complete model-view-presenter framework to simplify your next GWT project.
+Netflix/eureka,AWS Service registry for resilient mid-tier load balancing and failover.
+jiaqi/jmxterm,Interactive command line JMX client
+dwdyer/uncommons-maths,Random number generators - probability distributions - combinatorics and statistics for Java.
+henryyan/activiti-study,学习Activiti过程中的一些单元测试积累
+eclipse/birt,Eclipse BIRT™ The open source reporting and data visualization project. 
+Pi4J/pi4j,Java I/O library for Raspberry Pi (GPIO - I2C - SPI - UART)
+oblac/jodd,Jodd! Lightweight. Java. Use what you like.
+eclipse/egit,Eclipse Git Team Provider (EGit) project repository (egit)
+Activiti/Activiti,Activiti is a light-weight workflow and Business Process Management (BPM) Platform targeted at business people - developers and system admins. Its core is a super-fast and rock-solid BPMN 2 process engine for Java. It's open-source and distributed under the Apache license. Activiti runs in any Java application - on a server - on a cluster or in the cloud. It integrates perfectly with Spring - it is extremely lightweight and based on simple concepts. 
+aadnk/ProtocolLib,Provides read and write access to the Minecraft protocol with Bukkit.
+kaitoy/pcap4j,A Java library for capturing - crafting - and sending packets.
+VUE/VUE,Visual Understanding Environment
+airlift/aircompressor,A port of Snappy - LZO - LZ4 - and Zstandard  to Java
+wro4j/wro4j,Free and Open Source Java project which brings together almost all the modern web tools: JsHint - CssLint - JsMin - Google Closure compressor - YUI Compressor - UglifyJs - Dojo Shrinksafe - Css Variables Support - JSON Compression - Less - Sass - CoffeeScript and much more. In the same time - the aim is to keep it as simple as possible and as extensible as possible in order to be easily adapted to application specific needs.
+graphhopper/graphhopper,An open source routing engine. Use it as Java library or server. With OpenStreetMap.
+yandex-qatools/htmlelements,Html Elements is a Java framework providing easy-to-use way of interaction with web-page elements in web-page tests.
+square/dagger,A fast dependency injector for Android and Java.
+debop/hibernate-redis,hibernate 2nd level cache privder using redis
+linkedin/parseq,Asynchronous Java made easier
+JodaOrg/joda-beans,Java library to provide an API for beans and properties.
+bitstorm/Wicket-tutorial-examples,This repo contains code examples for my personal Wicket tutorial
+apache/opennlp,Mirror of Apache OpenNLP
+iBotPeaches/Apktool,A tool for reverse engineering Android apk files
+thinkaurelius/faunus,Graph Analytics Engine
+LMAX-Exchange/disruptor,High Performance Inter-Thread Messaging Library
+dwdyer/watchmaker,The Watchmaker Framework for Evolutionary Computation
+JesusFreke/smali,smali/baksmali
+NoCheatPlus/NoCheatPlus,Anti cheating plugin for Minecraft (Bukkit/Spigot).
+Ninja-Squad/DbSetup,An API for populating a database in unit tests
+haraldk/TwelveMonkeys,TwelveMonkeys ImageIO: Additional plug-ins and extensions for Java's ImageIO
+Renanse/Ardor3D,Ardor3D is a free Java based - professionally oriented - open source 3D graphics engine.
+sarxos/webcam-capture,The goal of this project is to allow integrated or USB-connected webcams to be accessed directly from Java. Using provided libraries users are able to read camera images and detect motion. Main project consist of several sub projects - the root one - which contains required classes - build-in webcam driver compatible with Windows - Linux and Mac OS - which can stream images as fast as your camera can serve them (up to 50 FPS). Main project can be used standalone - but user is able to replace build-in driver with different one - such as OpenIMAJ - GStreamer - V4L4j - JMF - LTI-CIVIL - FMJ - etc.
+mikera/vectorz,Fast and flexible numerical library for Java featuring N-dimensional arrays
+UweTrottmann/tmdb-java,A Java wrapper around themoviedb.org API v3 using retrofit2.
+jcodec/jcodec,JCodec main repo
+tntim96/JSCover,JSCover is a JavaScript Code Coverage Tool that measures line - branch and function coverage
+picketlink/picketlink,PicketLink is a security framework for securing Java EE applications.
+tdziurko/Guava-Lessons,Various examples of usage Google Guava API.
+aaberg/sql2o,sql2o is a small library - which makes it easy to convert the result of your sql-statements into objects. No resultset hacking required. Kind of like an orm - but without the sql-generation capabilities. Supports named parameters.
+kabutz/javaspecialists,The Java Specialists' Newsletter Sources
+crashub/crash,The shell for the Java Platform
+zeromq/jeromq,Pure Java ZeroMQ 
+Comcast/jrugged,A Java libary of robustness design patterns
+jankotek/mapdb,MapDB provides concurrent Maps - Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.
+facebook/jcommon,concurrency - collections - zookeeper - stats/analytics - config - testing - etc
+teiid/teiid,  Teiid is a data virtualization system that allows applications to use data from multiple - heterogenous data stores.
+LiveRamp/hank,Hank is a high performance distributed key-value NoSQL database that we built and use at LiveRamp. It is designed for very large data stores that dwarf the amount of available main memory and for randomly distributed read/write workloads that far exceed the capacity of memory-based caches. More specifically - it is optimized for very low latency random read queries and for very high throughput incremental batch writes.
+dreamhead/moco,Easy Setup Stub Server
+oVirt/ovirt-engine,This is a mirror for http://gerrit.ovirt.org - for issues use http://bugzilla.redhat.com
+membrane/service-proxy,API gateway for REST and SOAP written in Java.
+aws/aws-sdk-java,The official AWS SDK for Java.
+Netflix/governator,Governator is a library of extensions and utilities that enhance Google Guice to provide: classpath scanning and automatic binding - lifecycle management - configuration to field mapping - field validation and parallelized object warmup.
+killbill/killbill,Open-Source Subscription Billing & Payment Platform
+mkotsur/restito,Restito - mocking framework for testing rest clients
+httl/httl,Hyper-Text Template Language and Engine.
+Comcast/cmb,This project is no longer actively supported. It is made available as read-only. A highly available - horizontally scalable queuing and notification service compatible with AWS SQS and SNS
+paulhoule/infovore,RDF-Centric Map/Reduce Framework and Freebase data conversion tool
+CeON/CERMINE,Content ExtRactor and MINEr
+Omertron/api-themoviedb,API for TheMovieDb.org website
+junkdog/artemis-odb,A continuation of the popular Artemis ECS framework
+Netflix/Hystrix,Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems - services and 3rd party libraries - stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
+bennidi/mbassador,Powerful event-bus optimized for high throughput in multi-threaded applications. Features: Sync and Async event publication - weak/strong references - event filtering - annotation driven
+ron190/jsql-injection,jSQL Injection is a Java application for automatic SQL database injection.
+crawljax/crawljax,Crawljax: Crawling Dynamic (JavaScript-based) Web Applications
+cloudinary/cloudinary_java,Cloudinary Java Client Library
+survivingwithandroid/Surviving-with-android,Source code related to the posts in the blog
+zolyfarkas/spf4j,Simple performance framework for java
+MutabilityDetector/MutabilityDetector,Lightweight analysis tool for detecting mutability in Java classes
+barchart/barchart-udt,Java wrapper for native C++ UDT protocol.
+nurkiewicz/spring-data-jdbc-repository,Spring Data JDBC generic DAO implementation
+vkostyukov/la4j,Linear Algebra for Java
+jprante/elasticsearch-knapsack,Knapsack plugin is an import/export tool for Elasticsearch
+lviggiano/owner,Get rid of the boilerplate code in properties based configuration.
+linkedin/camus,LinkedIn's previous generation Kafka to HDFS pipeline.
+unidal/frameworks,Frameworks
+Simmetrics/simmetrics,Similarity or Distance Metrics - e.g. Levenshtein - for Java
+carrotsearch/hppc,High Performance Primitive Collections for Java
+apache/jena,Mirror of Apache Jena
+openxc/openxc-android,Android library for accessing vehicle data from an OpenXC vehicle interface
+ThreeTen/threeten-extra,Provides additional date-time classes that complement those in JDK 8
+pentaho/pentaho-platform,Pentaho BA Server Core
+p6spy/p6spy,P6Spy is a framework that enables database data to be seamlessly intercepted and logged with no code changes to the application.
+apache/commons-compress,Mirror of Apache Commons Compress
+linkedin/databus,Source-agnostic distributed change data capture system
+stanfy/enroscar,A set of Android tools that facilitate apps development
+robovm/robovm,For more info see
+jqno/equalsverifier,EqualsVerifier can be used in Java unit tests to verify whether the contract for the equals and hashCode methods is met.
+ThreeTen/threetenbp,Backport of functionality based on JSR-310 to Java SE 6 and 7. This is NOT an implementation of JSR-310.
+jMonkeyEngine/jmonkeyengine,A complete 3D game development suite written purely in Java.
+jmxtrans/jmxtrans,jmxtrans
+ttddyy/datasource-proxy,Provide listener framework for JDBC interactions and query executions  via proxy.
+pentaho/pentaho-reporting,Java class library for generating reports.
+apache/commons-net,Apache Commons Net
+CamelCookbook/camel-cookbook-examples,Example source code for Apache Camel Developer's Cookbook
+dandelion/dandelion-datatables,Dandelion component for DataTables
+iainporter/rest-java,Building rest services in Java with Spring and Jersey
+apache/cayenne,Mirror of Apache Cayenne
+Netflix/ribbon,Ribbon is a Inter Process Communication (remote procedure calls) library with built in software load balancers. The primary usage model involves REST calls with various serialization scheme support.
+Netflix/netflix-commons,Common utilities for Netflix OSS projects
+mttkay/signpost,A light-weight client-side OAuth library for Java
+forcedotcom/phoenix,
+mindwind/craft-atom,A crafted and atomic component library for Java.
+theborakompanioni/thymeleaf-extras-shiro,A Thymeleaf dialect for Apache Shiro tags.
+owlike/genson,Genson a fast & modular Java <> Json library
+apache/tomee,Mirror of Apache Tomee
+codinguser/gnucash-android,Gnucash for Android mobile companion application. 
+roboguice/roboguice,Google Guice on Android - version 3.0 [RETIRED]
+ArcBees/Jukito,The combined power of JUnit - Guice and Mockito. Plus it sounds like a cool martial art.
+bulldog2011/luxun,A high-throughput - persistent - distributed - publish-subscribe messaging system based on memory mapped file and Thrift RPC
+forcedotcom/wsc,
+TNG/junit-dataprovider,A TestNG like dataprovider runner for JUnit with many additional features
+openMF/mifosx,NOW DEPRECATED. All development occurs on Apache Fineract (https://github.com/apache/incubator-fineract). 
+mybatis/spring,Spring integration for MyBatis 3
+prometheus/client_java,Prometheus instrumentation library for JVM applications
+undera/jmeter-plugins,JMeter Plugins
+linkedin/rest.li,Rest.li is a REST+JSON framework for building robust - scalable service architectures using dynamic discovery and simple asynchronous APIs.
+mybatis/mybatis-3,MyBatis SQL mapper framework for Java
+myrrix/myrrix-recommender,Stand-alone recommender system from Myrrix
+bwaldvogel/mongo-java-server,Fake implementation of MongoDB in Java that speaks the wire protocol.
+ktuukkan/marine-api,Java Marine API - NMEA 0183 library for Java
+joelittlejohn/jsonschema2pojo,Generate Java types from JSON or JSON Schema and annotates those types for data-binding with Jackson - Gson - etc
+mybatis/guice,Google Guice integration for MyBatis 3
+mybatis/generator,A code generator for MyBatis.
+pubnub/java,PubNub Java-based APIs for core Java - Android
+LitePalFramework/LitePal,An Android library that makes developers use SQLite database extremely easy.
+logstash/logstash-logback-encoder,Logback JSON encoder and appenders
+OneBusAway/onebusaway-android,The official Android/Fire Phone app for OneBusAway
+cattong/YiBo,A simple and fast weibo app -support Sina - Tencent - Twiiter - Netease -Soho...
+sculptor/sculptor,Sculptor is a code generator that applies the concepts from Domain-Driven Design and Domain Specific Languages.
+mwanji/toml4j,A Java TOML parser
+alibaba/canal,阿里巴巴 MySQL binlog 增量订阅&消费组件 
+alibaba/tamper,A Java Bean to Java Bean mapper that recursively copies data from one object to another
+ORCID/ORCID-Source,ORCID Open Source Project
+twitter/hbc,A Java HTTP client for consuming Twitter's realtime Streaming API
+broadgsa/gatk-protected,Official code repository for GATK versions 1.0 through 3.7 (full licensed package). For GATK 4 code - see the https://github.com/broadinstitute/gatk repository
+alibaba/druid,阿里巴巴数据库事业部出品，为监控而生的数据库连接池
+alibaba/fastjson,A fast JSON parser/generator for Java.  
+NineWorlds/serenity-android,And Android client for the Plex and Emby Media Servers optimized for Television displays.
+58code/Argo,58.com轻量级web框架
+Netflix/denominator,Portably control DNS clouds using java or bash
+reficio/soap-ws,Java library - based on Spring-WS - that enables handling SOAP on a purely XML level
+JnRouvignac/AutoRefactor,Eclipse plugin to automatically refactor Java code bases
+JakeWharton/butterknife,Bind Android views and callbacks to fields and methods.
+Netflix/karyon,The nucleus or the base container for Applications and Services built using the NetflixOSS ecosystem
+togglz/togglz,Feature Flags for the Java platform
+j256/ormlite-core,Core ORMLite functionality that provides a lite Java ORM in conjunction with ormlite-jdbc or ormlite-android
+j256/ormlite-jdbc,ORMLite JDBC functionality that works with JDBC drivers to attach to various database types
+morfologik/morfologik-stemming,Tools for finite state automata construction and dictionary-based morphological dictionaries. Includes Polish stemming dictionary.
+finmath/finmath-lib,Mathematical Finance Library: Algorithms and methodologies related to mathematical finance.
+camunda/camunda-bpm-platform,Flexible framework for workflow and decision automation
+joel-costigliola/assertj-core,AssertJ is a library providing easy to use rich typed assertions 
+joel-costigliola/assertj-examples,Examples illustrating AssertJ assertions
+skylot/jadx,Dex to Java decompiler
+kongchen/swagger-maven-plugin,JAX-RS & SpringMVC supported maven build plugin - helps you generate Swagger JSON and API document in build phase.
+eXist-db/exist,eXist Native XML Database and Application Platform
+javaswift/joss,Java library for OpenStack Storage - aka Swift
+Esri/geometry-api-java,The Esri Geometry API for Java enables developers to write custom applications for analysis of spatial data.  This API is used in the Esri GIS Tools for Hadoop and other 3rd-party data processing solutions.
+rackerlabs/repose,The powerful - programmable - API Middleware Platform
+Esri/spatial-framework-for-hadoop,The Spatial Framework for Hadoop allows developers and data scientists to use the Hadoop data processing system for spatial data analysis.
+Haehnchen/idea-php-symfony2-plugin,IntelliJ IDEA / PhpStorm Symfony Plugin
+ios-driver/ios-driver,Selenium server to test native - hybrid and web apps on IOS. Join us on IRC #ios-driver on freenode
+wildfly/wildfly,WildFly Application Server
+concordion/concordion,Concordion is an open source framework for Java that lets you turn a plain English description of a requirement into an automated test.  Concordion is the most flexible tool for creating high-quality living documentation. It is often used with Specification by Example (SbE) and Behaviour Driven Development (BDD) processes.
+OpenNMS/opennms,Enterprise-Grade Open-Source Network Management Platform
+hekailiang/squirrel,squirrel-foundation is a State Machine library - which provided a lightweight - easy use - type safe and programmable state machine implementation for Java.
+apache/syncope,Apache Syncope
+NanoHttpd/nanohttpd,Tiny - easily embeddable HTTP server in Java.
+fommil/matrix-toolkits-java,:rocket: High Performance Linear Algebra OOP
+airlift/slice,Java library for efficiently working with heap and off-heap memory
+mapstruct/mapstruct,An annotation processor for generating type-safe bean mappers
+gwtproject/gwt,GWT Open Source Project
+jpatanooga/Metronome,Suite of parallel iterative algorithms built on top of Iterative Reduce
+jmxtrans/jmxtrans-agent,Java Agent based JMX metrics exporter.
+sismics/reader,Free and open source feeds reader - including all major Google Reader features
+arx-deidentifier/arx,ARX is a comprehensive open source data anonymization tool aiming to provide scalability and usability. It supports various anonymization techniques - methods for analyzing data quality and re-identification risks and it supports well-known privacy models - such as k-anonymity - l-diversity - t-closeness and differential privacy.
+apache/tez,Mirror of Apache Tez
+JabRef/jabref,Graphical Java application for managing BibTeX and biblatex (.bib) databases
+DigitalPebble/storm-crawler,Scalable web crawler based on Apache Storm 
+pmerienne/trident-ml,Trident-ML : A realtime online machine learning library
+puniverse/quasar,Fibers - Channels and Actors for the JVM
+RoboBinding/RoboBinding,A data-binding Presentation Model(MVVM) framework for the Android platform.
+restx/restx,RESTX - the lightweight Java REST framework
+danieldk/dictomaton,Finite state dictionaries in Java
+spotify/netty-zmtp,A Netty implementation of ZMTP - the ZeroMQ Message Transport Protocol.
+marschall/memoryfilesystem,An in memory implementation of a JSR-203 file system
+ActiveJpa/activejpa,A simple active record pattern library in java that makes programming DAL easier
+j256/simplemagic,Simple file magic number and content-type library which provides mime-type determination from files and byte arrays
+apache/cloudstack,Apache Cloudstack
+lindenb/jvarkit,Java utilities for Bioinformatics
+jamesdbloom/mockserver,MockServer enables easy mocking of any system you integrate with via HTTP or HTTPS with clients written in Java - JavaScript and Ruby.  MockServer also includes a proxy that introspects all proxied traffic including encrypted SSL traffic and supports Port Forwarding - Web Proxying (i.e. HTTP proxy) - HTTPS Tunneling Proxying (using HTTP CONNECT) and SOCKS Proxying (i.e. dynamic port forwarding).
+iansrobinson/graph-databases-use-cases,Example use cases from the O'Reilly Graph Databases book
+segmentio/analytics-android,The hassle-free way to add analytics to your Android app.
+openrocket/openrocket,OpenRocket simulation software
+mopub/mopub-android-sdk,
+dayatang/dddlib,A DDD (Domain Driven Design) Library - derived from the idea of Eric Evans' book:  'Domain-Driven Design: Tackling Complexity in the Heart of Software'
+ebnew/ki4so,简约互联网单点登录系统是一个简单、无状态、易扩展、易伸缩，特别适合大型互联网应用的单点登录解决方案。
+nurkiewicz/LazySeq,Lazy sequences implementation for Java 8
+RIPE-NCC/whois,RIPE Database whois code repository
+square/picasso,A powerful image downloading and caching library for Android
+six2six/fixture-factory,Generator fake objects from a template
+google/gwtmockito,Better GWT unit testing
+pkainulainen/spring-mvc-test-examples,
+agoncal/agoncal-application-petstore-ee7,A Java Petstore using the Java EE 7
+code4craft/webmagic,A scalable web crawler framework for Java.
+PCGen/pcgen,Main code and data development for pcgen program release
+itisaid/Doris,A large scale distributed KV storage system.
+jboss-javassist/javassist,Java bytecode engineering toolkit
+jeffheaton/aifh,Artificial Intelligence for Humans
+kermitt2/grobid,A machine learning software for extracting information from scholarly documents
+pkainulainen/spring-data-jpa-examples,
+OpenHFT/Java-Lang,Java Language support
+StripesFramework/stripes,Stripes is a Java framework with the goal of making Servlet/JSP based web development in Java as easy - intuitive and straight-forward as it should be. It's stripey and it doesn't suck.
+cloudera/search,
+apache/deltaspike,Mirror of Apache Deltaspike
+mcxiaoke/android-volley,DEPRECATED
+bcgit/bc-java,Bouncy Castle Java Distribution (Mirror)
+ahmetaa/zemberek-nlp,NLP tools for Turkish.
+peter-lawrey/Java-Chronicle-OLD,
+yegor256/rultor,DevOps Team Assistant
+threadly/threadly,A library of tools to assist with safe concurrent java development.  Providing unique priority based thread pools - and ways to distrbute threaded work safely.
+zeroturnaround/zt-exec,ZeroTurnaround Process Executor
+JSQLParser/JSqlParser,JSqlParser parses an SQL statement and translate it into a hierarchy of Java classes. The generated hierarchy can be navigated using the Visitor Pattern
+trautonen/coveralls-maven-plugin,Maven plugin for submitting Java code coverage reports to Coveralls web service.
+julman99/gson-fire,A java library that adds some very useful features to Gson - like Date serializing to unix timestamp or RFC3339 - method (getters) serialization - pre/post processors and many others. Check out the documentation to learn how to use it!
+groovy/GMavenPlus,A rewrite of GMaven - a Maven plugin for Groovy
+sirixdb/sirix,SirixDB facilitates effective and efficient storing and querying of your temporal data. Every commit stores a space-efficient snapshot. It is log-structured and never overwrites data. SirixDB uses a novel page-level versioning approach called sliding snapshot.
+peter-lawrey/HugeCollections-OLD,Huge Collections for Java using efficient off heap storage
+NGDATA/hbase-indexer,Lily HBase Indexer - indexing HBase - one row at a time
+twitter/hraven,hRaven collects run time data and statistics from MapReduce jobs in an easily queryable format
+techtribesje/techtribesje,Source code for the techtribes.je website
+keycloak/keycloak,Open Source Identity and Access Management For Modern Applications and Services
+dropbox/dropbox-sdk-java,A Java library for the Dropbox Core API.
+jboss-modules/jboss-modules,A Modular Classloading System
+irmen/Pyrolite,Java and .NET interface to Python's pickle and Pyro protocols
+Pardot/Rhombus,A time-series object store for Cassandra that handles all the complexity of building wide row indexes. 
+mapstruct/mapstruct-examples,Examples for using MapStruct
+SpigotMC/Spigot-API,OUTDATED - SEE https://hub.spigotmc.org/stash/projects/SPIGOT
+bumptech/glide,An image loading and caching library for Android focused on smooth scrolling
+opensourceBIM/BIMserver,The open source BIMserver platform
+zycgit/hasor,Hasor是一套基于 Java 语言的分布式应用程序开发框架，它的核心设计目标是提供一个简单、且必要的环境给开发者。区别于其它框架的是 Hasor 有着自己一套完整的体系，无论您是一般的Web项目，还是几百人团队中复杂的分布式系统。Hasor都会给予你最有力的支持。
+apache/commons-imaging,Mirror of Apache Commons Imaging
+jan-molak/jenkins-build-monitor-plugin,Jenkins CI Build Monitor Plugin
+johncarl81/parceler,:package: Android Parcelables made easy through code generation.
+estatio/estatio,Estatio Open Source Estate Management built on Apache Isis
+alibaba/cobarclient,基于iBatis和Spring的轻量级分布式数据访问框架(DDAL)
+tyrus-project/tyrus,Tyrus - Reference implementation of Java API for WebSocket - JSR 356
+apache/commons-csv,Mirror of Apache Commons CSV
+Thomas-S-B/visualee,A maven plugin to visualize java ee projects
+adamhub/screenbird,a full cross platform video screen capture tool and host. Java based screen recorder - and Django based web backend. Also included is a distributed video processing engine that uses ffmpeg across any amount of AWS instances.
+tdunning/log-synth,Generates more or less realistic log data for testing simple aggregation queries.
+nurkiewicz/async-retry,Asynchronous retrying for Java 7/8
+graphaware/neo4j-framework,GraphAware Neo4j Framework
+synyx/urlaubsverwaltung,Schluss mit Papierchaos und langweiliger Software. Wir zeigen dir - dass Urlaubsverwaltung auch Spaß machen kann.
+alibaba/wasp,megastore-like system
+protegeproject/webprotege,The webprotege code base
+xpadro/spring-integration,Samples of different Spring Integration modules (jms - batch - integration)
+owlcs/owlapi,OWL API main repository
+apache/commons-dbcp,Mirror of Apache Commons DBCP
+apache/commons-pool,Mirror of Apache Commons Pool
+sismics/docs,Lightweight document management system packed with all the features you can expect from big expensive solutions
+feuyeux/jax-rs2-guide,《Java Restful Web Service实战》源代码
+kframework/k,K Framework Tools 5.0
+jaeksoft/opensearchserver,Open-source Enterprise Grade Search Engine Software
+mycila/license-maven-plugin,Manage license headers in your source files
+apache/logging-log4j2,Mirror of Apache Logging Log4J2
+google/auto,A collection of source code generators for Java.
+yegor256/xembly,Assembly for XML
+apache/commons-dbutils,Mirror of Apache Commons DbUtils
+languagetool-org/languagetool,Style and Grammar Checker for 25+ Languages
+spring-projects/spring-framework,Spring Framework
+Huawei-Hadoop/hindex,Secondary Index for HBase
+aerogear/aerogear-unifiedpush-server,:rocket: AeroGear UnifiedPush Server
+spring-projects/spring-data-jpa,Simplifies the development of creating a JPA-based data access layer. 
+futuresimple/android-db-commons,Some common utilities for ContentProvider/ContentResolver/Cursor and other db-related android stuff
+spring-projects/spring-ldap,Spring LDAP
+spring-projects/spring-data-mongodb,Provide support to increase developer productivity in Java when using MongoDB. Uses familiar Spring concepts such as a template classes for core API usage and lightweight repository style data access.
+spring-projects/spring-hadoop,Spring for Apache Hadoop is a framework for application developers to take advantage of the features of both Hadoop and Spring.
+spring-projects/spring-data-rest,Simplifies building hypermedia-driven REST web services on top of Spring Data repositories
+spring-projects/spring-xd,Spring XD makes it easy to solve common big data problems such as data ingestion and export - real-time analytics - and batch workflow orchestration
+spring-projects/spring-security,Spring Security
+spring-projects/spring-batch,Spring Batch is a framework for writing offline and batch applications using Spring and Java
+spring-projects/spring-data-commons,Spring Data Commons. Interfaces and code shared between the various datastore specific implementations.
+spring-projects/spring-data-redis,Provides support to increase developer productivity in Java when using Redis - a key-value store. Uses familiar Spring concepts such as a template classes for core API usage and lightweight repository style data access.
+spring-projects/spring-integration,Spring Integration provides an extension of the Spring programming model to support the well-known Enterprise Integration Patterns (EIP)
+spring-projects/spring-data-elasticsearch,Provide support to increase developer productivity in Java when using Elasticsearch. Uses familiar Spring concepts such as a template classes for core API usage and lightweight repository style data access.
+spring-projects/spring-boot,Spring Boot
+spring-projects/spring-data-couchbase,Spring Data Couchbase
+spring-projects/spring-data-solr,Spring Data - Apache Solr integration
+spring-projects/spring-social,Allows you to connect your applications with SaaS providers such as Facebook and Twitter.
+spring-projects/spring-social-facebook,Facebook API binding and connect support.
+spring-projects/spring-data-neo4j,Provides support to increase developer productivity in Java when using the neo4j graph database. Uses familiar Spring concepts such as a template classes for core API usage and provides an annotation based programming model using AspectJ
+spring-projects/spring-mobile,Extensions to Spring MVC for developing mobile web applications.
+spring-projects/spring-roo,Spring Roo is a next-generation rapid application development tool for Java developers. It focuses on higher productivity - stock-standard Java APIs - high usability - avoiding engineering trade-offs and facilitating easy Roo removal.
+spring-projects/spring-loaded,Java agent that enables class reloading in a running JVM
+spring-projects/spring-shell,Spring based interactive shell
+spring-projects/spring-ws,Spring Web Services
+spring-projects/spring-hateoas,Spring HATEOAS - Library to support implementing representations for hyper-text driven REST web services.
+spring-projects/spring-security-oauth,Support for adding OAuth1(a) and OAuth2 features (consumer and provider) for Spring web applications.
+spring-projects/spring-amqp,Spring AMQP - support for Spring programming model with AMQP - especially but not limited to RabbitMQ
+spring-projects/spring-webflow,Spring Web Flow
+spring-projects/spring-security-saml,SAML extension for the Spring Security project
+spring-projects/spring-retry,
+ymartineau/peers,Java SIP softphone
+relayrides/pushy,A Java library for sending APNs (iOS/macOS/Safari) push notifications
+alibaba/otter,阿里巴巴分布式数据库同步系统(解决中美异地机房)
+rackerlabs/blueflood,A distributed system designed to ingest and process time series data
+protegeproject/protege,Protege Desktop
+nmorel/gwt-jackson,gwt-jackson is a JSON parser for GWT. It uses Jackson 2.x annotations to customize the serialization/deserialization process.
+FasterXML/jackson-datatype-hibernate,Add-on module for Jackson JSON processor which handles Hibernate (http://www.hibernate.org/) datatypes; and specifically aspects of lazy-loading
+google/compile-testing,Testing tools for javac and annotation processors
+ustream/yolo,Log tailing and parsing framework in Java
+code4craft/jsoup-learning,Jsoup学习笔记。添加了部分学习代码和注释。
+selendroid/selendroid,"Selenium for Android" (Test automate native or hybrid Android apps and the mobile web with Selendroid.) Join us on IRC #selendroid on freenode. Also confirm you have signed the CLA http://goo.gl/pAvxEI when making a Pull Request.
+alibaba/jstorm,Enterprise Stream Process Engine
+ical4j/ical4j,A Java library for parsing and building iCalendar data models
+spring-projects/spring-integration-samples,You are looking for examples - code snippets - sample applications for Spring Integration? This is the place.
+jcabi/jcabi-aspects,Collection of AOP/AspectJ Java Aspects
+spring-projects/spring-security-javaconfig,Spring Security Java Configuration Support (to be merged with spring-security-config)
+spring-projects/spring-xd-samples,Sample starter applications and code for use with the Spring XD project
+spring-projects/spring-ide,Spring Development Environment for Eclipse
+javamonkey/beetl2.0,beetl2.0
+spring-projects/spring-data-book,Spring Data - The Definitive Guide - Modern Data Access for Enterprise Java Developers
+spring-projects/eclipse-integration-gradle,Gradle Tooling for Eclipse
+usb4java/usb4java,USB library for Java based on libusb
+maven-nar/nar-maven-plugin,Native ARchive plugin for Maven
+bechte/junit-hierarchicalcontextrunner,This is a runner implementation that supports context hierarchies in JUnit. For more details please visit: https://github.com/bechte/junit-hierarchicalcontextrunner/wiki
+dropwizard/dropwizard,A damn simple library for building production-ready RESTful web services.
+jdereg/java-util,Rarely available and hard-to-write Java utilities - written correctly - and thoroughly tested
+knowitall/reverb,Web-Scale Open Information Extraction
+percyliang/sempre,Semantic Parser with Execution
+spring-projects/spring-integration-extensions,The Spring Integration Extensions project provides extension components for Spring Integration
+codelibs/fess,Fess is very powerful and easily deployable Enterprise Search Server.
+rometools/rome,Java library for RSS and Atom feeds
+code4craft/netty-learning,Netty learning.
+torakiki/sejda,An extendible and configurable PDF manipulation layer library written in java.
+spring-projects/greenhouse,Reference web application for Spring technologies and social destination for Spring developers.
+torakiki/pdfsam,PDFsam - a desktop application to extract pages - split - merge - mix and rotate PDF files
+alibaba/asyncload,阿里巴巴异步并行加载工具(依赖字节码技术)
+AdoptOpenJDK/jitwatch,Log analyser / visualiser for Java HotSpot JIT compiler. Inspect inlining decisions - hot methods - bytecode - and assembly. View results in the JavaFX user interface.
+pkainulainen/spring-social-examples,
+Norconex/collector-http,Norconex HTTP Collector is a flexible web crawler for collecting - parsing - and manipulating data from the Internet (or Intranet) to various data repositories such as search engines.
+Cetsoft/imcache,Imcache is a Java Caching Library.
+siom79/japicmp,Comparison of two versions of a jar archive
+OpenHFT/Java-Thread-Affinity,Bind a java thread to a given core
+michel-kraemer/gradle-download-task,Adds a download task to Gradle that displays progress information
+novoda/spikes,Where ideas & concepts are born & incubated
+indeedeng/proctor,Proctor is a Java-based A/B testing framework developed by - and used heavily within - Indeed.
+indeedeng/util,Useful Java utilities
+spring-projects/spring-data-cassandra,Provides support to increase developer productivity in Java when using Apache Cassandra.  Uses familiar Spring concepts such as a template classes for core API usage and lightweight repository style data access.
+Adobe-Consulting-Services/acs-aem-commons,
+mp911de/logstash-gelf,Graylog Extended Log Format (GELF) implementation in Java for all major logging frameworks: log4j - log4j2 - java.util.logging - logback - JBossAS7 and WildFly 8-12
+pentaho/pentaho-kettle,Pentaho Data Integration ( ETL ) a.k.a Kettle
+katjahahn/PortEx,Java library to analyse Portable Executable files with a special focus on malware analysis and PE malformation robustness
+kuujo/vertigo,Flow-based programming for the Vert.x application platform.
+cinchapi/concourse,Distributed database warehouse for transactions - search and analytics across time.
+sarahtattersall/PIPE,PIPE - Platform Independent Petri Net Editor
+ivan-vasilev/neuralnetworks,java deep learning algorithms and deep neural networks with gpu acceleration
+JavaMoney/jsr354-api,JSR 354 - Money and Currency API
+IanDarwin/javasrc,Ian's Collected code examples from the O'Reilly Java Cookbook & elsewhere
+emilsjolander/sprinkles,Sprinkles is a boiler-plate-reduction-library for dealing with databases in android applications
+pires/obd-java-api,OBD-II Java API
+umple/umple,Umple: Model-Oriented Programming - embed models in code and vice versa and generate complete systems
+sannies/mp4parser,A Java API to read - write and create MP4 files
+ggp-org/ggp-base,The General Game Playing Base Package
+stratosphere/stratosphere,Stratosphere is now Apache Flink.
+caelum/vraptor4,A web MVC action-based framework - on top of CDI - for fast and maintainable Java development.
+jpush/jpush-api-java-client,JiGuang's officially supported Java client library for accessing JPush APIs.   极光官方支持的 Java 版本服务器端 SDK。
+jhalterman/lyra,High availability RabbitMQ client
+vladmihalcea/vladmihalcea.wordpress.com,Some of the source code for vladmihalcea.com. The hibernate-master-class and the high-performance-java-persistence are used as blog source code repos as well.
+MenoData/Time4J,Advanced date - time and interval library for Java with sun/moon-astronomy and calendars like Chinese - Coptic - Ethiopian - French Republican - Hebrew - Hijri - Historic Christian - Indian National - Japanese - Julian - Korean - Minguo - Persian - Thai - Vietnamese
+FINRAOS/DataGenerator,DataGenerator is a Java library for systematically producing large volumes of data. DataGenerator frames data production as a modeling problem - with a user providing a model of dependencies among variables and the library traversing the model to produce relevant data sets. 
+freedomotic/freedomotic,Open IoT Framework
+brettwooldridge/HikariCP,光 HikariCP・A solid - high-performance - JDBC connection pool at last.
+JavaMoney/jsr354-ri,JSR 354 - Moneta: Reference Implementation
+apache/commons-beanutils,Apache Commons Beanutils
+briandilley/jsonrpc4j,JSON-RPC for Java
+strongbox/strongbox,Strongbox is an artifact repository manager.
+addthis/stream-lib,Stream summarizer and cardinality estimator.
+cloudfoundry/cf-java-client,Java Client Library for Cloud Foundry
+yxjiang/algorithms,
+bingoohuang/eql,an easy jdbc sql framework of an alternative to ibatis
+wikimedia/apps-android-wikipedia, 📱The official Wikipedia app for Android!
+serso/android-messengerpp,Multi-protocol open source instant messaging client on Android
+jcabi/jcabi-github,Object Oriented Wrapper of Github API
+sentilo/sentilo,Sentilo platform
+asciidoctor/asciidoctorj,:coffee: Java bindings for Asciidoctor. Asciidoctor on the JVM!
+jnode/jnode,Code for the JNode operating system
+bitcoinj/bitcoinj,A library for working with Bitcoin
+phishman3579/java-algorithms-implementation,Algorithms and Data Structures implemented in Java
+tdunning/t-digest,A new data structure for accurate on-line accumulation of rank-based statistics such as quantiles and trimmed means
+HubSpot/Singularity,Scheduler (HTTP API and webapp) for running Mesos tasks—long running processes - one-off tasks - and scheduled jobs. #hubspot-open-source
+opentripplanner/OpenTripPlanner,An open source multi-modal trip planner
+klarna/HiveRunner,An Open Source unit test framework for Hive queries based on JUnit 4 and 5
+raphw/byte-buddy,Runtime code generation for the Java virtual machine.
+mpetazzoni/ttorrent,BitTorrent Java library with tracker and download client
+path/android-priority-jobqueue,A Job Queue specifically written for Android to easily schedule jobs (tasks) that run in the background - improving UX and application stability.
+liveoak-io/liveoak,
+javaee-samples/javaee7-samples,Java EE 7 Samples
+HotswapProjects/HotswapAgent,Java unlimited redefinition of classes at runtime.
+copper-engine/copper-engine,COPPER - a high performance Java workflow engine
+galenframework/galen,Layout and functional testing framework for websites
+kite-sdk/kite,Kite SDK
+Netflix/zeno,Netflix's In-Memory Data Propagation Framework
+jhipster/jhipster-sample-app,This is a sample application created with JHipster
+atinfo/at.info-knowledge-base,http://automated-testing.info knowledge base on test automation examples
+Netflix/suro,Netflix's distributed Data Pipeline
+denimgroup/threadfix,ThreadFix is a software vulnerability management platform. This GitHub site is far out of date. Please go to www.threadfix.it for up-to-date information.
+real-logic/simple-binary-encoding,Simple Binary Encoding (SBE) - High Performance Message Codec
+itext/itextpdf,[DEPRECATED] Core Java Library + PDF/A - xtra and XML Worker. Only security fixes will be added — please use iText 7
+flaxsearch/luwak,A java library for stored queries
+Netflix/staash,A language-agnostic as well as storage-agnostic web interface for storing data into persistent storage systems - the metadata layer abstracts a lot of storage details and the pattern automation APIs take care of automating common data access patterns.
+Steveice10/MCProtocolLib,A library for communication with a Minecraft client/server.
+tlaukkan/zigbee4java,Zigbee API for Java provides simple Java interface to ZigBee network.
+eclipse/kura,Eclipse Kura™ project - http://eclipse.org/kura
+awslabs/amazon-kinesis-client,Client library for Amazon Kinesis
+zhangkaitao/spring4-showcase,（我的公众号：kaitao-1234567，我的新书：《亿级流量网站架构核心技术》） 
+shopizer-ecommerce/shopizer,Shopizer java e-commerce software
+googleads/googleads-java-lib,Google Ads APIs Client Library for Java (AdWords and DFP)
+code4craft/hello-design-pattern,Hello world using all 23 kinds of GoF design patterns.
+javers/javers,JaVers - object auditing and diff framework for Java
+glowroot/glowroot,Easy to use - very low overhead - Java APM
+smola/galimatias,galimatias is a URL parsing and normalization library written in Java.
+wbaumann/SmartReceiptsLibrary,A customizable - easy-to-use receipt scanner for Android
+Evolveum/midpoint,Evolveum MidPoint: Identity Management (IDM) and Identity Governance (IGA)
+dbfit/dbfit,DbFit is a database testing framework that supports easy test-driven development of your database code.
+addthis/hydra,
+hcoles/pitest,State of the art mutation testing system for the JVM
+jhunters/jprotobuf,A very useful utility library for java programmer using google protobuf
+RuedigerMoeller/fast-serialization,FST: fast java serialization drop in-replacement 
+code4craft/tiny-spring,A tiny IoC container refer to Spring.
+imixs/imixs-workflow,The open source workflow technology for business applications
+apache/helix,Mirror of Apache Helix
+apache/struts,Mirror of Apache Struts
+alibaba/cobar,a proxy for sharding databases and tables
+CompEvol/beast2,Bayesian Evolutionary Analysis by Sampling Trees
+opensciencemap/vtm,a vector-tile map library written in java - running on android - desktop and within the browser
+protostuff/protostuff,Java serialization library - proto compiler - code generator
+Wikidata/Wikidata-Toolkit,Java library to interact with Wikibase
+google/jimfs,An in-memory file system for Java 7+
+camelinaction/camelinaction,This project hosts the source code for the examples of the Camel in Action 1st ed book written by Claus Ibsen and Jonathan Anstey.
+yammer/tenacity,Dropwizard + Hystrix Module.
+opendaylight/controller,Mirror of the OpenDaylight controller gerrit project
+spring-projects/spring-data-examples,Spring Data Example Projects
+jcabi/jcabi-http,Fluent Java HTTP client
+lukas-krecan/future-converter,Converts between various future types
+jbake-org/jbake,Java based open source static site/blog generator for developers & designers.
+larsga/Duke,Duke is a fast and flexible deduplication engine written in Java
+mucommander/mucommander,A lightweight - cross-platform file manager with a dual-pane interface
+igniterealtime/Smack,A modular and portable open source XMPP client library written in Java for Android and Java (SE) VMs
+TomasMikula/ReactFX,Reactive event streams - observable values and more for JavaFX.
+la-team/light-admin,[PoC] Pluggable CRUD UI library for Java web applications
+forge/roaster,A Java Parser library that allows easy parsing and formatting of Java source files
+ragnor/simple-spring-memcached,A drop-in library to enable memcached caching in Spring beans via annotations
+hyperic/hq,Hyperic open source
+davidmoten/rxjava-jdbc,Efficient execution and functional composition of database calls using jdbc and RxJava Observables
+ferstl/depgraph-maven-plugin,A Maven plugin that generates dependency graphs in various formats (DOT - GML - PlantUML - JSON and Text)
+aerospike/aerospike-client-java,Aerospike Java Client Library
+resty-gwt/resty-gwt,Like GWT-RPC but with REST/JSON coolness
+mayconbordin/streaminer,A collection of algorithms for mining data streams
+vladmihalcea/flexy-pool,FlexyPool adds metrics and failover strategies to a given Connection Pool - allowing it to resize on demand.
+datacleaner/DataCleaner,The premier open source Data Quality solution
+jpmml/jpmml-model,Java Class Model API for PMML
+jpmml/jpmml-evaluator,Java Evaluator API for PMML
+lessthanoptimal/ejml,A fast and easy to use linear algebra library written in Java for dense - sparse - real - and complex matrices.
+gocd/gocd,Main repository for GoCD - Continuous Delivery server
+MirakelX/mirakel-android,Easy task management for professionals
+my2iu/Jinq,LINQ-style queries for Java 8
+rhq-project/rhq,RHQ system management and monitoring framework
+MichaelTamm/junit-toolbox,Useful classes for writing automated tests with JUnit 4
+cloudera/cm_ext,Cloudera Manager Extensibility Tools and Documentation.
+Hive2Hive/Hive2Hive,Java library for secure - distributed - P2P-based file synchronization and sharing.
+optimaize/language-detector,Language Detection Library for Java
+jOOQ/jOOL,jOOλ - The Missing Parts in Java 8 jOOλ improves the JDK libraries in areas where the Expert Group's focus was elsewhere. It adds tuple support - function support - and a lot of additional functionality around sequential Streams. The JDK 8's main efforts (default methods - lambdas - and the Stream API) were focused around maintaining backwards compatibility and implementing a functional API for parallelism.
+citiususc/hipster,Hipster4j is a lightweight and powerful heuristic search library for Java and Android. It contains common - fully customizable algorithms such as Dijkstra - A* (A-Star) - DFS - BFS - Bellman-Ford and more.
+apache/curator,Apache Curator
+osmdroid/osmdroid,OpenStreetMap-Tools for Android
+HPI-Information-Systems/Metanome,The source repository of the Metanome tool
+Erudika/para,Open source back-end server for web - mobile and IoT. The backend for busy developers. (self-hosted or hosted)
+TouK/sputnik,Static code review for your Gerrit patchsets. Runs Checkstyle - PMD - FindBugs - Scalastyle - CodeNarc - JSLint for you!
+unitsofmeasurement/unit-api,Units of Measurement API
+RichardWarburton/java-8-lambdas-exercises,Exercises and Answers for Java 8 Lambdas book
+CodeStory/fluent-http,This is the simplest fastest full fledged web server we could come up with.
+apache/tajo,Mirror of Apache Tajo
+tkaczmarzyk/specification-arg-resolver,An alternative API for filtering data with Spring MVC & Spring Data JPA
+javamelody/javamelody,JavaMelody : monitoring of JavaEE applications
+omnifaces/omnifaces,To make JSF life easier
+stagemonitor/stagemonitor,an open source solution to application performance monitoring for java server applications
+spring-io/sagan,The spring.io site and reference application
+HiddenStage/divide,
+GluuFederation/oxAuth,OAuth 2.0 server and client; OpenID Connect Provider (OP) & UMA Authorization Server (AS)
+NLPchina/nlp-lang,这个项目是一个基本包.封装了大多数nlp项目中常用工具
+xipki/xipki,Highly scalable and high-performance open source PKI (CA and OCSP responder)
+javadev/underscore-java,java port of Underscore.js
+ConSol/sakuli,Sakuli is an end-2-end testing and monitoring tool for web sites and common UIs with multiple monitoring integrations
+nenick/android-gradle-template,Combines tools for fast android app devlopment
+vt-middleware/passay,Password policy enforcement for Java.
+devnied/EMV-NFC-Paycard-Enrollment,A Java library used to read and extract data from NFC EMV credit cards (Android/PCSC).
+open-keychain/open-keychain,OpenKeychain is an OpenPGP implementation for Android.
+igniterealtime/Openfire,A XMPP server licensed under the Open Source Apache License.
+OpenNMS/newts,New-fangled Timeseries Data Store
+rapidoid/rapidoid,Rapidoid - Extremely Fast - Simple and Powerful Java Web Framework and HTTP Server!
+TNG/JGiven,Behavior-Driven Development in plain Java
+codecentric/spring-boot-starter-batch-web,
+douglascraigschmidt/POSA-14,This repository contains assignments and examples for the 2014 offering of the POSA MOOC (see www.coursera.org/course/posa for more information)
+pinterest/secor,Secor is a service implementing Kafka log persistence
+glazedlists/glazedlists,Open Source List Transformations for Java
+TestFX/TestFX,Simple and clean testing for JavaFX.
+XiaoMi/themis,Themis provides cross-row/cross-table transaction on HBase based on google's percolator.
+dcevm/dcevm,Dynamic Code Evolution VM for Java 7/8
+caelum/mamute,Q&A Engine
+IQSS/dataverse,Open source research data repository software
+cglib/cglib,cglib - Byte Code Generation Library is high level API to generate and transform Java byte code. It is used by AOP - testing - data access frameworks to generate dynamic proxy objects and intercept field access.
+thelinmichael/spotify-web-api-java,A Java wrapper for Spotify's Web API.
+syncany/syncany,Syncany is a cloud storage and filesharing application with a focus on security and abstraction of storage.
+querydsl/querydsl,Unified Queries for Java
+ShifuML/shifu,An end-to-end machine learning and data mining framework on Hadoop
+hibernate/hibernate-demos,Repository for demos of various Hibernate projects
+samtools/htsjdk,A Java API for high-throughput sequencing data (HTS) formats.
+teamed/qulice,Quality Police for Java projects
+terrymanu/miracle-framework,practice to agile development - modularization project - integrate and optimize with thrid party libraries.
+broadinstitute/picard,A set of command line tools (in Java) for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF.
+jindrapetrik/jpexs-decompiler,JPEXS Free Flash Decompiler
+perwendel/spark-template-engines,Repository for different Template engine implementations. 
+graphaware/neo4j-timetree,Java and REST APIs for working with time-representing tree in Neo4j
+fcrepo4/fcrepo4,Fedora 4
+foxinmy/weixin4j,(微信开发工具包)weixin sdk for Java
+quickfix-j/quickfixj,QuickFIX/J is a full featured messaging engine for the FIX protocol. - This is the official project repository.
+GoogleCloudPlatform/bigdata-interop,Libraries and tools for interoperability between Hadoop-related open-source software and Google Cloud Platform.
+PeteGoo/tcSlackBuildNotifier,Posts build notifications to Slack
+apache/incubator-brooklyn,Mirror of Apache Brooklyn
+JCTools/JCTools,
+knightliao/disconf,Distributed Configuration Management Platform(分布式配置管理平台)
+TannerPerrien/picasso-transformations,A transformation library for Picasso
+docker-java/docker-java,Java Docker API Client
+snakerflow/snakerflow,简单、轻巧、灵活的工作流引擎
+xtreemfs/xtreemfs,Distributed Fault-Tolerant File System
+apache/phoenix,Mirror of Apache Phoenix
+spotify/docker-client,INACTIVE: A simple docker client for the JVM
+Tillerino/Tillerinobot,
+spotify/helios,Docker container orchestration platform
+vladmihalcea/hibernate-master-class,Hibernate Master Class is an advance course of one of the most popular JPA implementation
+netplex/json-smart-v2,
+eclipse/californium,CoAP/DTLS Java Implementation 
+GraphWalker/graphwalker-project,This is the repo for the Model-based testing tool GraphWalker.
+pagehelper/Mybatis-PageHelper,Mybatis通用分页插件
+att/XACML,AT&T XACML 3.0 Implementation
+structurizr/java,Structurizr for Java
+wso2/product-apim,Welcome to the WSO2 API Manager source code! For info on working with the WSO2 API Manager repository and contributing code - click the link below.
+lumifyio/lumify,open source big data integration - analytics - and visualization
+hazelcast/hazelcast-code-samples,Hazelcast Code Samples
+PanicInitiative/PanicButton,Panic Button turns your mobile phone into a secret alarm for when you're in trouble
+google/truth,Fluent assertions for Java and Android
+spring-projects/spring-session,Spring Session
+jMetal/jMetal,jMetal: a framework for multi-objective optimization with metaheuristics
+ethereum/ethereumj,DEPRECATED! Java implementation of the Ethereum yellowpaper. For JSON-RPC and other client features check Ethereum Harmony
+jamesagnew/hapi-fhir,🔥 HAPI FHIR - Java API for HL7 FHIR Clients and Servers
+naver/ngrinder,enterprise level performance testing solution
+coinbase/coinbase-java,Coinbase API v1 library for Java
+yinlou/mltk,Machine Learning Tool Kit
+v5developer/maven-framework-project,a maven and spring repository
+naver/volley-extensions,Volley Extensions v2.0.0. ( Volleyer - Volley requests - Volley caches - Volley custom views )
+moneymanagerex/android-money-manager-ex,Android version of Money Manager Ex
+forcedotcom/idecore,The core plug-ins for the Force.com IDE
+oyachai/HearthSim,Generic Hearthstone game simulator
+wildfly/wildfly-core,The core runtime that is used by the WildFly application server
+dashbuilder/dashbuilder,Dashboard composition tooling based on the Uberfire framework
+kairosdb/kairosdb,Fast scalable time series database
+wendykierp/JTransforms,JTransforms is the first - open source - multithreaded FFT library written in pure Java.
+kennycason/kumo,Kumo - Java Word Cloud 
+jenkinsci/gitlab-plugin,A Jenkins plugin for interfacing with GitLab
+yigit/android-priority-jobqueue,A Job Queue specifically written for Android to easily schedule jobs (tasks) that run in the background - improving UX and application stability.
+google/guice,Guice (pronounced 'juice') is a lightweight dependency injection framework for Java 6 and above - brought to you by Google.
+lenskit/lenskit,LensKit recommender toolkit.
+documents4j/documents4j,documents4j is a Java library for converting documents into another document format
+jmockit/jmockit1,Advanced Java library for integration testing - mocking - faking - and code coverage
+AzureAD/azure-activedirectory-library-for-android,The ADAL SDK for Android gives you the ability to add support for Work Accounts to your application with just a few lines of additional code. This SDK gives your application the full functionality of Microsoft Azure AD - including industry standard protocol support for OAuth2 - Web API integration with user level consent - and two factor authentication support.
+uniVocity/univocity-parsers,uniVocity-parsers is a suite of extremely fast and reliable parsers for Java. It provides a consistent interface for handling different file formats - and a solid framework for the development of new parsers.
+sutra/okcoin-client,OKCoin API Wrapper in Java.
+KylinOLAP/Kylin,This code base is retained for historical interest only - please visit Apache Incubator Repo for latest one
+sequenceiq/cloudbreak,Cloudbreak is a cloud agnostic Hadoop as a Service API. (Please use https://github.com/hortonworks/cloudbreak)
+OpenHFT/Chronicle-Map,Replicate your Key Value Store across your network - with consistency - persistance and performance.
+juleswhite/mobilecloud-14,Source code and assignments for the Programming Cloud Services for Android Handheld Systems Course
+ftomassetti/effectivejava,Run queries on your Java code to check if it meets the criteria suggested by the book Effective Java. And some others.
+MyCATApache/Mycat-Server,
+OryxProject/oryx,Oryx 2: Lambda architecture on Apache Spark - Apache Kafka for real-time large scale machine learning
+techdev-solutions/trackr-backend,
+OpenHFT/Chronicle-Logger,A sub microsecond java logger - supporting standard logging APIs such as Slf & Log4J
+pietermartin/sqlg,tinkerpop3 graph over sql
+serso/android-checkout,Library for Android In-App Billing (Version 3+)
+AltBeacon/android-beacon-library,Allows Android apps to interact with BLE beacons
+openmrs/openmrs-contrib-android-client,Android client for OpenMRS
+codecentric/spring-boot-admin,Admin UI for administration of spring boot applications
+wso2/product-is,Welcome to the WSO2 Identity Server source code! For info on working with the WSO2 Identity Server repository and contributing code - click the link below.
+Baqend/Orestes-Bloomfilter,Library of different Bloom filters in Java with optional Redis-backing - counting and many hashing options.
+FasterXML/woodstox,The gold standard Stax XML API implementation. Now at Github.
+mini2Dx/mini2Dx,A high-level cross-platform 2D game development API
+jfaster/mango,Distributed ORM Framework for Java
+ehcache/ehcache3,Ehcache 3.x line 
+xerial/sqlite-jdbc,SQLite JDBC Driver
+jmrozanec/cron-utils,Cron utils for parsing - validations and human readable descriptions as well as date/time interoperability.
+Kurento/kurento-java,API Java SDK for Kurento Media Server
+iluwatar/java-design-patterns,Design patterns implemented in Java
+sanity/quickml,A fast and easy to use decision tree learner in java
+bozaro/git-as-svn,Subversion frontend server for git repository (java)
+cflint/CFLint,Static code analysis for CFML (a linter)
+nkcoder/quartz-explained,对定时任务调度框架quartz源码的阅读和注释(comments on quartz-core source)
+locationtech/geogig,GeoGig project
+OpenRock/OpenAM,Mirror of https://stash.forgerock.org/projects/OPENAM/openam
+poetix/protonpack,Stream utilities for Java 8
+android10/Android-CleanArchitecture,This is a sample app that is part of a series of blog posts I have written about how to architect an android application using Uncle Bob's clean architecture approach.
+CalebFenton/simplify,Android virtual machine and deobfuscator
+simplenlg/simplenlg,Java API for Natural Language Generation. Originally developed by Ehud Reiter at the University of Aberdeen’s Department of Computing Science and co-founder of Arria NLG. This git repo is the official SimpleNLG version.
+google/error-prone,Catch common Java mistakes as compile-time errors
+chanjarster/weixin-java-tools,微信公众号、企业号Java SDK
+numenta/htm.java,Hierarchical Temporal Memory implementation in Java - an official Community-Driven Java port of the Numenta Platform for Intelligent Computing (NuPIC).
+virgo47/javasimon,Java Simon is a simple monitoring API that allows you to follow and better understand your application.
+apache/storm,Mirror of Apache Storm
+OfficeDev/ews-java-api,A java client library to access Exchange web services.  The API works against Office 365 Exchange Online as well as on premises Exchange.
+googlemaps/google-maps-services-java,Java client library for Google Maps API Web Services
+davidmoten/rtree,Immutable in-memory R-tree and R*-tree implementations in Java with reactive api
+zafarkhaja/jsemver,Java implementation of the SemVer Specification
+spring-cloud/spring-cloud-connectors,Library to let cloud applications connect to services
+spring-cloud/spring-cloud-netflix,Integration with Netflix OSS components
+spring-projects/spring-sync,Enables efficient communication and data synchronization between clients and Spring server applications.
+OpenHFT/Chronicle-Queue,Micro second messaging that stores everything to disk
+payara/Payara,Payara Server is an open source middleware platform that supports reliable and secure deployments of Java EE (Jakarta EE) and MicroProfile applications in any environment: on premise - in the cloud or hybrid. 
+spring-cloud/spring-cloud-config,External configuration (server and client) for Spring Cloud
+square/burst,A unit testing library for varying test data.
+highsource/maven-jaxb2-plugin,The most advanced JAXB2 Maven Plugin for XML Schema compilation.
+abel533/ECharts,这是一个针对ECharts2.x版本的Java类库，实现了所有ECharts中的Json结构对应的Java对象，并且可以很方便的创建Option -Series等
+jordw/heftydb,High performance persistent LSM key-value store library for the JVM.
+realm/realm-java,Realm is a mobile database: a replacement for SQLite & ORMs
+feroult/yawp,Kotlin/Java API framework for Google Appengine
+OpenSOC/opensoc-streaming,Extensible set of Storm topologies and topology attributes for streaming - enriching - indexing - and storing telemetry in Hadoop.
+boonproject/boon,Simple opinionated Java for the novice to expert level Java Programmer.  Low Ceremony. High Productivity.
+octo-online/reactive-audit,Audit tool aims to provide help to the use of Reactive architecture in project implementations.
+lcm-proj/lcm,Lightweight Communications and Marshalling
+linkedin/Cubert,Fast and efficient batch computation engine for complex analysis and reporting of massive datasets on Hadoop
+Pragmatists/tdd-trainings,
+greenmail-mail-test/greenmail,Official master for the Greenmail project
+r17171709/android_demo,自己学习的androiddemo合集
+usc-isi-i2/Web-Karma,Information Integration Tool
+statefulj/statefulj,A Finite State Machine Implementation along with an integrated Spring Based Framework
+PingPlusPlus/pingpp-java,
+knightliao/common-utils,useful - powerful - widely Java Utils Library
+Stratio/deep-spark,Connecting Apache Spark with different data stores [DEPRECATED]
+NLPchina/ansj_seg,ansj分词.ict的真正java实现.分词效果速度都超过开源版的ict. 中文分词 -人名识别 -词性标注 -用户自定义词典
+facebookarchive/hadoop-20,Facebook's Realtime Distributed FS based on Apache Hadoop 0.20-append
+HubSpot/jinjava,Jinja template engine for Java
+immutables/immutables,Annotation processor to create immutable objects and builders. Feels like Guava's immutable collections but for regular value objects. JSON - Jackson - Gson - JAX-RS integrations included
+axelor/axelor-business-suite,The Axelor Open Suite based on Axelor Open Platform
+INDExOS/media-for-mobile,Media for Mobile
+Yubico/java-u2flib-server,(DEPRECATED) Java server-side library for U2F
+imglib/imglib2,A generic next-generation Java library for image processing
+subchen/jetbrick-template-2x,Template Engine for Java
+datumbox/datumbox-framework,Datumbox is an open-source Machine Learning framework written in Java which allows the rapid development of Machine Learning and Statistical applications.
+ESAPI/esapi-java-legacy,ESAPI (The OWASP Enterprise Security API) is a free - open source - web application security control library that makes it easier for programmers to write lower-risk applications.
+schema-repo/schema-repo,The Schema Repo is a RESTful web service for storing and serving mappings between schema identifiers and schema definitions.
+swagger-api/swagger-codegen,swagger-codegen contains a template-driven engine to generate documentation - API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition.
+twitter/elephant-bird,Twitter's collection of LZO and Protocol Buffer-related Hadoop - Pig - Hive - and HBase code.
+shazam/fork,A library that offers the fastest way to execute Android instrumentation tests.
+indeedeng/imhotep,Imhotep is a large-scale analytics platform built by Indeed.
+simpligility/android-maven-plugin,Maven Plugin for Android Application development and more
+arquillian/arquillian-cube,Control (docker - kubernetes - openshift) containers in your tests with ease!
+paypal/PayPal-Java-SDK,Java SDK for PayPal RESTful APIs
+spring-cloud/spring-cloud-aws,Integration for Amazon Web Services APIs with Spring
+Netflix/dyno,Java client for Dynomite
+arangodb/arangodb-java-driver,ArangoDB Java driver
+making/hajiboot-samples,書籍「はじめてのSpring Boot」のサポートページ
+wix/petri,Wix experiment system (A/B test and feature toggle framework)
+vojtechhabarta/typescript-generator,Generates TypeScript from Java - JSON declarations - REST service client
+mapsforge/mapsforge,Vector map library and writer - running on Android and Desktop.
+serenity-bdd/serenity-core,Serenity BDD is a test automation library designed to make writing automated acceptance tests easier - and more fun.
+GumTreeDiff/gumtree,A neat code differencing tool
+real-logic/Aeron,Efficient reliable UDP unicast - UDP multicast - and IPC message transport
+real-logic/Agrona,High Performance data structures and utility methods for Java
+passy/scdl,Soundcloud Downloader App for Android
+pedrovgs/Algorithms,Solutions for some common algorithm problems written in Java.
+Netflix/Raigad,Co-Process for backup/recovery - Auto Deployments and Centralized Configuration management for ElasticSearch
+spring-projects/spring-integration-java-dsl,
+lmco/streamflow,StreamFlow™ is a stream processing tool designed to help build and monitor processing workflows.
+58code/Oceanus,58同城数据库中间件
+pac4j/pac4j,Security engine for Java (authentication - authorization - multi frameworks): OAuth - CAS - SAML - OpenID Connect - LDAP - JWT...
+iSoron/uhabits,Loop Habit Tracker - a mobile app for creating and maintaining long-term positive habits
+divolte/divolte-collector,Divolte Collector
+greghaskins/spectrum,A BDD-style test runner for Java 8. Inspired by Jasmine - RSpec - and Cucumber.
+eclipsesource/J2V8,Java Bindings for V8
+SoftInstigate/restheart,RESTHeart - REST API Microservice for MongoDB 
+haifengl/smile,Statistical Machine Intelligence & Learning Engine
+apache/commons-text,Mirror of Apache Commons Text
+stephanenicolas/reflection-no-reflection,A proof on concept to create an API that is 100% compatible reflection API - but without any reflection. Performance stuff for Android and Java.
+spring-projects/spring-integration-aws,
+ngageoint/mrgeo,MrGeo is a geospatial toolkit designed to provide raster-based geospatial capabilities that can be performed at scale. MrGeo is built upon Apache Spark and the Hadoop ecosystem to leverage the storage and processing of hundreds of commodity computers.  See the wiki for more details.
+abel533/Mapper,Mybatis Common Mapper - Easy to use
+acciente/oacc-core,OACC (Object ACcess Control) is an advanced Java Application Security Framework
+Syncleus/Ferma,An ORM / OGM for the TinkerPop graph stack.
+vogellacompany/codeexamples-android,Android examples from the vogella.com website
+JetBrains/xodus,JetBrains Xodus is a transactional schema-less embedded database used by JetBrains YouTrack and JetBrains Hub.
+javaee-samples/javaee8-samples,Java EE 8 Samples
+spring-cloud/spring-cloud-consul,Spring Cloud Consul
+xmlunit/xmlunit,XMLUnit for Java 2.x
+spring-cloud/spring-cloud-commons,Common classes used in different Spring Cloud implementations
+ben-manes/caffeine,A high performance caching library for Java 8
+Ellzord/JALSE,Java Artificial Life Simulation Engine
+snazy/ohc,Java large off heap cache
+cternes/openkeepass,A java library for reading and writing KeePass databases. It is an intuitive java library that supports KeePass 2.x database files.
+super-csv/super-csv,A fast - programmer-friendly - free CSV library for Java
+thyrlian/AwesomeValidation,Android validation library which helps developer boil down the tedious work to three easy steps.
+davidmoten/rxjava-extras,Utilities for use with rxjava 
+Netflix/spectator,Client library for collecting metrics.
+neo4j/neo4j-ogm,Java Object-Graph Mapping Library for Neo4j
+henryyan/activiti-in-action-codes,Activiti官方唯一推荐中文书籍——《Activiti实战》示例源码
+npgall/cqengine,Ultra-fast SQL-like queries on Java collections
+sakaiproject/sakai,Sakai is a freely available - feature-rich technology solution for learning - teaching - research and collaboration. Sakai is an open source software suite developed by a diverse and global adopter community.
+digitalfondue/lavagna,Lavagna: issue tracker/project management tool
+support-project/knowledge,Free Knowledge Management System
+jdbi/jdbi,jdbi is designed to provide convenient tabular data access in Java; including templated SQL - parameterized and strongly typed queries - and Streams integration
+cer/event-sourcing-examples,Example code for my building and deploying microservices with event sourcing - CQRS and Docker presentation
+aNNiMON/Lightweight-Stream-API,Stream API from Java 8 rewritten on iterators for Java 7 and below
+gisgraphy/gisgraphy,geocoding and geolocalisation webservices for Geonames - Openstreetmap - and quattroshapes data
+termd/termd,An open source terminal daemon library providing terminal handling in Java under ASL 2.0
+mslosarz/nextrtc-signaling-server,NextRTC is simple WebRTC signaling server written in java. It provides signal exchange and easy to integrate API
+sakserv/hadoop-mini-clusters,hadoop-mini-clusters provides an easy way to test Hadoop projects directly in your IDE
+Freeyourgadget/Gadgetbridge,We are on codeberg.org now! https://codeberg.org/Freeyourgadget/Gadgetbridge -  Gadgetbridge - A free and cloudless replacement for your gadget vendors' closed source Android applications. Supports Pebble - Mi Band - Liveview - HPlus and more.
+leonbloy/pngj,PNGJ : pure Java library for high performance PNG encoding
+yegor256/takes,True Object-Oriented Java Web Framework
+CorfuDB/CorfuDB,A cluster consistency platform
+naver/pinpoint,APM - (Application Performance Management) tool for large-scale distributed systems written in Java. 
+viritin/viritin,The "commons" library for Vaadin developers
+javaparser/javaparser, Java 1-13 Parser and Abstract Syntax Tree for Java –
+FreeTymeKiyan/LeetCode-Sol-Res,Clean - Understandable Solutions and Resources for LeetCode Online Judge Algorithm Problems. 
+square/javapoet,A Java API for generating .java source files.
+edx/edx-app-android,The Open EdX mobile app for Android!
+OpenHFT/Chronicle-Network,A High Performance Network ( TCP/IP ) Library
+etsy/statsd-jvm-profiler,Simple JVM Profiler Using StatsD and Other Metrics Backends
+lucidworks/spark-solr,Tools for reading data from Solr as a Spark RDD and indexing objects from Spark into Solr using SolrJ.
+OpenHFT/Chronicle-Wire,A Java Serialisation Library that supports multiple formats
+inspectIT/inspectIT,inspectIT is the leading Open Source APM (Application Performance Management) tool for analyzing your Java (EE) applications.
+greenaddress/GreenBits,GreenBits is a Bitcoin Wallet for Android provided by GreenAddress
+hidroh/materialistic,A material-design Hacker News Android reader
+embulk/embulk,Embulk: Pluggable Bulk Data Loader.
+apache/incubator-samoa,Mirror of Apache Samoa (Incubating)
+ctripcorp/hermes,Message Queue Solution at Ctrip.com
+spring-cloud/spring-cloud-zookeeper,Spring Cloud Zookeeper
+tuguangquan/mybatis,mybatis源码中文注释
+MariaDB/mariadb-connector-j,MariaDB Connector/J is used to connect applications developed in Java to MariaDB and MySQL databases. MariaDB Connector/J is LGPL licensed.
+fpinjava/fpinjava,Code - exercises and solutions from the book "Functional Programming in Java"
+citerus/dddsample-core,This is the new home of the original DDD Sample app (previously hosted at sf.net).. 
+Netflix/Nicobar,
+vaadin/spring,Spring integration for Vaadin
+spring-projects/spring-statemachine,Spring Statemachine is a framework for application developers to use state machine concepts with Spring.
+cardillo/joinery,Data frames for Java
+hawkular/hawkular-metrics,Time Series Metrics Engine based on Cassandra
+zhengxiaopeng/Rocko-Android-Demos,Rocko Android demos - 
+eclipse/leshan,Eclipse Leshan is an OMA Lightweight M2M (LWM2M) implementation in Java.
+zendesk/maxwell,Maxwell's daemon - a mysql-to-json kafka producer
+SeldonIO/seldon-server,Machine Learning Platform and Recommendation Engine built on Kubernetes
+deeplearning4j/nd4j,Fast - Scientific and Numerical Computing for the JVM (NDArrays)
+enonic/xp,Enonic XP
+jflex-de/jflex,The fast scanner generator for Java with full Unicode support
+restfb/restfb,RestFB is a simple and flexible Facebook Graph API client written in Java.
+spring-projects/spring-restdocs,Test-driven documentation for RESTful services
+eseifert/gral,Free Java library for displaying plots
+bluelinelabs/LoganSquare,Screaming fast JSON parsing and serialization library for Android.
+OAuth-Apis/apis,OAuth Authorization as a Service
+google/mr4c,
+sockeqwe/mosby,A Model-View-Presenter / Model-View-Intent library for modern Android apps
+pulsarIO/jetstream,Jetstream is a streaming processing framework
+OpenHFT/Chronicle-Core,Low level access to native memory - JVM and OS.
+OpenHFT/Chronicle-Bytes,Chronicle Bytes has a similar purpose to Java NIO's ByteBuffer with many extensions
+reactive-streams/reactive-streams-jvm,Reactive Streams Specification for the JVM
+testwhat/SmaliEx,A wrapper to get de-optimized dex from odex/oat/vdex.
+aol/micro-server,Microserver is a Java 8 native - zero configuration - standards based - battle hardened library to run Java Rest Microservices via a standard Java main class. Supporting pure Microservice or Micro-monolith styles.
+mono/sharpen,Sharpen is an Eclipse plugin created by db4o that allows you to convert your Java project into c#
+openimaj/openimaj,The OpenIMAJ source code repository
+confluentinc/kafka-rest,Confluent REST Proxy for Kafka
+confluentinc/schema-registry,Confluent Schema Registry for Kafka
+grpc/grpc-java,The Java gRPC implementation. HTTP/2 based RPC
+stevensouza/automon,Automon combines the power of AOP (AspectJ) with monitoring or logging tools you already use to declaratively monitor your Java code - the JDK - and 3rd party libraries.
+vbauer/caesar,Library that allows to create async beans from sync beans
+sdaschner/jaxrs-analyzer,Creates REST documentation for JAX-RS projects
+eclipse/vorto,Vorto Project
+kaazing/gateway,Kaazing Gateway
+elki-project/elki,ELKI Data Mining Toolkit 
+MewX/light-novel-library_Wenku8_Android,[BEING MAINTAINED SLOWLY] 轻小说文库 (Wenku8.com) 安卓版第三方公益App，始于2014年的Material Design风格、无广告、不盈利的轻小说阅读器(light novel reader)。
+offbynull/coroutines,Java toolkit that allows you to write coroutines.
+elastic/elasticsearch-hadoop, :elephant: Elasticsearch real-time search and analytics natively integrated with Hadoop
+ben-manes/concurrentlinkedhashmap,A ConcurrentLinkedHashMap for Java
+iDevicesInc/SweetBlue,BLE on Android - the easy way. THIS IS NOW DEPRECATED. Please visit website for info on new versions.
+raydac/java-binary-block-parser,The Most comfortable way to work with binary data in Java
+effektif/effektif,Discontinued
+pushtorefresh/storio,Reactive API for SQLiteDatabase and ContentResolver.
+semanticvectors/semanticvectors,SemanticVectors creates semantic WordSpace models from free natural language text.
+Ekryd/sortpom,Maven plugin that helps the user sort pom.xml. 
+bonigarcia/webdrivermanager,Automatic management of Selenium WebDriver binaries
+trade-manager/trade-manager,Trade Manager automates technical trading of candle stick charts with an interface to Interactive Brokers Trader Workstation (IB TWS) & Yahoo Finanace
+otros-systems/otroslogviewer,Log viewer focused on developers work
+svendiedrichsen/jollyday,Jollyday - A holiday API
+fizzed/rocker,Java 8 optimized - memory efficient - speedy template engine producing statically typed - plain java objects
+pxb1988/dex2jar,Tools to work with android .dex and java .class files
+Cloudslab/cloudsim,CloudSim: A Framework For Modeling And Simulation Of Cloud Computing Infrastructures And Services
+apache/openmeetings,Mirror of Apache Openmeetings
+nativelibs4java/BridJ,BridJ: blazing fast Java / C / C++ interop
+objectify/objectify,The simplest convenient interface to the Google Cloud Datastore
+RUB-NDS/WS-Attacker,WS-Attacker is a modular framework for web services penetration testing. It is developed by the Chair of Network and Data Security - Ruhr University Bochum (https://nds.rub.de/ ) and the Hackmanit GmbH (https://www.hackmanit.de/).
+hushnymous/android_frameworks_base,
+Sayi/poi-tl,Word模板引擎 Minimal Microsoft word(docx) templating with {{template}} in Java
+mangstadt/ez-vcard,A vCard parser library for Java
+CloudSlang/cloud-slang,CloudSlang Language - CLI and Builder
+blynkkk/blynk-server,Blynk is an Internet of Things Platform aimed to simplify building mobile and web applications for the Internet of Things. Easily connect 400+ hardware models like Arduino - ESP8266 - ESP32 - Raspberry Pi and similar MCUs and drag-n-drop IOT mobile apps for iOS and Android in 5 minutes
+EdwardRaff/JSAT,Java Statistical Analysis Tool - a Java library for Machine Learning 
+mesos/elasticsearch,Elasticsearch on Mesos
+facebook/react-native,A framework for building native apps with React.
+facebook/fresco,An Android library for managing images and the memory they use.
+apache/aurora,Apache Aurora - A Mesos framework for long-running services - cron jobs - and ad-hoc jobs
+hankcs/HanLP,中文分词 词性标注 命名实体识别 依存句法分析 语义依存分析 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁 自然语言处理
+hopshadoop/hops,Hops Hadoop is a distribution of Apache Hadoop with distributed metadata.
+square/keywhiz,A system for distributing and managing secrets
+damianszczepanik/cucumber-reporting,HTML reports for Cucumber
+square/moshi,A modern JSON library for Kotlin and Java.
+psi-probe/psi-probe,Advanced manager and monitor for Apache Tomcat - forked from Lambda Probe
+voodoodyne/subethasmtp,SubEtha SMTP is a Java library for receiving SMTP mail
+coobird/thumbnailator,Thumbnailator - a thumbnail generation library for Java
+UnderwaterApps/overlap2d,Overlap2D Game development toolkit for UI and Level design
+eivindveg/HotSUploader,JavaFX-based Replay Uploader for Heroes of the Storm
+spring-guides/tut-spring-security-and-angular-js,Spring Security and Angular:: A tutorial on how to use Spring Security with a single page application with various backend architectures - ranging from a simple single server to an API gateway with OAuth2 authentication.
+apache/incubator-myriad,Mirror of Apache Myriad (Incubating)
+jsettlers/settlers-remake,A Remake of "The Settlers III" for Windows - Linux - Mac and Android
+rrd4j/rrd4j,A high performance data logging and graphing system for time series data.
+espertechinc/esper,Esper Complex Event Processing - Streaming SQL and Event Series Analysis
+kennyk65/Microservices-With-Spring-Student-Files,Student Files for Microservices with Spring course
+kanastasov/Advanced-Java-Programming--First-Semeste-,The first part of the course focus on  Design Patterns and Principles 
+Pushjet/Pushjet-Android,The Pushjet android client
+ClearTK/cleartk,Machine learning components for Apache UIMA
+jprante/elasticsearch-jdbc,JDBC importer for Elasticsearch
+relaxng/jing-trang,Schema validation and conversion based on RELAX NG
+cincheo/jsweet,A Java to JavaScript transpiler.
+Microsoft/ApplicationInsights-Java,Application Insights SDK for Java
+bbottema/simple-java-mail,Simple API - Complex Emails (JavaMail smtp wrapper)
+SciGraph/SciGraph,A Neo4j backed ontology store
+juankysoriano/Zen,Zen! An open source meditation sketch for Android
+vmware/lightwave,Identity services for traditional infrastructure - applications and containers.
+veraPDF/veraPDF-library,Industry supported - open source PDF/A validation library
+tipsy/j2html,Java to HTML generator. Enjoy typesafe HTML generation.
+apache/parquet-mr,Apache Parquet
+Yakindu/statecharts,YAKINDU Statechart Tools (http://www.statecharts.org)
+x-stream/xstream,Serialize Java objects to XML and back again.
+diffplug/spotless,Keep your code spotless
+apache/activemq-artemis,Mirror of Apache ActiveMQ Artemis
+OWASP/java-html-sanitizer,Takes third-party HTML and produces HTML that is safe to embed in your web application.  Fast and easy to configure.
+helyho/Voovan,Voovan是高性能异步通信、HTTP服务器和客户端通信、动态编译支持、数据库操作帮助类等工具的框架
+asterisk-java/asterisk-java,The free Java library for Asterisk PBX integration.
+graalvm/simplelanguage,A simple example language built using the Truffle API.
+uber/phabricator-jenkins-plugin,Jenkins plugin to integrate with Phabricator - Harbormaster - and Uberalls
+GoogleCloudPlatform/java-docs-samples,
+igvteam/igv,Integrative Genomics Viewer. Fast - efficient - scalable visualization tool for genomics data and annotations 
+apache/incubator-atlas,Mirror of Apache Atlas (Incubating)
+gradle/oreilly-gradle-book-examples,
+ICIJ/extract,A cross-platform command line tool for parallelised content extraction and analysis.
+livelessons-spring/building-microservices,Building Microservices with Spring Boot
+paul-hammant/qdox,QDox - full extractor of Java class/interface/method definitions (including annotations - parameters - param names)
+braintree/android-card-form,A ready-made card form layout that can be included in your Android app - making it easy to accept credit and debit cards.
+takari/polyglot-maven,Support alternative markup for Apache Maven POM files
+google/MOE,Make Opensource Easy - tools for synchronizing repositories
+dkpro/dkpro-core,Collection of software components for natural language processing (NLP) based on the Apache UIMA framework.
+kejunxia/AndroidMvc,Android MVC/MVP/MVVM framework
+webanno/webanno,The Official WebAnno Repository
+allegro/hermes,Fast and reliable message broker built on top of Kafka.
+vert-x3/vertx-web,HTTP web applications for Vert.x
+google/caliper,Micro-benchmarking library for Java
+LibrePlan/libreplan,LibrePlan - Open Web Planning
+h2oai/h2o-3,Open Source Fast Scalable Machine Learning Platform For Smarter Applications: Deep Learning - Gradient Boosting & XGBoost - Random Forest - Generalized Linear Modeling (Logistic Regression - Elastic Net) - K-Means - PCA - Stacked Ensembles - Automatic Machine Learning (AutoML) - etc.
+h2oai/h2o-2,Please visit https://github.com/h2oai/h2o-3 for latest H2O
+jetlang/core,
+actframework/actframework,An easy to use Java MVC server stack
+venusdrogon/feilong-core,:gem: Reduce development - Release ideas
+codehaus/jackson,
+b3log/solo,!!!!! 404 not found !!!!!
+b3log/latke,!!!!! 404 not found !!!!!
+aol/cyclops,An advanced - but easy to use - platform for writing functional applications in Java 8.
+dermotte/LIRE,Open source library for content based image retrieval / visual information retrieval.
+zaproxy/zaproxy,The OWASP ZAP core project
+dbs-leipzig/gradoop,Distributed Graph Analytics with Apache Flink
+airbnb/aerosolve,A machine learning package built for humans.
+zalando/riptide,Client-side response routing for Spring
+cfg4j/cfg4j,Modern configuration library for distributed apps written in Java.
+Stratio/cassandra-lucene-index,Lucene based secondary indexes for Cassandra
+tinyMediaManager/tinyMediaManager, A multi-OS media managment tool - Version 2 ###### for v3 join us on https://gitlab.com/tinyMediaManager/
+tangyanbo/springmore,基础框架，通用功能封装
+sfines/menagerie,ZooKeeper-based Java Concurrency Libraries
+sockeqwe/sqlbrite-dao,DAO for SQLBrite
+mongojack/mongojack,Mongojack maps Java objects to MongoDB documents. Based on the Jackson JSON mapper - Mongojack allows you to easily handle your mongo objects as POJOs (insert - search by id or by any other field - update).
+openmhealth/shimmer,An application for reading health data from third-party APIs.
+sky-map-team/stardroid,Sky Map (formerly Google Sky Map - open sourced in 2012)
+devicehive/devicehive-java-server,DeviceHive Java Server
+rubenlagus/TelegramBots,Java library to create bots using Telegram Bots API
+naturalprogrammer/spring-lemon,Helper library for Spring Boot web applications
+openfoodfacts/OpenFoodFacts-androidApp,Native version of Open Food Facts on Android - Coders & Decoders welcome 🤳🥫 
+harshalbenake/hbworkspace2-100,(1) Name :- ActionBarSearchView Description :- Action bar search view.  (2) Name :- Adsfree Description :- Admob integration.  (3) Name :- AndroidDayDreamDemo Description :- Day dream demo.  (4) Name :- android query demo live Description :- Google play live app details parsing.  (5) Name :- Arc GIS map Description :- Arc gis map integration without hash key.  (6) Name :- aviarySdk Description :- Aviary integration for image operations.  (7) Name :- BetterGestureDetector Description :- Gesture accrate detection.  (8) Name :- BlinkText Description :- Blinking text.  (9) Name :- BuzzBoxSDKHelloWorld Description :- Buzz box integration cron scheduler.  (10) Name :- CircularProgressBar Description :- Circular progress bar.  (11) Name :- ContactNumbersDemo Description :- Get contact details from device.  (12) Name :- ControlViewheight Description :- Manage height of specific view.  (13) Name :- ControlViewHeightSeekbar Description :- Two listview manage appropriate hieght.  (14) Name :- DownloadManagerAndroid Description :- Download specific file online.  (15) Name :- Facebook Integration Description :- Facebook integration.  (16) Name :- Graphview Description :- Graphview demo.  (17) Name :- HB 1337 Description :- Virus and antivirus.  (18) Name :- HomeButtonEvent Description :- Block home button press.  (19) Name :- HomeLauncher Description :- Home launcher demo.  (20) Name :- InAppPurchaseTut Description :- InAppPurchase demo.  (21) Name :- KeyboardCustom Description :- Creating Custom keyboard demo.  (22) Name :- MapDemoGeofencing Description :- Location map for geo fencing.  (23) Name :- MapDemoV2Final Description :- Map demo for google version 2.  (24) Name :- OpenGLESSquare Description :- Opengl moving square.  (25) Name :- pagination numbering 2 Description :- Pagination type 2.  (26) Name :- Pagination numbering Description :- Pagination type 1.  (27) Name :- PhoneGapCordova Description :- Phone gap simple cordova demo.  (28) Name :- PhoneGapCordovaCamera Description :- Phone gap for camera.  (29) Name :- PhoneGapCordovaParsing Description :- Phone gap for parsing.  (30) Name :- PhoneGapCordovaSMS Description :- Phone gap for sending sms.  (31) Name :- RotatingWheel Description :- Rotating wheel by user interaction.  (32) Name :- RotatingWheelSocialsites Description :- Rotating wheel by user interaction for socialsites.  (33) Name :- RunningBackgroundServices Description :- Get Running services in background for package name/class name.  (34) Name :- SearchList Description :- Searching from a specific list.  (35) Name :- SearchViewContacts Description :- Search from contacts details.  (36) Name :- SlidingDrawer Description :- Sliding drawer from bottom over another activity.  (37) Name :- SpeechToTextDemo Description :- Convert speech to text.  (38) Name :- TextToSpeak Description :- Convert text to speech.  (39) Name :- TouchCordinates Description :- Get coordinate of user touch intergration.  (40) Name :- TreeViewListDemo Description :- Tree view integration demo.  (41) Name :- UninstallDeleteapp Description :- Uninstall another app from my app after removing admin permission.  (42) Name :- ViewPagerCustomWidthFragment Description :- Fragment in viewpager.  (43) Name :- WearableNotification Description :- Wearable notification.  (44) Name :- WearablePages Description :- Wearable pages.  (45) Name :- WidgetDemo Description :- Widget demo.  (46) Name :- CameraIntentAll Description :- Camera demo for picture as well as video demo.  (47) Name :- CameraOverlay Description :- Camera overlay image as aim shooting game.  (48) Name :- DrmIntegration Description :- Drm Integration library for authorize users apk file.  (49) Name :- SwipeRefreshLayout Description :- SwipeRefreshLayout Pulltorefresh like google.  (50) Name :- TwitterIntegration Description :- Twitter Integration.  (51) Name :- CameraADev Description :- Custom Camera for picture as well as video capture from android developer.  (52) Name :- DataBaseSQLiteCRUD Description :- Simple SQLite CRUD funtions for contact database.  (53) Name :- DataBaseSQLiteDBUtility Description :- Simple SQLite DBUtility all files and basic operations.  (54) Name :- CustomDropdownMenu Description :- Custom Dropdown/Poup Menu.  (55) Name :- CalenderSimpleView Description :- Simple calender view as well as timestamp using calender class.  (56) Name :- CalendarProviderADevIntent Description :- Calender provider Intent from android developer.  (57) Name :- AnimationTextViewAnimateLayoutChanges Description :- Animation of adding view inside another view using animatelayoutchanges.  (58) Name :- DragnDropLowVersion Description :- Drag n drop funtionality for low version.  (59) Name :- GoogleWalletAdev Description :- Google Wallet Integration from android developer.  (60) Name :- AndroidShootingGame Description :- Android Shooting Game without opengl.  (61) Name :- ViewPagerAnimation Description :- ViewPager page transformation for pages like alpha -scaling -rotation.  (62) Name :- GoogleCloudWirelessPrintingIntent Description :- Google cloud wireless printing integration from google developer.  (63) Name :- Barcode_or_QRCode_Scanner_openurl Description :- Barcord/QR code scanner from google play and open result url in browser.  (64) Name :- MSServerListSyncSample Description :- List Sync Sample using MS Server.  (65) Name :- SlidingMenuAPI Description :- Sliding Menu jeremyfeinstein library like facebook -gmail -etc.  (66) Name :- GCMIntegration Description :- Google cloud messageing integration for notification.  (67) Name :- NoiseAlert Description :- Detect noise or blow sound.  (68) Name :- GregorianCalendar Description :- Basic Gregorian Calendar information.  (69) Name :- getVariableName Description :- Get name of the variable not its value.  (70) Name :- GoogleAnalyticsV4Adev Description :- Google analytics integration V4.  (71) Name :- FlipboardAnimationAdev Description :- Animation like Flipboard.  (72) Name :- Html5Camera Description :- Camera in Html5 without phonegap.  (73) Name :- CopyPasteClipboard Description :- Copy & Paste Clipboard textual data.  (74) Name :- AndroidPhpMysql Description :- Php and Mysql data parsing in android.  (75) Name :- SpellChecker Description :- Check spelling and give appropriate suggestion for enter text.  (76) Name :- PdfReader Description :- Read pdf file.Barcode/QR code scanner.  (77) Name :- BarcodeQRcodeIntegration Description :- Barcode/QR code scanner using ZbarScanner lib and also Zxing lib without intent.  (78) Name :- InstagramIntegrationApi Description :- Instagram Integration using sample demo.  (79) Name :- Logger Description :- Read logger/logcat using api.  (80) Name :- SmsControl Description :- Control device via sms codes.  (81) Name :- EncryptDecryptString Description :- Encrypt string and Decrypt the same string.  (82) Name :- FloatingActionButton Description :- Floating Action Button.  (83) Name :- DownloadAndUnzipFile Description :- Download And Unzip File.  (84) Name :- MoPubAd Description :- MoPub Ad Banner integration .  (85) Name :- ListViewParsingDB_AndroidStudio Description :- ListView Parsing in android studio.  (86) Name :- CustomCamera_AS Description :- Custom Camera using surfaceview.  (87) Name :- ResizeableBox_AS Description :- Resizeable Box like crop.  (88) Name :- AudioRecorder_AS Description :- Audio Recorder.  (89) Name :- DateAndTimePicker_AS Description :- Date And Time Picker.  (90) Name :- CustomActionBar_AS Description :- Simple Custom ActionBar.  (91) Name :- CustomSpinner_AS Description :- Custom Spinner with default text item.  (92) Name :- SendEmail_AS Description :- Send email in background after authentication.  (93) Name :- GoogleAnalytics_AS Description :- GoogleAnalytics integration demo for crash and screen.  (94) Name :- BroadcastReciever_AS Description :- Broadcast Reciever for sms  -call and boot receiver.  (95) Name :- Azure Description :- Azure storage gsi credentials zip dowload.  (96) Name :- InAppPurchase_AS Description :- In App Purchase simple demo.  (97) Name :- iOS_Listview Description :- Simple Listview in ios.  (98) Name :- iOS_Database Description :- Sqlite Database in ios.  (99) Name :- MessangerList_AS Description :- Messanger Listview UI send and recieve.  (100) Name :- FindingFriend_AS Geofencing for enter and exit another pin.
+Swagger2Markup/swagger2markup,A Swagger to AsciiDoc or Markdown converter to simplify the generation of an up-to-date RESTful API documentation by combining documentation that’s been hand-written with auto-generated API documentation.
+locationtech/spatial4j,LocationTech Spatial4j: A Geospatial Library for Java
+eclipse/golo-lang,Golo - a lightweight dynamic language for the JVM.
+Contrast-Security-OSS/cassandra-migration,Database migration (evolution) tool for Apache Cassandra
+spotify/async-google-pubsub-client,[SUNSET] Async Google Pubsub Client
+opendatakit/collect,ODK Collect is an Android app for filling out forms. It's been used to collect billions of data points in challenging environments around the world. Contribute and make the world a better place! ✨📋✨
+dom4j/dom4j,flexible XML framework for Java
+amidst/toolbox,A Java Toolbox for Scalable Probabilistic Machine Learning
+StylingAndroid/Prism,A dynamic colouring library for Android
+testcontainers/testcontainers-java,Testcontainers is a Java library that supports JUnit tests - providing lightweight - throwaway instances of common databases - Selenium web browsers - or anything else that can run in a Docker container.
+fabric8io/kubernetes-client,Java client for Kubernetes & OpenShift 
+jitsi/ice4j,A Java implementation of the ICE protocol
+rancher/cattle,Infrastructure orchestration engine for Rancher 1.x
+openzipkin/brave,Java distributed tracing implementation compatible with Zipkin backend services.
+atlassian/commonmark-java,Java library for parsing and rendering CommonMark (Markdown)
+triplea-game/triplea,TripleA is a turn based strategy game and board game engine - similar to Axis & Allies or Risk.
+matsim-org/matsim,Multi-Agent Transport Simulation
+spring-cloud/spring-cloud-stream,Event-Driven Microservices with Spring Integration
+apache/nifi,Mirror of Apache NiFi
+trello/RxLifecycle,Lifecycle handling APIs for Android apps using RxJava
+javadelight/delight-nashorn-sandbox,A sandbox for executing JavaScript with Nashorn in Java.
+f-droid/fdroidclient,Android client application.
+spring-cloud/spring-cloud-sleuth,Distributed tracing for spring cloud
+aliyun/aliyun-openapi-java-sdk,Alibaba Cloud SDK for Java
+OpenGamma/Strata, Open source analytics and market risk library from OpenGamma
+dronekit/dronekit-android,Android DroneKit implementation
+gravitee-io/gravitee-gateway,Gravitee.io - API Management - OpenSource API Gateway
+neoremind/navi-pbrpc,A protobuf based high performance rpc framework leveraging full-duplexing and asynchronous io with netty
+camelinaction/camelinaction2,:camel: This project hosts the source code for the examples of the Camel in Action 2nd ed book :closed_book: written by Claus Ibsen and Jonathan Anstey.
+evrignaud/fim,File Integrity Manager - 
+camunda/camunda-bpm-spring-boot-starter,Camunda BPM bootified!
+apache/ignite,Mirror of Apache Ignite
+firebase/FirebaseUI-Android,Optimized UI components for Firebase
+apache/usergrid,Mirror of Apache Usergrid
+jrtom/jung,JUNG: Java Universal Network/Graph Framework
+raydac/netbeans-mmd-plugin,Mind Map editor + plugin for NetBeans and Intellij
+rchodava/datamill,A Java framework for web applications using a functional reactive style built on RxJava
+sih4sing5hong5/google-sites-liberation,Fork Version: This is an import/export tool for Google Sites.
+ebi-pf-team/interproscan,
+java-native-access/jna,Java Native Access
+Treeptik/cloudunit,The Turnkey DevOps Platform
+seleniumkit/gridrouter,Selenium-based solution to serve 1000+ browsers
+neoremind/fluent-validator,A Java validation framework leveraging fluent interface style and JSR 303 specification
+bazelbuild/bazel,a fast - scalable - multi-language and extensible build system
+javaserverfaces/mojarra,Mojarra - Oracle's implementation of the JavaServer Faces specification 
+aliyun/aliyun-oss-java-sdk,Aliyun OSS SDK for Java
+Richard-Rose/SubMicroTrading,Ultra Low Latency Trading Framework (OMS - Trading+MarketData Adapters - Algo Container etc)
+kagkarlsson/db-scheduler,Persistent cluster-friendly scheduler for Java
+google/binnavi,BinNavi is a binary analysis IDE that allows to inspect - navigate - edit and annotate control flow graphs and call graphs of disassembled code.
+spring-cloud/spring-cloud-dataflow,A microservices-based Streaming and Batch data processing in Cloud Foundry and Kubernetes
+demilich1/metastone,Hearthstone simulator written in Java with full GUI support
+zalando/problem,A Java library that implements application/problem+json
+eclipse/che,Eclipse Che: Next-generation Eclipse IDE.  Open source workspace server and cloud IDE.
+redpen-cc/redpen,RedPen is an open source proofreading tool to check if your technical documents meet the writing standard. RedPen supports various markup text formats (Markdown - Textile - AsciiDoc - Re:VIEW - reStructuredText and LaTeX).
+dodie/scott,Never debug a test again: Detailed failure reports and hassle free assertions for Java tests - Power Asserts for Java
+Netflix/Fenzo,Extensible Scheduler for Mesos Frameworks
+EliFUT/android,EliFUT is a "football manager" style Android game
+uber/tchannel-java,A Java implementation of the TChannel protocol.
+npgall/concurrent-trees,Concurrent Radix and Suffix Trees for Java
+dmfs/opentasks,A task app for Android
+rapidminer/rapidminer-studio,Easy-to-use visual environment for predictive analytics. No programming required.  RapidMiner is easily the most powerful and intuitive graphical user interface for the design of analysis processes. Forget sifting through code! You can also choose to run in batch mode. Whatever you prefer - RapidMiner has it all.
+WPIRoboticsProjects/GRIP,Program for rapidly developing computer vision applications
+Brunel-Visualization/Brunel,Brunel Visualization
+tools4j/unix4j,An implementation of Unix command line tools in Java.
+bmwcarit/barefoot,Java map matching library for integrating the map into software and services with state-of-the-art online and offline map matching that can be used stand-alone and in the cloud.
+zalando/problem-spring-web,A library for handling Problems in Spring Web MVC
+spring-cloud/spring-cloud-task,Short lived microservices with Spring Batch
+eBay/UAF,UAF - Universal Authentication Framework
+atomix/copycat,A novel implementation of the Raft consensus algorithm
+feuyeux/jax-rs2-guide-II,《Java Restful Web Service实战 第二版》源代码
+dstl/baleen,Entity Extraction Text Processor
+EvoSuite/evosuite,EvoSuite - automated generation of JUnit test suites for Java classes
+tomasbjerre/pull-request-notifier-for-bitbucket,Bitbucket Server plugin that invokes a custom URL when a pull request event is triggered.
+streamsets/datacollector,StreamSets Data Collector - Continuous big data and cloud platform ingest infrastructure
+pinterest/terrapin,Serving system for batch generated data sets
+JikesRVM/JikesRVM,Jikes RVM (Research Virtual Machine)
+Fewlaps/quitnow-cache,A collection to store data for a given time
+childe/hangout,用java实现一下Logstash的几个常用input/filter/output - 希望能有效率上面的大提升. 现在我们迁移到golang了 https://github.com/childe/gohangout
+sleekbyte/tailor,Cross-platform static analyzer and linter for Swift.
+atomix/atomix,A reactive Java framework for building fault-tolerant distributed systems
+JMRI/JMRI,JMRI model railroad digital command & control software
+piotrpolak/android-http-server,A complete zero-dependency implementation of a web server and a servlet container in Java with a sample Android application.
+sercxtyf/onboard,敏捷软件开发协同工具
+joshlong/cloud-native-workshop,win w/ Spring Boot - Spring Cloud and Cloud Foundry
+jpmml/jpmml-sklearn,Java library and command-line application for converting Scikit-Learn pipelines to PMML
+zsoltherpai/feather,Lightweight dependency injection for Java and Android (JSR-330)
+FINRAOS/herd,Herd is a managed data lake for the cloud. The Herd unified data catalog helps separate storage from compute in the cloud. Manage petabytes of data and make it accessible for data processing and analytical purposes by any cloud compute platform. 
+AmadeusITGroup/sonar-stash,Stash (BitBucket) plugin - a pull-request decorator which allows to integrate SonarQube violations directly into your pull-request
+everit-org/json-schema,JSON Schema validator for java - based on the org.json API
+Stratio/Decision,Powered by Spark Streaming & Siddhi
+TomRoush/PdfBox-Android,The Apache PdfBox project ported to work on Android
+stkent/amplify,Respectfully request feedback in your Android app.
+borball/weixin-sdk,微信公众平台(订阅号、服务号、企业号、小程序)、微信开放平台和微信支付 Java SDK
+zalando/logbook,An extensible Java library for HTTP request and response logging
+OpenRoberta/robertalab,IMPORTANT: this repository statys for HISTORICAL reasons only. The actively supported repository is "openroberta-lab". In the "develop" branch of this repository please read the files "IMPORTANT_CHANGE.md" and "README.md". Thank you very much.
+nidi3/graphviz-java,Use graphviz with pure java
+apache/james-project,Emails at the heart of your business logic!
+randoop/randoop,Automatic test generation for Java
+tslamic/premiumer,Premiumer makes removing ads with a single in-app purchase on Android as easy as pie.
+watson-developer-cloud/java-sdk,:1st_place_medal: Java SDK to use the IBM Watson services.
+pedrovgs/AndroidGameBoyEmulator,Android Game Boy Emulator written in Java
+wmixvideo/nfe,Nota Fiscal Eletrônica em Java.
+vladmihalcea/high-performance-java-persistence,The High-Performance Java Persistence book and video course code examples
+yahoo/elide,Elide is a Java library that lets you stand up a GraphQL/JSON-API web service with minimal effort.
+eBay/Eagle,This codebase is retained for historical interest only - please visit Apache Incubator Repository for latest one
+graphaware/neo4j-to-elasticsearch,GraphAware Framework Module for Integrating Neo4j with Elasticsearch
+VocabHunter/VocabHunter,VocabHunter helps learners of foreign languages find vital new vocabulary to study.
+zalando/nakadi,A distributed event bus that implements a RESTful API abstraction on top of Kafka-like queues
+scribejava/scribejava,Simple OAuth library for Java
+pwm-project/pwm,pwm
+jiangqqlmj/FastDev4Android,本项目是Android快速开发框架，采用AndroidStudio进行开发。 预想集成工具包 -采用MVP开发模式 -EventBus数据分发 -沉浸式状态栏 -ORM -网络请求(HTTPClint -Volley -OkHttps) -数据解析 -依赖注入(AndroidAnnotations) -xutils -图片异步加载，二维码扫描等等，后续会进行逐步添加
+remoting/dubbox,
+evernote/android-job,Android library to handle jobs in the background.
+cmu-phil/tetrad,Repository for the Tetrad Project - www.phil.cmu.edu/tetrad.
+apache/calcite,Mirror of Apache Calcite
+eBay/parallec,Fast Parallel Async HTTP/SSH/TCP/UDP/Ping Client Java Library. Aggregate 100 -000 APIs & send anywhere in 20 lines of code. Ping/HTTP Calls 8000 servers in 12 seconds. (Akka) www.parallec.io
+Glucosio/glucosio-android,Glucosio Android App
+dadoonet/fscrawler,Elasticsearch File System Crawler (FS Crawler)
+sdoward/RxGoogleMaps,Rx Wrapper For Android Google maps
+ngs-doo/dsl-json,High performance JVM JSON library
+DISID/disid-proofs,DISID's repository of proofs of concept.
+ertugrulcetin/GlueList,GlueList is brand new list implementation which is faster than classic List implementations
+mraible/21-points,❤️ 21-Points Health is an app you can use to monitor your health. 
+gk-brown/HTTP-RPC,Lightweight REST for Java
+tomighty/tomighty,Old Tomighty repo. For the new repos - please refer to: tomighty-osx and tomighty-windows
+eclipse/hawkbit,Eclipse hawkBit™
+aesteve/nubes,Annotation layer on top of Vert.x 3
+reactor/reactor-core,Non-Blocking Reactive Foundation for the JVM
+Waikato/moa,MOA is an open source framework for Big Data stream mining. It includes a collection of machine learning algorithms (classification - regression - clustering - outlier detection - concept drift detection and recommender systems) and tools for evaluation.
+blocoio/faker,A Java port of the Faker ruby gem: https://github.com/stympy/faker/
+confluentinc/kafka-connect-jdbc,Kafka Connect connector for JDBC-compatible databases
+requery/requery,requery - modern SQL based query & persistence for Java / Kotlin / Android
+vmware/xenon,Xenon - Decentralized Control Plane Framework
+confluentinc/kafka-connect-hdfs,Kafka Connect HDFS connector
+line/armeria,Asynchronous RPC/REST library built on top of Java 8 - Netty - HTTP/2 - Thrift and gRPC
+spotify/heroic,The Heroic Time Series Database
+spotify/apollo,Java libraries for writing composable microservices
+decaywood/XueQiuSuperSpider,雪球股票信息超级爬虫
+uber/rides-android-sdk,Uber Rides Android SDK (beta)
+JumpMind/metl,Metl is a simple - web-based integration platform that allows for several different styles of data integration including messaging - file based Extract/Transform/Load (ETL) - and remote procedure invocation via Web Services. Read more at www.jumpmind.com/products/metl/overview
+apache/groovy,Mirror of Apache Groovy
+apache/kylin,Apache Kylin
+JumpMind/symmetric-ds,SymmetricDS is a database and file synchronization solution that is platform-independent - web-enabled - and database agnostic.  SymmetricDS was built to make data replication across two to tens of thousands of databases and file systems fast - easy and resilient.  We specialize in near real time - bi-directional data replication across large node networks over the WAN or LAN.
+stellar/java-stellar-sdk,
+Tickaroo/tikxml,Modern XML Parser for Android
+phoenixnap/springmvc-raml-plugin,Spring MVC - RAML Spec Synchroniser Plugin. A Maven plugin designed to Generate Server & Client code in Spring from a RAML API descriptor and conversely - a RAML API document from the SpringMVC Server implementation.
+mangstadt/biweekly,biweekly is an iCalendar library written in Java.
+SonarSource/sonar-python,:snake: SonarQube Python plugin
+find-sec-bugs/find-sec-bugs,The SpotBugs plugin for security audits of Java web applications and Android applications. (Also work with Kotlin - Groovy and Scala projects)
+shred/acme4j,Java client for ACME (Let's Encrypt)
+UNIVALI-LITE/Portugol-Studio,Ambiente de Programação didático para a linguagem Portugol 2.0
+halfhp/androidplot,Charts and plots for Android
+SonarSource/sonar-php, :elephant: SonarPHP: PHP static analyzer for SonarQube & SonarLint
+eclipse/eclipse-collections,Eclipse Collections is a collections framework for Java with optimized data structures and a rich - functional and fluent API.
+VREMSoftwareDevelopment/WifiAnalyzer,Android application to analyze WiFi signals.
+facebookarchive/linkbench,Facebook Graph Benchmark
+Netflix/photon,Photon is a Java implementation of the Interoperable Master Format (IMF) standard. IMF is a SMPTE standard whose core constraints are defined in the specification st2067-2:2013
+vanniktech/OnActivityResult,OnActivityResult annotation compiler for Android
+jorabin/KeePassJava2,Java API for KeePass Password Databases - Read/Write 2.x - Read 1.x
+zalando/intellij-swagger,A plugin to help you easily edit Swagger and OpenAPI specification files inside IntelliJ IDEA
+blockchain/My-Wallet-V3-Android,Blockchain Android Wallet
+stanford-futuredata/macrobase,MacroBase: A Search Engine for Fast Data
+blazegraph/database,Blazegraph High Performance Graph Database
+reactor/reactive-streams-commons,A joint research effort for building highly optimized Reactive-Streams compliant operators.
+electronicarts/ea-async,EA Async implements async-await methods in the JVM.
+fabioCollini/DaggerMock,A JUnit rule to easily override Dagger 2 objects
+RoaringBitmap/RoaringBitmap,A better compressed bitset in Java
+eclipse/eclipse-collections-kata,Collections Kata
+influxdata/influxdb-java,Java client for InfluxDB
+gaoxianglong/shark,:shark:分布式mysql分库分表中间件，sharding领域的一站式解决方案
+cache2k/cache2k,Lightweight - high performance Java caching
+xiaolongzuo/niubi-job,一个高可用的，专门针对定时任务的分布式任务调度框架
+tobato/FastDFS_Client,Java Client for FastDFS
+RestComm/sip-servlets,Leading SIP - IMS - WebRTC Application Server
+metasfresh/metasfresh,We do Open Source ERP - Fast - Flexible & Free Software to scale your Business.
+eclipse/rdf4j,RDF4J Project
+jonashackt/tutorial-soap-spring-boot-cxf,Tutorial how to create - test - deploy - monitor SOAP-Webservices using Spring Boot and Apache CXF
+jamorham/xDrip-plus,Enhanced personal research version of the xDrip android app
+BetterCloud/vault-java-driver,Zero-dependency Java client for HashiCorp's Vault
+hs-web/hsweb-framework,hsweb (haʊs wɛb) 是一个用于快速搭建企业后台管理系统的基础项目 -集成一揽子便捷功能如:便捷的通用增删改查 -强大的权限管理 -动态多数据源 -动态表单 -在线数据库维护等. 基于 spring-boot -mybaits.
+nero520/mybatis,中文注释并附带图解架构
+graalvm/sulong,Obsolete repository. Moved to oracle/graal.
+andrey7mel/android-step-by-step,Android app step by step: https://habrahabr.ru/company/rambler-co/blog/275943/
+viskell/viskell,Visual programming meets Haskell
+NextFaze/power-adapters,Composable adapters for Android RecyclerViews and ListViews
+debezium/debezium,Change data capture for a variety of databases. https://debezium.io Please log issues in our JIRA at https://issues.jboss.org/projects/DBZ/issues
+mercyblitz/confucius-commons,Confucius Commons project is focus on Java commons utility library  - it's not a duplicate for Apache Commons or Spring  - but supplement. Required : SUN JDK 6+
+LogNet/grpc-spring-boot-starter,Spring Boot starter module for gRPC  framework. 
+wso2/msf4j,WSO2 Microservices Framework for Java (MSF4J)
+neuroph/neuroph,Java Neural Network Framework Neuroph
+quarks-edge/quarks,Quarks is an open source programming model and runtime for edge devices that enables you to analyze data and events at the device.
+tlaplus/tlaplus,TLC is an explicit state model checker for specifications written in TLA+. The TLA+Toolbox is an IDE for TLA+.   
+jfree/jfreechart,A 2D chart library for Java applications (JavaFX - Swing or server-side).
+graphhopper/jsprit,jsprit is a java based - open source toolkit for solving rich vehicle routing problems
+reactor/reactor-addons,Official modules for the Reactor project
+k3b/APhotoManager,Manage local photos on Android: gallery - geotag with photomap - privacy - tags - find - sort - view - copy - send - ... .
+SonarSource/sonarlint-intellij,SonarLint for IntelliJ
+SonarSource/sonarlint-eclipse,SonarLint for Eclipse
+emorynlp/nlp4j,NLP framework for JVM languages.
+greenrobot/essentials,General purpose utilities and hash functions for Android and Java (aka java-common)
+domeos/server,This is the web server of domeos. QQ group: 257691628
+Alluxio/alluxio,Alluxio - data orchestration for analytics and machine learning in the cloud
+fabric8io/docker-maven-plugin,Maven plugin for running and creating Docker images
+Microsoft/thrifty,Thrift for Android that saves you methods
+lealone/Lealone,极具创新的面向单机与分布式OLTP场景的异步化NewSQL关系数据库
+chocoteam/choco-solver,An open-source Java library for Constraint Programming
+Karumi/Rosie,Rosie is an Android framework to create applications following the principles of Clean Architecture.
+DataSystemsLab/GeoSpark,A Cluster Computing System for Processing Large-Scale Spatial Data
+ltsopensource/light-task-scheduler,Distributed Scheduled Job Framework
+linkedin/WhereHows,A Generalized Metadata Search & Discovery Tool
+PebbleTemplates/pebble,Java Template Engine
+RestComm/Restcomm-Connect,The Open Source Cloud Communications Platform
+ozimov/spring-boot-email-tools,A set of services and tools for sending emails in a Spring Boot 1.5.x application using a Template Engine
+btraceio/btrace,BTrace - a safe - dynamic tracing tool for the Java platform
+palantir/docker-compose-rule,A JUnit rule to manage docker containers using docker-compose
+usethesource/rascal,The implementation of the Rascal meta-programming language (including interpreter - type checker - parser generator - compiler and JVM based run-time system)
+ctripcorp/apollo,Apollo（阿波罗）是携程框架部门研发的分布式配置中心，能够集中化管理应用不同环境、不同集群的配置，配置修改后能够实时推送到应用端，并且具备规范的权限、流程治理等特性，适用于微服务配置管理场景。
+Microsoft/azure-tools-for-java,Azure tools for Java - including Azure Toolkits for Eclipse - IntelliJ and related projects.
+wcong/learn-java,example of learn java
+junit-team/junit4,A programmer-oriented testing framework for Java.
+codenvy/codenvy,Codenvy
+javolution/javolution, Java Core Library for Real-Time and Embedded Systems
+mybatis/spring-boot-starter,MyBatis integration with Spring Boot
+rakam-io/rakam,📈 Collect customer event data from your apps. (Note that this project only includes the API collector - not the visualization platform)
+epam/JDI,Try JDI Light https://github.com/jdi-testing/jdi-light
+quartz-scheduler/quartz,Code for Quartz Scheduler
+graphaware/graph-aided-search,Elasticsearch plugin offering Neo4j integration for Personalized Search
+liferay/liferay-blade-samples,
+amaembo/huntbugs,Java bytecode static analyzer
+eventsourcing/es4j,Event capture and querying framework for Java
+chengzhx76/Weixin-Dubbo,一个商城项目，SpringCloud版本https://github.com/chengzhx76/weixin-shop-spring-cloud
+airbnb/reair,ReAir is a collection of easy-to-use tools for replicating tables and partitions between Hive data warehouses.
+hidroh/calendar,Simple event calendar - with agenda view
+line/line-bot-sdk-java,LINE Messaging API SDK for Java
+mapbox/mapbox-java,The Mapbox Java SDK – Java wrappers around Mapbox APIs and other location data 
+RUB-NDS/TLS-Attacker,TLS-Attacker is a Java-based framework for analyzing TLS libraries. It is developed by the Ruhr University Bochum (http://nds.rub.de/) and the Hackmanit GmbH (http://hackmanit.de/). 
+FasterXML/jackson-dataformats-binary,Uber-project for standard Jackson binary format backends: avro - cbor - protobuf - smile
+linkedin/ambry,Distributed object store
+leventov/Koloboke,Java Collections till the last breadcrumb of memory and performance
+twitter/distributedlog,A high performance replicated log service. (The development is moved to Apache Incubator)
+apereo/java-cas-client,Apereo Java CAS Client
+brianway/spring-learning,Spring 学习笔记，通过例子展示和剖析实现机制
+blockchain/thunder,Off-Chain Bitcoin payments using smart contracts 
+firebase/firebase-jobdispatcher-android,DEPRECATED please see the README.md below for details.
+jenkinsci/java-client-api,A Jenkins API client for Java
+rest-assured/rest-assured,Java DSL for easy testing of REST services
+shekhargulati/99-problems,This is an adaptation of the Ninety-Nine Prolog Problems written by Werner Hett.
+Camelcade/Perl5-IDEA,Perl5 plugins for IntelliJ IDEA
+jline/jline3,JLine is a Java library for handling console input.
+mesosphere/dcos-cassandra-service,DEPRECATED—Open source Apache Cassandra running on DC/OS is now replaced by mesosphere/dcos-commons/frameworks/cassandra.  This repository will be deleted at the end of 2017.
+ground-context/ground,An open-source - vendor-neutral data context service.
+flankerhqd/JAADAS,Joint Advanced Defect assEsment for android applications
+hawkular/hawkular-apm,This project is now deprecated - in favor of CNCF's Jaeger (was: Distributed Tracing and Application Performance Management)
+apache/apex-core,Mirror of Apache Apex core
+ilscipio/scipio-erp,Your Online Business Kit - Build your own business applications. Create your own online shop. Customize to your own needs.
+nextcloud/android,📱 Nextcloud Android app
+GoogleCloudPlatform/app-gradle-plugin,Gradle plugin to build and deploy Google App Engine applications.
+javahongxi/whatsmars,Java生态研究(Spring Boot + Redis + Dubbo + RocketMQ + Elasticsearch)🔥🔥🔥🔥🔥
+OneSignal/OneSignal-Android-SDK,OneSignal is a free push notification service for mobile apps. This plugin makes it easy to integrate your native Android or Amazon app with OneSignal. https://onesignal.com
+apache/zeppelin,Mirror of Apache Zeppelin
+apache/asterixdb,Mirror of Apache AsterixDB
+apache/tinkerpop,Apache TinkerPop - a graph computing framework
+jhalterman/failsafe,Fault tolerance and resilience patterns for the JVM
+treasure-data/digdag,Workload Automation System
+awaitility/awaitility,Awaitility is a small Java DSL for synchronizing asynchronous operations
+NationalSecurityAgency/timely,Accumulo backed time series database
+skyfe79/LearningOpenGLES2-Android,Learning OpenGL ES 2 in Java for Android
+Nike-Inc/wingtips,Wingtips is a distributed tracing solution for Java based on the Google Dapper paper.
+alibaba/weex,A framework for building Mobile cross-platform UI
+zalando/tokens,Java library for conveniently verifying and storing OAuth 2.0 service access tokens
+nielsbasjes/yauaa,Yet Another UserAgent Analyzer
+authorjapps/zerocode,A community-developed - free - open source - declarative API automation and load testing framework built using Java JUnit core runners for Http REST - SOAP - Security - Database - Kafka and much more. It enables to create and maintain test-cases with absolute ease.
+NemProject/nem.core,org.nem.core package
+deeplearning4j/DataVec,ETL Library for Machine Learning - data pipelines - data munging and wrangling
+commonsguy/cwac-netsecurity,CWAC-NetSecurity: Simplifying Secure Internet Access
+bazelbuild/intellij,IntelliJ plugin for Bazel projects
+VictorAlbertos/Mockery,Android and Java library for mocking and testing networking layers with built-in support for Retrofit.
+scoute-dich/K9-MailClient,Fork of the android k9 mail client with material design. Mind SDK 21.
+splicemachine/spliceengine,The SpliceSQL Engine
+yandex/clickhouse-jdbc,JDBC driver for ClickHouse
+joinfaces/joinfaces,JoinFaces: JSF Spring Boot Starters - JSF inside Spring Boot Application
+NationalSecurityAgency/lemongrenade,Data-driven automation platform
+ebean-orm/ebean,Ebean ORM
+bootique/bootique,Bootique is a minimally opinionated platform for modern runnable Java apps.
+in28minutes/MockitoTutorialForBeginners,Mockito Tutorial for Beginners
+jojoldu/blog-code,http://jojoldu.tistory.com/ 에서 제공하는 예제 code
+vimeo/stag-java,Speedy Type Adapter Generation
+apache/incubator-edgent,Mirror of Apache Edgent (Incubating)
+sunnykaka/mysteam,mysteam主要用来演示Spring Cloud与Netflix OSS在微服务系统中的使用.
+wenhao/jpa-spec,A JPA Query By Specification framework.
+box/mojito,An automation platform that enables continuous localization.
+gazbert/bxbot,A simple Bitcoin trading bot written in Java.
+airbnb/epoxy,Epoxy is an Android library for building complex screens in a RecyclerView
+oshi/oshi,Native Operating System and Hardware Information
+vmware/admiral,Container management solution with an accent on modeling containerized applications and provide placement based on dynamic policy allocation
+dhis2/dhis2-core,DHIS 2 Core. Written in Java. Contains the service layer and Web API.
+mopemope/meghanada-server,A Java IDE Server for your editor. Java IDE-like features to your favourite text editor.
+FudanNLP/fnlp,中文自然语言处理工具包 Toolkit for Chinese natural language processing
+twitter/GraphJet,GraphJet is a real-time graph processing library.
+ScaCap/spring-auto-restdocs,Spring Auto REST Docs is an extension to Spring REST Docs
+GlenKPeterson/Paguro,Immutable Collections and Functional Transformations for the JVM
+web3j/web3j,Lightweight Java and Android library for integration with Ethereum clients
+spring-projects/spring-vault,Provides familiar Spring abstractions for HashiCorp Vault
+hzxie/voj,Cross-platform online judge system based on Spring MVC framework and ActiveMQ.
+redisson/redisson,Redisson - Redis Java client with features of In-Memory Data Grid. Over 50 Redis based Java objects and services: Set - Multimap - SortedSet - Map - List - Queue - Deque - Semaphore - Lock - AtomicLong - Map Reduce - Publish / Subscribe - Bloom filter - Spring Cache - Tomcat - Scheduler - JCache API - Hibernate - MyBatis - RPC ...
+soabase/exhibitor,ZooKeeper co-process for instance monitoring - backup/recovery - cleanup and visualization.
+awslabs/emr-dynamodb-connector,Implementations of open source Apache Hadoop/Hive interfaces which allow for ingesting data from Amazon DynamoDB
+NightscoutFoundation/xDrip,Nightscout version of xDrip+
+Baeldung/spring-security-oauth,Just Announced - "Learn Spring Security OAuth": 
+gchq/Gaffer,A large-scale entity and relation database supporting aggregation of properties
+uber/uReplicator,Improvement of Apache Kafka Mirrormaker
+guolindev/booksource,《第一行代码 第2版》全书源代码
+androidannotations/androidannotations,Fast Android Development. Easy maintainance.
+OpenVidu/openvidu,OpenVidu Platform main repository
+0opslab/opslabJutil,Java utils
+michaelliao/cryptocurrency,Simple Java library to interact with bitcoin
+google/nomulus,Top-level domain name registry service on Google App Engine
+javaparser/javasymbolsolver,*old repository* --> this is now integrated in https://github.com/javaparser/javaparser
+zanata/zanata-platform,Zanata is a web-based system for translators to translate documentation and software online using a web browser.
+networknt/light-oauth2,A fast - light and cloud native OAuth 2.0 authorization microservices based on light-4j
+alexstyl/Memento-Calendar,The sweetest calendar for Android
+mauricioaniche/repodriller,a tool to support researchers on mining software repositories studies
+salesforce/Argus,Time series monitoring and alerting platform.
+Tesco/mewbase,Event Sourcing and CQRS Toolkit for JVM languages 
+eclipse/lsp4j,A Java implementation of the language server protocol intended to be consumed by tools and language servers implemented in Java.
+Microsoft/mssql-jdbc,The Microsoft JDBC Driver for SQL Server is a Type 4 JDBC driver that provides database connectivity with SQL Server through the standard JDBC application program interfaces (APIs).
+bertrandmartel/speed-test-lib,:cloud: JSpeedTest : speed test client library for Java/Android
+Waffle/waffle,Enable drop-in Windows Single Sign On for popular Java web servers.
+uber/chaperone,A Kafka audit system
+spotify/styx,"The path to execution" - Styx is a service that schedules batch data processing jobs in Docker containers on Kubernetes.
+codeabovelab/haven-platform,Haven is an open source Docker container management system. It integrates container - application - cluster - image - and registry management in one single place. 
+GoSimpleLLC/nbvcxz,Password strength estimator
+dsyer/spring-boot-startup-bench,Benchmarks for Spring Boot startup
+vaadin/framework,Vaadin 6 - 7 - 8   is a Java framework for modern Java web applications.
+Netflix/hollow,Hollow is a java library and toolset for disseminating in-memory datasets from a single producer to many consumers for high performance read-only access.
+apache/geode,Apache Geode
+thingsboard/thingsboard,Open-source IoT Platform - Device management - data collection - processing and visualization.
+fishercoder1534/Leetcode,Complete solutions to Leetcode problems; updated daily. Subscribe to my YouTube channel for more.
+knightliao/CanalX,基于 `Canal` 的数据感知服务框架. 可用于围绕数据库`Mysql`进行数据相关的各式业务开发 - 并建立各式各样的服务平台. 
+android10/frodo2,Android Library for Logging RxJava2 Components
+davidmoten/rxjava2-extras,Utilities for use with RxJava 2
+kickstarter/android-oss,Kickstarter for Android. Bring new ideas to life - anywhere.
+androidthings/contrib-drivers,Open source peripheral drivers
+zalando/zalenium,A flexible and scalable container based Selenium Grid with video recording - live preview - basic auth & dashboard.
+jhipster/jhipster,JHipster BOM and server-side library
+hortonworks/registry,Schema Registry
+allure-framework/allure2,Allure Framework is a flexible lightweight multi-language test reporting tool. It provides clear graphical reports and allows everyone involved in the development process extract maximum of information from everyday testing process.
+lukas-krecan/ShedLock,Distributed lock for your scheduled tasks
+allure-framework/allure1,Allure 1 isn't supported any more - please consider using Allure 2 https://github.com/allure-framework/allure2 instead
+SpectoLabs/hoverfly-java,Java binding for Hoverfly
+shunfei/indexr,An open-source columnar data format designed for fast & realtime analytic with big data.
+spring-projects/sts4,The next generation of tooling for Spring Boot - including support for Cloud Foundry manifest files - Concourse CI pipeline definitions - BOSH deployment manifests - and more... - Available for Eclipse - Visual Studio Code - and Theia
+apache/beam,Apache Beam is a unified programming model for Batch and Streaming
+apache/eagle,Mirror of Apache Eagle
+byhieg/JavaTutorial,Java教程，包括多线程，泛型，反射，IO，容器类 -注解
+yidongnan/grpc-spring-boot-starter,Spring Boot starter module for gRPC framework.
+habanero-rice/PCDP,
+kohsuke/jenkins,Jenkins Continuous Integration server
+JanusGraph/janusgraph,JanusGraph: an open-source - distributed graph database
+yahoo/athenz,Athenz is a role-based authorization (RBAC) system for provisioning and configuration (centralized authorization) use cases as well as serving/runtime (decentralized authorization) use cases.
+openhab/openhab1-addons,Add-ons for openHAB 1.x
+ozlerhakan/poiji,:candy: A tiny library converting excel rows to a list of Java objects based on Apache POI
+Zhuinden/simple-stack,[ACTIVE] Simple Stack - a backstack library for simpler navigation between views - fragments - or whatevers.
+google/volley,
+simon987/Much-Assembly-Required,Assembly programming game
+apache/ranger,Mirror of Apache Ranger
+samuelhuahui/OdyAndroidStore,安卓开发宝典
+OvercastNetwork/ProjectAres,Bukkit/Bungee plugins from the former Overcast/Lifeboat PC network - including PGM
+apollographql/apollo-android,:pager: A strongly-typed - caching GraphQL client for Android and the JVM
+cyforever123/weex-hongkong,提交weex界面，业务逻辑代码以及android集成相关代码
+AzimoLabs/Review-Reporter,Bot for reporting Google Play Reviews on Slack with possibility to fast reply and creating Jira issues from low rating reviews.
+nomemory/mockneat,MockNeat is a Java 8+ library that facilitates the generation of arbitrary data for your applications.
+apache/incubator-ratis,Mirror of Apache Ratis (Incubating)
+jhipster/jhipster-sample-app-ng2,DEPRECATED now that Angular 2+ is the default - This is a sample application created with JHipster - using Angular 2
+onlyliuxin/coding2017,
+intuit/karate,Test Automation Made Simple
+zstackio/zstack,ZStack - the open-source IaaS software http://zstack.org (国内用户请至 http://zstack.io)
+mitdbg/modeldb,A system to manage machine learning models
+Sixt/ja-micro,Lightweight framework for building java microservices
+songxiaoliang/ReactNativeApp,1. 原生 App 中集成ReactNative、实现Android与React Native3种交互方式、2. 使用google-diff-match-patch生成补丁包，实现 React Native 热部署，增量热更新、3. 封装ReactActivity，实现JsBundle预加载，界面秒开优化、4.自定义ReactDegelate，实现Android现有布局添加RN视图
+google/mug,
+anthonyraymond/joal,An open source command line RatioMaster with an optional WebUI.
+vaquarkhan/vaquarkhan,
+blipinsk/cortado,Android Espresso made more fluent :coffee:
+JavaEden/Orchid,Build and deploy beautiful documentation sites that grow with you
+pf4j/pf4j,Plugin Framework for Java (PF4J)
+hortonworks/streamline,StreamLine - Streaming Analytics 
+tralves/weex-todo-list,A demo To-do app built with Weex and Vue2.0
+Teradata/kylo,Kylo is a data lake management software platform and framework for enabling scalable enterprise-class data lakes on big data technologies such as Teradata - Apache Spark and/or  Hadoop. Kylo is licensed under Apache 2.0. Contributed by Teradata Inc.
+Audiveris/audiveris,Latest generation of Audiveris OMR engine
+synchrony/smsn,Semantic Synchrony. An experiment in cognitive and sensory augmentation.
+alibaba/atlas,A powerful Android Dynamic Component Framework.
+kiegroup/drools,Drools is a rule engine - DMN engine and complex event processing (CEP) engine for Java.
+CogComp/cogcomp-nlp,CogComp's Natural Language Processing libraries and Demos: 
+kiegroup/optaplanner,Java Constraint Solver to solve vehicle routing - employee rostering - task assignment - conference scheduling and other planning problems.
+kiegroup/jbpm,a Business Process Management (BPM) Suite
+uber/AutoDispose,Automatic binding+disposal of RxJava 2+ streams.
+linkedin/flashback,mock the internet
+jeddict/jeddict,Jakarta EE 8 (Java EE) & MicroProfile 3.2 application generator and modeler
+modelmapper/modelmapper,Intelligent object mapping
+lettuce-io/lettuce-core,Advanced Java Redis client for thread-safe sync - async - and reactive usage. Supports Cluster - Sentinel - Pipelining - and codecs.
+resilience4j/resilience4j,Resilience4j is a fault tolerance library designed for Java8 and functional programming
+jvm-profiling-tools/honest-profiler,A sampling JVM profiler without the safepoint sample bias
+gudaoxuri/dew,微服务一站式解决方案，提供：架构指南、容器优先/兼容Spring Cloud与Istio的框架、最佳实践及Devops标准化流程。
+swagger-api/swagger-core,Examples and server integrations for generating the Swagger API Specification - which enables easy access to your REST API
+json-path/JsonPath,Java JsonPath implementation
+castorini/Anserini,A Lucene toolkit for replicable information retrieval research
+swagger-api/swagger-parser,Swagger Spec to Java POJOs
+parse-community/Parse-SDK-Android,Parse SDK for Android
+typ0520/bizsocket,异步socket，对一些业务场景做了支持
+remkop/picocli,Picocli is a modern framework for building powerful - user-friendly - GraalVM-enabled command line apps with ease. It supports colors - autocompletion - subcommands - and more.  In 1 source file so apps can include as source & avoid adding a dependency. Written in Java - usable from Groovy - Kotlin - Scala - etc. 
+salesforce/grpc-java-contrib,Useful extensions for the grpc-java library
+facebook/litho,A declarative framework for building efficient UIs on Android.
+mapbox/mapbox-navigation-android,Mapbox Navigation SDK for Android
+beehive-lab/Maxine-VM,Maxine VM: A meta-circular research VM
+reenWYJ/reen-sharding,轻量级的MySQL数据库的分库分表中间件
+oracle/visualvm,VisualVM is an All-in-One Java Troubleshooting Tool
+baidu/Jprotobuf-rpc-socket,Protobuf RPC是一种基于TCP协议的二进制RPC通信协议的Java实现
+java-json-tools/json-schema-validator,A JSON Schema validation implementation in pure Java - which aims for correctness and performance - in that order
+java-json-tools/json-patch,An RFC 6902 (JSON Patch) and reverse - plus RFC 7386 (JSON Merge Patch) - implementation in Java using Jackson (2.2.x)
+networknt/light-4j,A fast - lightweight and more productive microservices framework
+apache/carbondata,Mirror of Apache CarbonData
+pravega/pravega,Pravega - Streaming as a new software defined storage primitive
+rsocket/rsocket-java,Java implementation of RSocket
+google/tink,Tink is a multi-language - cross-platform - open source library that provides cryptographic APIs that are secure - easy to use correctly - and hard(er) to misuse.
+apache/metron,Apache Metron
+apache/fineract,Apache Fineract
+firebase/firebase-admin-java,Firebase Admin Java SDK
+j-easy/easy-rules,The simple - stupid rules engine for Java
+godlike110/tk-mybatis,tk-mybatis  修复一写问题
+rsksmart/rskj,RSKj is a Java implementation of the RSK protocol.
+yegor256/cactoos,Object-Oriented Java primitives - as an alternative to Google Guava and Apache Commons
+j-easy/easy-batch,The simple - stupid batch framework for Java
+ityouknow/spring-boot-examples,about learning Spring Boot via examples. Spring Boot 教程、技术栈示例代码，快速简单上手教程。 
+ityouknow/spring-cloud-examples,Spring Cloud 学习案例，服务发现、服务治理、链路追踪、服务监控等
+Aptoide/aptoide-client-v8,All the Apps you need. Discover your new Android App Store.
+getsentry/sentry-java,A Sentry SDK for Java and other JVM languages.
+apache/systemml,Mirror of Apache SystemML
+locationtech/geowave,GeoWave provides geospatial and temporal indexing on top of Accumulo - HBase - BigTable - Cassandra - and DynamoDB
+awslabs/dynamodb-janusgraph-storage-backend,The Amazon DynamoDB Storage Backend for JanusGraph
+exercism/java,Exercism exercises in Java.
+apache/pulsar,Apache Pulsar - distributed pub-sub messaging system
+census-instrumentation/opencensus-java,A stats collection and distributed tracing framework
+spring-cloud/spring-cloud-function,
+aws/aws-sdk-java-v2,The official AWS SDK for Java - Version 2
+spring-cloud/spring-cloud-gateway,A Gateway built on Spring Framework 5.x and Spring Boot 2.x providing routing and more.
+marcosbarbero/spring-cloud-zuul-ratelimit,Rate limit auto-configure for Spring Cloud Netflix Zuul
+MobiVM/robovm,Ahead of time compiler for JVM bytecode targetting iOS - Mac OSX and Linux
+Microsoft/azure-maven-plugins,Maven plugins for Azure
+commonsguy/cwac-saferoom,CWAC-SafeRoom: A Room<->SQLCipher for Android Bridge
+FlowCI/flow-platform,[move to flow-platform-x] CI backend server and agent
+capergroup/bayou,System for synthesizing Java API idioms - powered by Neural Sketch Learning
+micrometer-metrics/micrometer,An application metrics facade for the most popular monitoring tools. Think SLF4J - but for metrics.
+gentics/mesh,Gentics Mesh - The open source headless CMS for developers
+eventuate-tram/eventuate-tram-core,Transactional messaging for microservices
+zeebe-io/zeebe,Distributed Workflow Engine for Microservices Orchestration
+jtablesaw/tablesaw,Java dataframe and visualization library
+vespa-engine/vespa,Vespa is an engine for low-latency computation over large data sets.
+TeamAmaze/AmazeFileManager,Material design file manager for Android
+UniversaBlockchain/universa,Universa network - node - client and API
+linkedin/cruise-control,Cruise-control is the first of its kind to fully automate the dynamic workload rebalance and self-healing of a kafka cluster. It provides great value to Kafka users by simplifying the operation of Kafka clusters.
+confluentinc/ksql,The event streaming database purpose-built for stream processing applications
+confluentinc/kafka-streams-examples,Demo applications and code examples for Apache Kafka's Streams API.
+kingston-csj/Jforgame,jforgame是一个一站式游戏服务端开发框架，包含游戏服，跨服，匹配服，后台管理系统等模块。同时提供大量业务案例以供学习。
+actiontech/dble,A High Scalability Middle-ware for MySQL Sharding
+Microsoft/azure-spring-boot,Spring Boot Starters for Azure services
+vladmihalcea/hibernate-types,The Hibernate Types library gives you extra types that are not supported by the Hibernate ORM core.
+line/centraldogma,Highly-available version-controlled service configuration repository based on Git - ZooKeeper and HTTP/2
+SonarSource/SonarJS,SonarJS: JavaScript and TypeScript Analyzer for SonarQube
+apache/rocketmq,Mirror of Apache RocketMQ
+vaadin/flow,Flow is a Java framework binding Vaadin web components to Java. This is part of Vaadin 10+.
+fnproject/fdk-java,Java API and runtime for fn.
+graphaware/neo4j-nlp,NLP Capabilities in Neo4j
+jaegertracing/jaeger-client-java,Jaeger Bindings for Java OpenTracing API
+adamkewley/jobson,A platform for transforming command-line applications into a job service.
+uber/AthenaX,SQL-based streaming analytics platform at scale
+aosp-mirror/platform_frameworks_base,
+facebookincubator/Battery-Metrics,Library that helps in instrumenting battery related system metrics.
+aosp-mirror/platform_frameworks_support,
+rhwayfun/spring-boot-learning-examples,Spring Boot工程实践，快速上手Spring Boot开发必备。最全的Spring Boot使用案例！
+Kong/unirest-java,Unirest in Java: Simplified - lightweight HTTP client library.
+mycelium-com/wallet-android,Mycelium Bitcoin Wallet for Android
+jzyong/game-server,Distributed Java game server - including cluster management server - gateway server - hall server - game logic server - background monitoring server and a running web version of fishing. State machine - behavior tree - A* pathfinding - navigation mesh and other AI tools
+real-logic/artio,Artio - Resilient High-Performance FIX Gateway
+uber/RIBs,Uber's cross-platform mobile architecture framework.
+salesforce/reactive-grpc,Reactive stubs for gRPC
+dyn4j/dyn4j,Java Collision Detection and Physics Engine
+spring-projects/spring-data-jdbc,Spring Data JDBC
+d4rken/RxShell,Easy shell access for Android apps using RxJava.
+apache/skywalking,APM - Application Performance Monitoring System
+Microsoft/pai,Resource scheduling and cluster management for AI
+mybatis/mybatis-dynamic-sql,SQL Generator for MyBatis or Spring JDBC Templates
+oracle/OpenGrok,OpenGrok is a fast and usable source code search and cross reference engine - written in Java
+aliyun/tablestore-timeline,TableStore-Timeline Model for Social scene
+vlingo/vlingo-actors,The vlingo/PLATFORM type safe Actor Model toolkit for reactive concurrency and resiliency using Java and other JVM languages.
+apache/ServiceComb-Java-Chassis,ServiceComb Java Chassis is a Software Development Kit (SDK) for rapid development of microservices in Java - providing service registration - service discovery - dynamic routing - and service management features
+SeldonIO/seldon-core,Machine Learning Deployment for Kubernetes
+lets-blade/blade,:rocket: Lightning fast and elegant mvc framework for Java8
+alfio-event/alf.io,alf.io - The open source ticket reservation system for conferences - trade shows - workshops - meetups
+tronprotocol/java-tron,Java implementation of the Tron whitepaper
+Netflix/iceberg,Iceberg is a table format for large - slow-moving tabular data
+SourceLabOrg/kafka-webview,Full-featured web-based Apache Kafka consumer UI
+theotherp/nzbhydra2,Usenet meta search
+oracle/graal,GraalVM: Run Programs Faster Anywhere :rocket:
+uber-common/jvm-profiler,JVM Profiler Sending Metrics to Kafka - Console Output or Custom Reporter
+secure-software-engineering/FlowDroid,FlowDroid Static Data Flow Tracker
+oracle/fastr,A high-performance implementation of the R programming language - built on GraalVM.
+signalapp/Signal-Server,
+spotify/mobius,A functional reactive framework for managing state evolution and side-effects.
+Spirals-Team/repairnator,Software development bot that automatically repairs programs and build failures on Travis Continuous Integration. Join the bot revolution! :star2::robot::star2::revolving_hearts:
+NationalSecurityAgency/datawave,DataWave is an ingest/query framework that leverages Apache Accumulo to provide fast - secure data access.
+biezhi/excel-plus,❇️ Improve the productivity of the Excel operation library. https://git.io/vNjQy
+alibaba/easyexcel,快速、简单避免OOM的java处理Excel工具
+oracle/weblogic-kubernetes-operator,Oracle Weblogic Server Kubernetes Operator
+spring-cloud/spring-cloud-openfeign,Support for using OpenFeign in Spring Cloud apps
+GoogleCloudPlatform/DataflowTemplates,Google-provided Cloud Dataflow template pipelines for solving simple in-Cloud data tasks
+logzio/apollo,Apollo - The logz.io continuous deployment solution over kubernetes
+qaprosoft/zafira,Zafira QA automation reporting backend.
+ff4j/ff4j,Feature Flags for Java made easy
+schemacrawler/SchemaCrawler,Free database schema discovery and comprehension tool
+ICIJ/datashare,Better analyze information - in all its forms
+elastic/apm-agent-java,Elastic APM Java Agent
+google/data-transfer-project,The Data Transfer Project makes it easy for people to transfer their data between online service providers. We are establishing a common framework - including data models and protocols - to enable direct transfer of data both into and out of participating online service providers.
+journaldev/journaldev,JournalDev Projects
+airbnb/SpinalTap,Change Data Capture (CDC) service
+codecentric/chaos-monkey-spring-boot,Chaos Monkey for Spring Boot
+Netflix/concurrency-limits,
+Discord4J/Discord4J,A fast and reactive JVM-based REST/WS wrapper for the official Discord Bot API - written in Java
+traccar/traccar,Traccar GPS Tracking System
+gexiangdong/tutorial,Spring Boot的例子，包含RESTful API - MVC - JMS - Cache - Mybatis - Cache - Websocket...
+spring-io/spring-javaformat,
+ballerina-platform/ballerina-lang,The Ballerina Programming Language
+knowm/XChange,XChange is a Java library providing a streamlined API for interacting with 60+ Bitcoin and Altcoin exchanges providing a consistent interface for trading and accessing market data.
+PhoenicisOrg/phoenicis,Phoenicis PlayOnLinux and PlayOnMac 5 repository
+yandextaxitech/binaryprefs,Rapidly fast and lightweight re-implementation of SharedPreferences  which stores each preference in files separately - performs disk operations  via NIO with memory mapped byte buffers and works IPC (between processes).  Written from scratch.
+spinnaker/kayenta,Automated Canary Service
+google/flogger,A Fluent Logging API for Java
+Netflix/titus-control-plane,Titus is the Netflix Container Management Platform that manages containers and provides integrations to the infrastructure ecosystem.
+GoogleContainerTools/jib,🏗 Build container images for your Java applications.
+xgdsmileboy/SimFix,Automatically fix programs by leveraging existing patches from other projects and similar code snippets from the faulty project.
+thorntail/thorntail,Source code for the Thorntail project
+google/bundletool,Bundletool is a command-line tool to manipulate Android App Bundles
+LuoLiangDSGA/Spring-Learning,:fire::fire::tada:Spring Learning Project - Enjoy it
+americanexpress/nodes,A GraphQL JVM Client - Java - Kotlin - Scala - etc.
+lxy-go/SpringBoot,这是一个SpringBoot的从入门程序集锦
+ctripcorp/vi,帮助了解和控制应用
+ConsenSys/eventeum,A resilient Ethereum event listener that bridges your smart contract events and backend microservices
+nordic-institute/X-Road,Source code of the X-Road data exchange layer software.
+strimzi/strimzi-kafka-operator,Apache Kafka running on Kubernetes
+Microsoft/spring-cloud-azure,Spring Cloud integration with Azure services 
+DependencyTrack/dependency-track,Dependency-Track is an intelligent Supply Chain Component Analysis platform that allows organizations to identify and reduce risk from the use of third-party and open source components.
+yahoo/HaloDB,A fast - log structured key-value store.
+harbby/sylph,Stream computing platform for bigdata
+apache/incubator-druid,Apache Druid: a high performance real-time analytics database.
+wangzheng0822/ratelimiter4j,Java rate limiting library/framework
+ucbrise/anna,
+alibaba/Sentinel,A lightweight powerful flow control component enabling reliability and monitoring for microservices. (轻量级的流量控制、熔断降级 Java 库)
+classgraph/classgraph,An uber-fast - ultra-lightweight - parallelized Java classpath scanner and module scanner.
+spring-cloud/spring-cloud-kubernetes,Kubernetes integration with Spring Cloud Discovery Client - Configuration - etc...
+mzheravin/exchange-core,Ultra-fast exchange engine
+etcd-io/jetcd,etcd java client
+crossoverJie/JCSprout,👨‍🎓 Java Core Sprout : basic - concurrent - algorithm 
+wuyouzhuguli/SpringAll,循序渐进，学习Spring Boot、Spring Boot & Shiro、Spring Cloud、Spring Security & Spring Security OAuth2，博客Spring系列源码
+Twitter4J/Twitter4J,Twitter4J is an open-sourced - mavenized and Google App Engine safe Java library for the Twitter API which is released under the Apache License 2.0.
+Angel-ML/angel,A Flexible and Powerful Parameter Server for large-scale machine learning
+uber/marmaray,Generic Data Ingestion & Dispersal Library for Hadoop
+firebase/firebase-android-sdk,Firebase Android SDK
+MorphiaOrg/morphia,MongoDB object-document mapper in Java based on https://github.com/mongodb/mongo-java-driver
+microservices-patterns/ftgo-application,Example code for the book Microservice patterns
+linkedin/TonY,TonY is a framework to natively run deep learning frameworks on Apache Hadoop.
+eclipse-vertx/vert.x,Vert.x is a tool-kit for building reactive applications on the JVM
+Mojang/brigadier,Brigadier is a command parser & dispatcher - designed and developed for Minecraft: Java Edition.
+googleapis/google-cloud-java,Google Cloud Client Library for Java
+tmobile/pacbot,PacBot (Policy as Code Bot)
+selenide/selenide,Concise UI Tests with Java!
+SAP/vulnerability-assessment-tool,Analyses your Java and Python applications for open-source dependencies with known vulnerabilities - using both static analysis and testing to determine code context and usage for greater accuracy.  https://eclipse.github.io/steady/
+rengwuxian/HenCoderPlus,HenCoder Plus 的课上代码分享
+consenlabs/token-core-android,a blockchain private key management library on android
+theonedev/onedev,Super Easy All-In-One DevOps Platform
+apache/incubator-iceberg,Apache Iceberg (Incubating)
+palantir/conjure,Strongly typed HTTP/JSON APIs for browsers and microservices
+Meituan-Dianping/zebra,美团点评集团统一使用的MySQL数据库访问层的中间件。主要提供对业务开发透明、读写分库、分库分表能力，并提供了端到端SQL监控的集成方案。
+apache/griffin,Mirror of Apache griffin 
+apache/servicecomb-pack,Apache ServiceComb Pack is an eventually data consistency solution for micro-service applications. ServiceComb Pack currently provides TCC and Saga distributed transaction co-ordination solutions by using Alpha as a transaction coordinator and Omega as an transaction agent .
+LinShunKang/MyPerf4J,High performance Java APM. Powered by ASM. Try it. Test it. If you feel its better - use it.
+gojek/feast,Feature Store for Machine Learning
+heibaiying/spring-samples-for-all,spring、spring-boot、spring-cloud 常用整合用例
+didi/DDMQ,DDMQ is a distributed messaging product with low latency - high throughput and high availability.
+FoundationDB/fdb-record-layer,A record-oriented store built on FoundationDB
+apache/incubator-shardingsphere,Distributed database middleware
+siddhi-io/siddhi,Stream Processing and Complex Event Processing Engine
+digitalsonic/geektime-spring-family,极客时间视频课程《玩转Spring全家桶》
+moquette-io/moquette,Java MQTT lightweight broker
+cheese10yun/spring-guide,:octocat: Spring 실전 가이드
+halo-dev/halo,✍ Halo 一款现代化的个人独立博客系统
+quarkusio/quarkus-quickstarts,Quarkus quickstart code
+opendistro-for-elasticsearch/sql,Open Distro for Elasticsearch SQL Plugin
+opendistro-for-elasticsearch/security,Open Distro for Elasticsearch Security plugin
+everitoken/evt4j,Official Java SDK for everiToken public chain. https://www.everitoken.io
+seata/seata,:fire: Seata is an easy-to-use - high-performance - open source distributed transaction solution.
+apache/dubbo,Apache Dubbo is a high-performance - java based - open source RPC framework.
+
