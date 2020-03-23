@@ -4,16 +4,6 @@ from tqdm import tqdm
 from tabulate import tabulate
 from operator import itemgetter
 
-FullName2MethodObject = {}
-
-ClassName2Methods = {}
-ClassName2Class = {}
-ClassName2ExtendFrom = {}
-ClassName2Code = {}
-MethodName2Method = {}
-MethodName2ClassName = {}
-
-
 
 Object_methods = {
 "clone":"Object",
@@ -336,16 +326,6 @@ def returnTypeName(_type):
         base = _type.name
     return base
 
-def isTestCode(Code):
-    return ("/test/" in str(Code.path)) and ("@Test" in Code.strcode)
-
-def organizeList(_list):
-    organized = []
-    for l in _list:
-        if l not in organized:
-            organized.append(l)
-    organized.sort(key=itemgetter(1))
-    return organized
 #for Step3
 def splitImport(import_sentence):
     splited = import_sentence.split(".")
@@ -420,107 +400,6 @@ def getDeclarations(method_object):
             Declarations.append(ThisDeclaration)
     return Declarations
 
-#for Step4
-
-
-def getStaticType(_method, TestCode, Project):
-    StaticImports = Project.getStaticImportedMethods(TestCode)
-    for call in StaticImports:
-        if call[2] == _method:
-            return call[1]
-    return "(Non_specific)"
-
-#for Step5
-def isSpecific(_type, _method, TestCode, Project):
-    SpecificImportedClasses = Project.getImportedClasses(TestCode)
-    SpecificStaticImportedMethods = Project.getStaticImportedMethods(TestCode)
-    if _type == "(Private)":
-        return True
-    if _type == "(Non_specific)":
-        return False
-    if _type == "(Object)":
-        return False
-    if _type == "(Unknown)":
-        return True
-    _type = _type.split(".")[0]
-    if _type in [i[1] for i in SpecificImportedClasses]:
-        return True
-    for s in SpecificStaticImportedMethods:
-        if _type == s[1] and _method == s[2]:
-            return True
-    return False
-
-def getReturnType(_type, _method, TestCode, Project):
-    InnerMethods = TestCode.main_class.methods
-
-    if _type == "(Unknown)":
-        return "(Unknwon)"
-
-    if _type == "(Private)":
-        for nt in InnerMethods:
-            if _method == nt.name:
-                return returnTypeName(nt.return_type)
-    else:
-        method = getMethod(_type, _method, TestCode, Project)
-        if method:
-            return returnTypeName(method.return_type)
-    return "(Unknown)"
-
-def getCode(_class, TestCode, Project):
-    if _class == "(Private)":
-        return TestCode
-    SpecificImportedClasses = Project.getImportedClasses(TestCode)
-    SpecificStaticImportedMethods = Project.getStaticImportedMethods(TestCode)
-    Specifics = SpecificImportedClasses + SpecificStaticImportedMethods
-    PackageDic = Project.getPackageDic()
-    _class = _class.split(".")[0]
-    for sp in Specifics:
-        if sp[1] == _class:
-            for code in PackageDic[sp[0]]:
-                if code.name == _class:
-                    return code
-    return None
-
-def getMethod(_type, _method, Code, Project):
-    SpecificImportedClasses = Project.getImportedClasses(Code)
-    SpecificStaticImportedMethods = Project.getStaticImportedMethods(Code)
-    Specifics = SpecificImportedClasses + SpecificStaticImportedMethods
-    PackageDic = Project.getPackageDic()
-
-    _subtype = None
-    fullname = str(_type)
-    if "." in _type:
-        _type = fullname.split(".")[0]
-        _subtype = fullname.split(".")[1]
-
-    for s in Specifics:
-        if s[1] == _type:
-            for i in PackageDic[s[0]]:
-                if i.name == s[1]:
-                    if i.main_class is None:
-                        #print(888, "メインクラスなし")
-                        pass
-                        #print(999, i.name, "はメインクラスを持たないようだ")
-                        #if i.interface is not None:
-                            #print(999, i.name, "はインターフェースを持っている")
-                            #for elm in i.interface.body:
-                                #if str(type(elm))=="<class 'javalang.tree.MethodDeclaration'>":
-                                    #print(999, elm.name)
-
-                    else:
-                        _class = i.main_class
-                        #print(888, _class.name, _subtype, len(_class.subclass), _class.is_extends)
-                        if _subtype is not None:
-                            for sc in _class.subclass:
-                                #print(888, sc.name)
-                                if _subtype == sc.name:
-                                    _class = sc
-                        for m in _class.methods:
-                            #print(888, _class.name, _class.is_extends)
-                            if m.name == _method:
-                                return m
-    return False
-
 
 
 
@@ -530,83 +409,6 @@ def getMethod(_type, _method, Code, Project):
 
 #======================================================================== important functions
 
-
-
-def outputCallListB(CallListB, TestMethod, TestCode, Project):
-    Fullname = TestCode.package+"."+TestCode.name+"."+TestMethod.name
-
-    outputlist = [[Fullname]+i[1:] for i in CallListB]
-
-    Path(os.getcwd()+"/output/"+Project.fullname).mkdir(exist_ok=True, parents=True)
-
-    with open("output/"+Project.fullname+"/AllMethodcall.csv", "a") as f:
-        writer = csv.writer(f)
-        writer.writerows(outputlist)
-
-
-def getCallListA(Variables, Stream, TestCode, Project):
-    CallListA = []
-    InnerMethodsName = [i.name for i in TestCode.main_class.methods]
-
-    for call in Stream:
-        if str(type(call)) == "<class 'javalang.tree.MethodInvocation'>":
-
-            if call.member in Object_methods: #Objectクラスのメソッド
-                _type = "(Object)"
-            elif call.qualifier is None: #メソッド結果のメソッド
-                _type = "(Before)"
-            elif call.qualifier == "":
-                if call.member in InnerMethodsName: #プライベートメソッド
-                    _type = "(Private)"
-                else: #staticなメソッド
-                    #_type = ThisProject.getStaticImportedClass(call.member, TestCode.imports)
-                    _type = getStaticType(call.member, TestCode, Project)
-            elif not call.qualifier[0].isupper():
-                #変数オブジェクトの持つメソッド
-                _type = getDecralatedType(call.qualifier, Variables)
-                if _type == False:
-                    _type = "(Unknown)"
-            else:
-                #明示的なクラスからのメソッド
-                _type = call.qualifier
-            CallListA.append(["MI", _type, call.member])
-        else:
-            type_name = returnTypeName(call.type)
-            CallListA.append(["CC", returnTypeName(call.type), "(constructor)"])
-    return CallListA
-
-def getCallListB(CallListA, TestCode, Project):
-    CallListB = []
-
-    beforeType = "Unknown"
-
-    for call in CallListA:
-        _tag = call[0]
-        _type = call[1]
-        _method = call[2]
-        _specific = False
-        _return = "Unknown"
-
-        if _tag == "MI":
-            if _type == "(Before)":
-                _type = beforeType
-            _specific = isSpecific(_type, _method, TestCode, Project)
-            if _specific == True:
-                _return = getReturnType(_type, _method, TestCode, Project)
-            else:
-                _return = "(Non_specific)"
-
-        if _tag == "CC":
-            _specific = isSpecific(_type, _method, TestCode, Project)
-            _return = _type
-
-        beforeType = _return
-        CallListB.append([_tag, _type, _method, _specific, _return])
-
-    return CallListB
-
-
-#============================================================================================
 
 def getAllProductMethods(P):
     ProductCodes = [i for i in P.codes if "/test/" not in str(i.path)]
@@ -680,7 +482,6 @@ def getAllProductMethods(P):
 
     return [i for i in ClassName2Methods]
 
-
 def getAllTestHelperMethods(P):
     TestHelperClasses = []
     TestCodes = [i for i in P.codes if "/test/" in str(i.path)]
@@ -740,6 +541,7 @@ def getAllTestHelperMethods(P):
     return TestHelperClasses
 
 def getCalledbyTestMethod(P):
+    CallList = {}
     TestCodes = [i for i in P.codes if "/test/" in str(i.path)]
     for _code in TestCodes:
         print(_code.path)
@@ -787,14 +589,10 @@ def getCalledbyTestMethod(P):
                 Stream = getStream(_method)
                 print("        呼び出し回数:", len(Stream))
                 CallListA = getCallListAA(Valiables, Stream, Specifics, ClassName)
-                #print(tabulate(CallListA))
                 CallListB = getCallListBB(CallListA, Specifics)
                 print(tabulate(CallListB))
-
-
-                #CalledList = getCalledList(CallListA, _code, P, _class.name)
-
-
+                CallList[MethodName] = [[MethodName, _type] + i for i in CallListB]
+    return CallList
 
 def getCallListAA(Variables, Stream, Specifics, ClassName):
     #print(ClassName)
@@ -867,8 +665,6 @@ def getCallListAA(Variables, Stream, Specifics, ClassName):
             CallListA.append(["CC", _type, classname, _type, arguments])
 
     return CallListA
-
-
 
 def getCallListBB(CallListA, Specifics):
     CallListB = []
@@ -968,6 +764,23 @@ def getCallListBB(CallListA, Specifics):
 
     return CallListB
 
+#========================================================================= output functions
+
+def outputCallList(CallList, P):
+    CallList_seq = []
+    for c in CallList:
+        for m in CallList[c]:
+            m[10] = "-".join(m[10])
+            m.pop(6)
+            CallList_seq.append(m)
+
+    title = ["calledBy", "tag","MIorCC", "class","class_detail", "method", "flag1", "flag2", "flag3", "arguments", "return", "reason"]
+
+    Path(os.getcwd()+"/output/"+P.fullname).mkdir(exist_ok=True, parents=True)
+    with open("output/"+P.fullname+"/CallList.csv", "w") as f:
+        writer = csv.writer(f)
+        writer.writerow(title)
+        writer.writerows(CallList_seq)
 
 
 
@@ -1036,9 +849,6 @@ def output_project(P):
         writer = csv.writer(f)
         writer.writerow(c_title)
         writer.writerows(c_output)
-
-
-
 def getMethodCallList(P):
     #if ThisCode.main_class is None or ThisCode.main_class.is_extends or ThisCode.main_class.is_implements:
     MethodCallList = []
@@ -1071,8 +881,6 @@ def getMethodCallList(P):
                 #for i in CalledList:
                 #    print(i)
     return MethodCallList
-
-
 def getCalledList(CallListA, _code, _project, name):
     CalledList = []
     SpecificImportedClasses = _project.getImportedClasses(_code)
@@ -1119,9 +927,6 @@ def getCalledList(CallListA, _code, _project, name):
         CalledList.append([_tag, _package, _type, _method, _specific, _return, fullname])
 
     return CalledList
-
-
-
 def output_MethodCallList(MethodCallList, P):
     title = ["calledBy", "tag","package", "class", "method", "isSpecific", "returnType", "fullname"]
 
@@ -1153,7 +958,9 @@ def JDetector(project_path):
     print("テスト補助コードのクラス\n", AllTestHelperMethods)
 
     print("テストメソッド")
-    getCalledbyTestMethod(ThisProject)
+    CallList = getCalledbyTestMethod(ThisProject)
+    print(len(CallList))
+    outputCallList(CallList, ThisProject)
 
     #output_project(ThisProject)
     #MethodCallList = getMethodCallList(ThisProject)
